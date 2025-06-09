@@ -10,7 +10,7 @@
           "priority": 1,
           "toDate": "2027-12-30T07:45:24Z",
           "fromDate": "2025-05-19T12:11:23Z",
-          "modifiedDate": "2025-06-07T12:11:28Z",
+          "modifiedDate": "2025-06-11T12:11:28Z",
           "whereTo": {
               "trigger": [
                   {
@@ -104,18 +104,18 @@
                       "filters": {
                           "include": {
                               "segIds": [
-                                  23
+                                 
                               ],
                               "listIds": [
-                                  20
+                                  
                               ]
                           },
                           "exclude": {
                               "segIds": [
-                                  31
+                                  
                               ],
                               "listIds": [
-                                  23
+                                  
                               ]
                           }
                       },
@@ -146,18 +146,18 @@
                       "filters": {
                           "include": {
                               "segIds": [
-                                  23
+                                  
                               ],
                               "listIds": [
-                                  20
+                                  
                               ]
                           },
                           "exclude": {
                               "segIds": [
-                                  31
+                                  
                               ],
                               "listIds": [
-                                  23
+                                  
                               ]
                           }
                       },
@@ -167,7 +167,7 @@
                               {
                                   "eventId": 111,
                                   "eventName": "product_view",
-                                  "performed": "yes",
+                                  "performed": "no",
                                   "waitUntil": null,
                                   "filterType": "all",
                                   "filters": []
