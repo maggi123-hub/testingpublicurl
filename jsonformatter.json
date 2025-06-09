@@ -213,7 +213,7 @@
                       }
                   },
                   {
-                      "audienceId": "1",
+                      "audienceId": "2",
                       "contentId": "2",
                       "priority": 2,
                       "layoutType": "image",
