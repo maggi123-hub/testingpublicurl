@@ -10,7 +10,7 @@
           "priority": 1,
           "toDate": "2027-12-30T07:45:24Z",
           "fromDate": "2025-05-19T12:11:23Z",
-          "modifiedDate": "2025-06-16T12:11:28Z",
+          "modifiedDate": "2025-06-17T12:11:28Z",
           "whereTo": {
               "trigger": [
                   {
@@ -52,7 +52,7 @@
                       "time": [
                           {
                               "from": "09:00",
-                              "to": "21:00"
+                              "to": "23:00"
                           }
                       ]
                   },
@@ -96,7 +96,7 @@
           },
           "whomTo": {
               "guid": [],
-              "controlGroup": 99,
+              "controlGroup": 0,
               "audience": [
                   {
                       "audienceId": "1",
@@ -266,7 +266,7 @@
           "priority": 1,
           "toDate": "2027-06-06T07:45:24Z",
           "fromDate": "2025-06-06T12:11:23Z",
-          "modifiedDate": "2025-06-10T12:11:28Z",
+          "modifiedDate": "2025-06-11T12:11:28Z",
           "whereTo": {
               "trigger": [
                   {
@@ -300,7 +300,7 @@
                       "time": [
                           {
                               "from": "09:00",
-                              "to": "21:00"
+                              "to": "23:00"
                           }
                       ]
                   },
@@ -344,7 +344,7 @@
           },
           "whomTo": {
               "guid": [],
-              "controlGroup": 20,
+              "controlGroup": 0,
               "audience": [
                   {
                       "audienceId": "1",
@@ -503,7 +503,7 @@
           "priority": 1,
           "toDate": "2027-06-06T07:45:24Z",
           "fromDate": "2025-06-06T12:11:23Z",
-          "modifiedDate": "2025-06-06T12:11:28Z",
+          "modifiedDate": "2025-06-07T12:11:28Z",
           "whereTo": {
               "trigger": [
                   {
@@ -528,7 +528,7 @@
                       "time": [
                           {
                               "from": "09:00",
-                              "to": "21:00"
+                              "to": "23:00"
                           }
                       ]
                   },
@@ -581,7 +581,7 @@
           },
           "whomTo": {
               "guid": [],
-              "controlGroup": 50,
+              "controlGroup": 0,
               "audience": [
                   {
                       "audienceId": "1",
@@ -751,7 +751,7 @@
           "priority": 1,
           "toDate": "2027-06-06T07:45:24Z",
           "fromDate": "2025-06-06T12:11:23Z",
-          "modifiedDate": "2025-06-06T12:11:28Z",
+          "modifiedDate": "2025-06-07T12:11:28Z",
           "whereTo": {
               "trigger": [
                   {
@@ -785,7 +785,7 @@
                       "time": [
                           {
                               "from": "09:00",
-                              "to": "21:00"
+                              "to": "23:00"
                           }
                       ]
                   },
@@ -829,7 +829,7 @@
           },
           "whomTo": {
               "guid": [],
-              "controlGroup": 70,
+              "controlGroup": 0,
               "audience": [
                   {
                       "audienceId": "1",
