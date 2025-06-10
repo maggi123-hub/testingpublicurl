@@ -262,7 +262,7 @@
           "name": "Holi Banner",
           "status": "running",
           "os": "android",
-          "id": 20,
+          "id": 22,
           "priority": 1,
           "toDate": "2027-06-06T07:45:24Z",
           "fromDate": "2025-06-06T12:11:23Z",
@@ -344,7 +344,7 @@
           },
           "whomTo": {
               "guid": [],
-              "controlGroup": 0,
+              "controlGroup": 20,
               "audience": [
                   {
                       "audienceId": "1",
@@ -499,7 +499,7 @@
           "name": "Banner 3",
           "status": "running",
           "os": "android",
-          "id": 30,
+          "id": 31,
           "priority": 1,
           "toDate": "2027-06-06T07:45:24Z",
           "fromDate": "2025-06-06T12:11:23Z",
@@ -581,7 +581,7 @@
           },
           "whomTo": {
               "guid": [],
-              "controlGroup": 0,
+              "controlGroup": 50,
               "audience": [
                   {
                       "audienceId": "1",
@@ -747,7 +747,7 @@
           "name": "Banner 3",
           "status": "running",
           "os": "android",
-          "id": 40,
+          "id": 41,
           "priority": 1,
           "toDate": "2027-06-06T07:45:24Z",
           "fromDate": "2025-06-06T12:11:23Z",
@@ -829,7 +829,7 @@
           },
           "whomTo": {
               "guid": [],
-              "controlGroup": 0,
+              "controlGroup": 70,
               "audience": [
                   {
                       "audienceId": "1",
