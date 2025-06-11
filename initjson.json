@@ -1,73 +1,4 @@
 {
-    "InAppRuleList": [
-        {
-            "id": "740",
-            "toDate": "2027-12-30T07:45:24",
-            "fromDate": "2025-06-11T06:16:35",
-            "whomTo": {
-                "everyone": "everyone",
-                "eventList": 3,
-                "eventDelay": 0
-            },
-            "whereTo": "1",
-            "whenTo": {
-                "campaign": {
-                    "days": "Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday",
-                    "from": "09:00",
-                    "to": "21:00"
-                },
-                "spentTime": "0"
-            },
-            "whatTo": "clientid=140578&id=740",
-            "contentType": 1,
-            "controlGroup": 0
-        },
-        {
-            "id": "727",
-            "toDate": "2027-12-30T07:45:24",
-            "fromDate": "2025-06-02T05:54:45",
-            "whomTo": {
-                "everyone": "everyone",
-                "eventList": 111,
-                "eventDelay": 0
-            },
-            "whereTo": "1",
-            "whenTo": {
-                "campaign": {
-                    "days": "Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday",
-                    "from": "00:00",
-                    "to": "23:00"
-                },
-                "spentTime": "0"
-            },
-            "whatTo": "clientid=140578&id=727",
-            "contentType": 4,
-            "controlGroup": 0
-        },
-        {
-            "id": "712",
-            "toDate": "2027-12-30T07:45:24",
-            "fromDate": "2025-05-12T05:53:58",
-            "whomTo": {
-                "everyone": "everyone",
-                "eventList": 111,
-                "eventDelay": 0
-            },
-            "whereTo": "4",
-            "whenTo": {
-                "campaign": {
-                    "days": "Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday",
-                    "from": "00:00",
-                    "to": "23:00"
-                },
-                "spentTime": "0"
-            },
-            "whatTo": "clientid=140578&id=712",
-            "contentType": 1,
-            "controlGroup": 0
-        }
-    ],
-    "newInAppRules": [],
     "inAppRules": [
         {
             "id": "740",
@@ -452,6 +383,11 @@
             "month": 0,
             "week": 0,
             "day": 150
+        },"features": {
+            "appCpz": {
+                "enabled": true,
+                "syncInterval": 5
+            }
         },
         "baseUrls": {
             "trackAppActUrl": "https://npn.netcoresmartech.com/",
@@ -459,7 +395,8 @@
             "inAppUrl": "https://ninapp.netcoresmartech.com/",
             "inboxUrl": "https://appinbox.netcoresmartech.com/",
             "listSegUrl": "https://psegment.netcoresmartech.com/",
-            "testDeviceUrl": "https://api.netcoresmartech.com/"
+            "testDeviceUrl": "https://api.netcoresmartech.com/",
+            "appCpzUrl": "https://cdnt.netcoresmartech.com/smartechapp-sdk/temp/app_cpz/app_cpz_rules.json"
         },
         "hansel_api_endpoints": {
             "get_data": "https://ujm.hansel.io/ujm/v1/data/<os>/<app_id>/<rv>/",
