@@ -10,7 +10,7 @@
             "priority": 1,
             "toDate": "2027-12-30T07:45:24Z",
             "fromDate": "2025-05-19T12:11:23Z",
-            "modifiedDate": "2025-06-18T12:15:28Z",
+            "modifiedDate": "2025-06-19T12:15:28Z",
             "whereTo": {
                 "trigger": [
                     {
@@ -96,7 +96,7 @@
             },
             "whomTo": {
                 "guid": [],
-                "controlGroup": 0,
+                "controlGroup": 20,
                 "audience": [
                     {
                         "audienceId": "1",
@@ -268,7 +268,7 @@
             "priority": 1,
             "toDate": "2027-06-06T07:45:24Z",
             "fromDate": "2025-06-06T12:11:23Z",
-            "modifiedDate": "2025-06-11T12:11:28Z",
+            "modifiedDate": "2025-06-12T12:11:28Z",
             "whereTo": {
                 "trigger": [
                     {
@@ -346,7 +346,7 @@
             },
             "whomTo": {
                 "guid": [],
-                "controlGroup": 0,
+                "controlGroup": 99,
                 "audience": [
                     {
                         "audienceId": "1",
@@ -505,7 +505,7 @@
             "priority": 1,
             "toDate": "2027-06-06T07:45:24Z",
             "fromDate": "2025-06-06T12:11:23Z",
-            "modifiedDate": "2025-06-07T12:11:28Z",
+            "modifiedDate": "2025-06-08T12:11:28Z",
             "whereTo": {
                 "trigger": [
                     {
@@ -583,7 +583,7 @@
             },
             "whomTo": {
                 "guid": [],
-                "controlGroup": 0,
+                "controlGroup": 50,
                 "audience": [
                     {
                         "audienceId": "1",
@@ -753,7 +753,7 @@
             "priority": 1,
             "toDate": "2027-06-06T07:45:24Z",
             "fromDate": "2025-06-06T12:11:23Z",
-            "modifiedDate": "2025-06-07T12:11:28Z",
+            "modifiedDate": "2025-06-08T12:11:28Z",
             "whereTo": {
                 "trigger": [
                     {
@@ -831,7 +831,7 @@
             },
             "whomTo": {
                 "guid": [],
-                "controlGroup": 0,
+                "controlGroup": 70,
                 "audience": [
                     {
                         "audienceId": "1",
