@@ -86,7 +86,7 @@
                 ]
             },
             "whomTo": {
-                "guid": [],
+                "guid": ["7b057b1b-9cfa-4e86-b1ee-3cc1cda46900"],
                 "controlGroup": 20,
                 "audience": [
                     {
