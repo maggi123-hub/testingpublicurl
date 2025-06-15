@@ -751,15 +751,7 @@
                 "trigger": [
                     {
                         "widgetId": 100,
-                        "widgetName": "Home_screen_android"
-                    },
-                    {
-                        "widgetId": 101,
-                        "widgetName": "Details_screen_android"
-                    },
-                    {
-                        "widgetId": 102,
-                        "widgetName": "Home_screen_ios"
+                        "widgetName": "Krutika_screen_android"
                     }
                 ]
             },
@@ -859,20 +851,22 @@
                             "targetRule": "all",
                             "rules": [
                                 {
-                                    "eventId": 111,
-                                    "eventName": "product_view",
+                                    "eventId": 102,
+                                    "eventName": "add_to_cart",
                                     "performed": "yes",
                                     "waitUntil": null,
                                     "filterType": "all",
                                     "filters": [
-                                        {
-                                            "key": "product.name",
-                                            "operator": "is",
-                                            "dataType": "string",
-                                            "value": "iPhone"
-                                        }
                                     ]
-                                }
+                                },
+                                {
+                                    "eventId": 112,
+                                    "eventName": "product_purchase",
+                                    "performed": "no",
+                                    "waitUntil": 300,
+                                    "filterType": "all",
+                                    "filters": []
+                                    }
                             ]
                         }
                     },
