@@ -742,7 +742,7 @@
             "name": "Diwali Banner",
             "status": "running",
             "os": "android",
-            "id": 556,
+            "id": 5555,
             "priority": 1,
             "toDate": "2027-12-30T07:45:24Z",
             "fromDate": "2025-05-19T12:11:23Z",
@@ -867,41 +867,6 @@
                                     "filterType": "all",
                                     "filters": []
                                     }
-                            ]
-                        }
-                    },
-                    {
-                        "audienceId": "2",
-                        "priority": 2,
-                        "filters": {
-                            "include": {
-                                "segIds": [
-                                    
-                                ],
-                                "listIds": [
-                                    
-                                ]
-                            },
-                            "exclude": {
-                                "segIds": [
-                                    
-                                ],
-                                "listIds": [
-                                    
-                                ]
-                            }
-                        },
-                        "events": {
-                            "targetRule": "all",
-                            "rules": [
-                                {
-                                    "eventId": 111,
-                                    "eventName": "product_view",
-                                    "performed": "no",
-                                    "waitUntil": null,
-                                    "filterType": "all",
-                                    "filters": []
-                                }
                             ]
                         }
                     }
