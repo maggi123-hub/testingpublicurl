@@ -158,7 +158,7 @@
                 "winner": "1",
                 "content": [
                     {
-                        "audienceId": "2",
+                        "audienceId": "1",
                         "contentId": "1",
                         "priority": 1,
                         "layoutType": "text-image",
