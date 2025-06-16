@@ -248,7 +248,7 @@
             "priority": 1,
             "toDate": "2027-12-30T07:45:24Z",
             "fromDate": "2025-05-19T12:11:23Z",
-            "modifiedDate": "2025-06-20T12:15:28Z",
+            "modifiedDate": "2025-06-21T12:15:28Z",
             "whereTo": {
                 "trigger": [
                     {
@@ -355,23 +355,6 @@
                         "events": {
                             "targetRule": "all",
                             "rules": [
-                                {
-                                    "eventId": 102,
-                                    "eventName": "add_to_cart",
-                                    "performed": "yes",
-                                    "waitUntil": null,
-                                    "filterType": "all",
-                                    "filters": [
-                                    ]
-                                },
-                                {
-                                    "eventId": 112,
-                                    "eventName": "product_purchase",
-                                    "performed": "no",
-                                    "waitUntil": 300,
-                                    "filterType": "all",
-                                    "filters": []
-                                    }
                             ]
                         }
                     }
