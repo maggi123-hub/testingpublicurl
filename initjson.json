@@ -384,7 +384,7 @@
             "week": 0,
             "day": 150
         },"features": {
-            "appCpz": {
+            "contentPz": {
                 "enabled": true,
                 "syncInterval": 5
             }
