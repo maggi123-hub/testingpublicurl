@@ -396,7 +396,7 @@
             "inboxUrl": "https://appinbox.netcoresmartech.com/",
             "listSegUrl": "https://psegment.netcoresmartech.com/",
             "testDeviceUrl": "https://api.netcoresmartech.com/",
-            "appCpzUrl": "https://raw.githubusercontent.com/maggi123-hub/testingpublicurl/main/jsonformatter.json"
+            "contentPzUrl": "https://raw.githubusercontent.com/maggi123-hub/testingpublicurl/main/jsonformatter.json"
         },
         "hansel_api_endpoints": {
             "get_data": "https://ujm.hansel.io/ujm/v1/data/<os>/<app_id>/<rv>/",
