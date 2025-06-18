@@ -367,33 +367,15 @@
                         "audienceId": "1",
                         "contentId": "1",
                         "priority": 1,
-                        "layoutType": "text-image",
-                        "variant": "1000-20000",
+                        "layoutType": "custom_key_value",
                         "pzEnabled": true,
-                        "attrIds": [
-                            1,
-                            3,
-                            4
-                        ],
                         "payload": {
-                            "title": "Mobile numbe [%__MOBILE$netcore_user_attribute$000__%]",
-                            "message": "Pagebrowsed screen name :[%__screenname$page_browse$no screen name__%]",
-                            "mediaUrl": "https://cdnt.netcoresmartech.com/smartechapp-sdk/demo-assets/maps/demo-image-110.png",
-                            "contentType": "image",
-                            "actionUrl": "https://www.google.com",
-                            "bgc": "#FF00FF",
-                            "bggc": [
-                                "#00FF00FF",
-                                "#00FF00FF",
-                                "#00FF00FF"
-                            ],
-                            "actionButton": [
-                                {
-                                    "actionName": "openUrl",
-                                    "actionDeeplink": "https://www.google.com",
-                                    "aTyp": 1
-                                }
-                            ]
+                        "customKeyValue": {
+                            "country": "IN",
+                            "language": "EN",
+                            "key1": "value1",
+                            "key2": "value2"
+                        }
                         }
                     },
                     {
