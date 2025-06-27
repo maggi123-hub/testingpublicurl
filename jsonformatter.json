@@ -135,10 +135,10 @@
           ]
         },
         "fromDate": "2025-06-27T08:11:28Z",
-        "priority": 1,
+        "priority": 3,
         "campaignName": "test conver",
         "campaignType": "regular",
-        "modifiedDate": "2025-06-27T08:11:28Z"
+        "modifiedDate": "2025-06-28T08:11:28Z"
       },
       {
         "v": 1,
@@ -294,10 +294,10 @@
           ]
         },
         "fromDate": "2025-06-27T06:52:59Z",
-        "priority": 1,
+        "priority": 2,
         "campaignName": "Test Dev_int ",
         "campaignType": "regular",
-        "modifiedDate": "2025-06-27T06:52:59Z"
+        "modifiedDate": "2025-06-28T08:11:28Z"
       },
       {
         "v": 1,
@@ -428,8 +428,8 @@
         "fromDate": "2025-06-27T08:11:28Z",
         "priority": 1,
         "campaignName": "test conver",
-        "campaignType": "Ab-Testing",
-        "modifiedDate": "2025-06-27T08:11:28Z"
+        "campaignType": "regular",
+        "modifiedDate": "2025-06-28T08:11:28Z"
       }
     ],
     "cpzRulesTest_v1": []
