@@ -1,436 +1,155 @@
 {
-    "cpzRules_v1": [
-      {
-        "v": 1,
-        "id": 12,
-        "os": "android",
-        "status": "running",
-        "toDate": "2030-06-27T08:11:28Z",
-        "whatTo": {
-          "content": [
-            {
-              "attrIds": [],
-              "payload": {
-                "mediaUrl": "https://cdnt.netcoresmartech.com/178191/1709268053.png"
-              },
-              "contentId": "1815-c",
-              "pzEnabled": false,
-              "audienceId": 1815,
-              "layoutType": "image"
-            }
-          ],
-          "gaParams": {
-            "utm_medium": "App-Content-Personalization",
-            "utm_source": "Netcore",
-            "utm_content": "",
-            "utm_campaign": "test conver"
-          },
-          "customKeyValue": {}
-        },
-        "whenTo": {
-          "schedule": [
-            {
-              "day": 0,
-              "time": [
+  "cpzRules_v1": [],
+  "cpzRulesTest_v1": [
+    {
+      "v": 1,
+      "id": 213,
+      "os": "android",
+      "status": "running",
+      "toDate": "2030-07-10T05:31:14Z",
+      "whatTo": {
+        "content": [
+          {
+            "attrIds": [],
+            "payload": {
+              "mediaUrl": "https://cdnt.netcoresmartech.com/smartechapp-sdk/demo-assets/maps/demo-image-115.png",
+              "actionButton": [
                 {
-                  "to": "21:00",
-                  "from": "09:00"
-                }
-              ]
-            },
-            {
-              "day": 1,
-              "time": [
-                {
-                  "to": "21:00",
-                  "from": "09:00"
-                }
-              ]
-            },
-            {
-              "day": 2,
-              "time": [
-                {
-                  "to": "21:00",
-                  "from": "09:00"
-                }
-              ]
-            },
-            {
-              "day": 3,
-              "time": [
-                {
-                  "to": "21:00",
-                  "from": "09:00"
-                }
-              ]
-            },
-            {
-              "day": 4,
-              "time": [
-                {
-                  "to": "21:00",
-                  "from": "09:00"
-                }
-              ]
-            },
-            {
-              "day": 5,
-              "time": [
-                {
-                  "to": "21:00",
-                  "from": "09:00"
-                }
-              ]
-            },
-            {
-              "day": 6,
-              "time": [
-                {
-                  "to": "21:00",
-                  "from": "09:00"
-                }
-              ]
-            }
-          ]
-        },
-        "whomTo": {
-          "guid": [],
-          "audience": [
-            {
-              "events": {
-                "rules": [],
-                "targetRule": "all"
-              },
-              "filters": {
-                "exclude": {
-                  "segIds": [],
-                  "listIds": []
+                  "tc": "#02021a",
+                  "bgc": "#4df4b6",
+                  "aTyp": 2,
+                  "actionName": "Open in browser",
+                  "actionDeeplink": "https://amazon.in"
                 },
-                "include": {
-                  "segIds": [],
-                  "listIds": []
+                {
+                  "tc": "#000000",
+                  "bgc": "#fff95c",
+                  "aTyp": 3,
+                  "ctxt": "FC30",
+                  "actionName": "copy code"
                 }
-              },
-              "priority": 1,
-              "audienceId": 1815
-            }
-          ],
-          "controlGroup": 0
-        },
-        "whereTo": {
-          "trigger": [
-            {
-              "widgetId": 44,
-              "widgetName": "jobin"
+              ]
             },
-            {
-              "widgetId": 36,
-              "widgetName": "Test_03     Test 04"
-            },
-            {
-              "widgetId": 46,
-              "widgetName": "Test_New 2"
-            }
-          ]
+            "contentId": "5632-c",
+            "pzEnabled": false,
+            "audienceId": 5632,
+            "layoutType": "image"
+          }
+        ],
+        "gaParams": {
+          "utm_medium": "",
+          "utm_source": "",
+          "utm_content": "",
+          "utm_campaign": ""
         },
-        "fromDate": "2025-06-27T08:11:28Z",
-        "priority": 2,
-        "campaignName": "test conver",
-        "campaignType": "regular",
-        "modifiedDate": "2025-06-29T08:11:28Z"
+        "customKeyValue": {}
       },
-      {
-        "v": 1,
-        "id": 14,
-        "os": "android",
-        "status": "running",
-        "toDate": "2030-06-27T06:52:59Z",
-        "whatTo": {
-          "content": [
-            {
-              "attrIds": [],
-              "payload": {
-                "json": {
-                  "event": {
-                    "url": "[%__product.url$add_to_cart$default-value__%]",
-                    "name": "[%__product.name$add_to_cart$default-value__%]",
-                    "prid": "[%__product.prid$add_to_cart$default-value__%]",
-                    "color": "[%__product.color$add_to_cart$Space default-value__%]",
-                    "price": "[%__product.price$add_to_cart$default-value__%]",
-                    "company": "[%__product.company$add_to_cart$default-value__%]",
-                    "category": "[%__product.category$add_to_cart$default-value__%]",
-                    "currency": "[%__product.currency$add_to_cart$default-value__%]",
-                    "quantity": "[%__product.quantity$add_to_cart$default-value__%]",
-                    "description": "[%__product.description$add_to_cart$default-value__%]"
-                  },
-                  "userAttributes": {
-                    "email": "[%__email$netcore_user_attribute$default-user-attribute__%]",
-                    "firstname": "[%__firstname$netcore_user_attribute$default-user-attribute__%]",
-                    "email_upper": "[%__EMAIL$netcore_user_attribute$default-user-attribute__%]",
-                    "user_banner_code": "[%__user_banner_code$netcore_user_attribute$default-user-attribute__%]"
-                  }
-                }
-              },
-              "contentId": "9275-c",
-              "pzEnabled": false,
-              "audienceId": 9275,
-              "layoutType": "json"
-            }
-          ],
-          "gaParams": {
-            "utm_medium": "App-Content-Personalization",
-            "utm_source": "Netcore",
-            "utm_content": "",
-            "utm_campaign": "Test Dev_int "
+      "whenTo": {
+        "schedule": [
+          {
+            "day": 0,
+            "time": [
+              {
+                "to": "21:00",
+                "from": "09:00"
+              }
+            ]
           },
-          "customKeyValue": {}
-        },
-        "whenTo": {
-          "schedule": [
-            {
-              "day": 0,
-              "time": [
-                {
-                  "to": "21:00",
-                  "from": "09:00"
-                }
-              ]
-            },
-            {
-              "day": 1,
-              "time": [
-                {
-                  "to": "21:00",
-                  "from": "09:00"
-                }
-              ]
-            },
-            {
-              "day": 2,
-              "time": [
-                {
-                  "to": "21:00",
-                  "from": "09:00"
-                }
-              ]
-            },
-            {
-              "day": 3,
-              "time": [
-                {
-                  "to": "21:00",
-                  "from": "09:00"
-                }
-              ]
-            },
-            {
-              "day": 4,
-              "time": [
-                {
-                  "to": "21:00",
-                  "from": "09:00"
-                }
-              ]
-            },
-            {
-              "day": 5,
-              "time": [
-                {
-                  "to": "21:00",
-                  "from": "09:00"
-                }
-              ]
-            },
-            {
-              "day": 6,
-              "time": [
-                {
-                  "to": "21:00",
-                  "from": "09:00"
-                }
-              ]
-            }
-          ]
-        },
-        "whomTo": {
-          "guid": [],
-          "audience": [
-            {
-              "events": {
-                "rules": [],
-                "targetRule": "all"
-              },
-              "filters": {
-                "exclude": {
-                  "segIds": [],
-                  "listIds": []
-                },
-                "include": {
-                  "segIds": [],
-                  "listIds": []
-                }
-              },
-              "priority": 1,
-              "audienceId": 9275
-            }
-          ],
-          "controlGroup": 0
-        },
-        "whereTo": {
-          "trigger": [
-            {
-              "widgetId": 47,
-              "widgetName": "Amey"
-            },
-            {
-              "widgetId": 38,
-              "widgetName": "Check"
-            },
-            {
-              "widgetId": 44,
-              "widgetName": "jobin"
-            }
-          ]
-        },
-        "fromDate": "2025-06-27T06:52:59Z",
-        "priority": 2,
-        "campaignName": "Test Dev_int ",
-        "campaignType": "regular",
-        "modifiedDate": "2025-06-29T08:11:28Z"
+          {
+            "day": 1,
+            "time": [
+              {
+                "to": "21:00",
+                "from": "09:00"
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "time": [
+              {
+                "to": "21:00",
+                "from": "09:00"
+              }
+            ]
+          },
+          {
+            "day": 3,
+            "time": [
+              {
+                "to": "21:00",
+                "from": "09:00"
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "time": [
+              {
+                "to": "21:00",
+                "from": "09:00"
+              }
+            ]
+          },
+          {
+            "day": 5,
+            "time": [
+              {
+                "to": "21:00",
+                "from": "09:00"
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "time": [
+              {
+                "to": "21:00",
+                "from": "09:00"
+              }
+            ]
+          }
+        ]
       },
-      {
-        "v": 1,
-        "id": 13,
-        "os": "android",
-        "status": "running",
-        "toDate": "2030-06-27T08:11:28Z",
-        "whatTo": {
-          "content": [
-            {
-              "attrIds": [],
-              "payload": {
-                "mediaUrl": "https://cdnt.[%__abc$name__%]netcoresmartech.com/178191/1709268053.png"
+      "whomTo": {
+        "guid": [
+          "8668abfa-8a6c-4878-b244-47b08676d998"
+        ],
+        "audience": [
+          {
+            "events": {
+              "rules": [],
+              "targetRule": "all"
+            },
+            "filters": {
+              "exclude": {
+                "segIds": [],
+                "listIds": []
               },
-              "contentId": "1815-c",
-              "pzEnabled": true,
-              "audienceId": 1815,
-              "layoutType": "image"
-            }
-          ],
-          "gaParams": {
-            "utm_medium": "App-Content-Personalization",
-            "utm_source": "Netcore",
-            "utm_content": "",
-            "utm_campaign": "test conver"
-          },
-          "customKeyValue": {}
-        },
-        "whenTo": {
-          "schedule": [
-            {
-              "day": 0,
-              "time": [
-                {
-                  "to": "21:00",
-                  "from": "09:00"
-                }
-              ]
+              "include": {
+                "segIds": [],
+                "listIds": []
+              }
             },
-            {
-              "day": 1,
-              "time": [
-                {
-                  "to": "21:00",
-                  "from": "09:00"
-                }
-              ]
-            },
-            {
-              "day": 2,
-              "time": [
-                {
-                  "to": "21:00",
-                  "from": "09:00"
-                }
-              ]
-            },
-            {
-              "day": 3,
-              "time": [
-                {
-                  "to": "21:00",
-                  "from": "09:00"
-                }
-              ]
-            },
-            {
-              "day": 4,
-              "time": [
-                {
-                  "to": "21:00",
-                  "from": "09:00"
-                }
-              ]
-            },
-            {
-              "day": 5,
-              "time": [
-                {
-                  "to": "21:00",
-                  "from": "09:00"
-                }
-              ]
-            },
-            {
-              "day": 6,
-              "time": [
-                {
-                  "to": "21:00",
-                  "from": "09:00"
-                }
-              ]
-            }
-          ]
-        },
-        "whomTo": {
-          "guid": [],
-          "audience": [
-            {
-              "events": {
-                "rules": [],
-                "targetRule": "all"
-              },
-              "filters": {
-                "exclude": {
-                  "segIds": [],
-                  "listIds": []
-                },
-                "include": {
-                  "segIds": [],
-                  "listIds": []
-                }
-              },
-              "priority": 1,
-              "audienceId": 1815
-            }
-          ],
-          "controlGroup": 0
-        },
-        "whereTo": {
-          "trigger": [
-            {
-              "widgetId": 54,
-              "widgetName": "Krutika"
-            }
-          ]
-        },
-        "fromDate": "2025-06-27T08:11:28Z",
-        "priority": 1,
-        "campaignName": "test conver",
-        "campaignType": "regular",
-        "modifiedDate": "2025-06-30T08:11:28Z"
-      }
-    ],
-    "cpzRulesTest_v1": []
-  }
+            "priority": 1,
+            "audienceId": 5632
+          }
+        ],
+        "controlGroup": 0
+      },
+      "whereTo": {
+        "trigger": [
+          {
+            "widgetId": 86,
+            "widgetName": "all_users"
+          }
+        ]
+      },
+      "fromDate": "2025-07-10T05:31:14Z",
+      "priority": 1,
+      "campaignName": "Bha action button open browser and copy",
+      "campaignType": "regular",
+      "modifiedDate": "2025-07-10T05:31:14Z"
+    }
+  ]
+}
