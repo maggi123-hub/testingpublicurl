@@ -364,9 +364,9 @@
         "batchSize": 30,
         "td": {
             "guids": [
-                "2d824bc9-8a2f-4839-bccb-196e33488192"
+                "8668abfa-8a6c-4878-b244-47b08676d998"
             ],
-            "logEnabled": false,
+            "logEnabled": true,
             "logLevel": 1
         },
         "eventSettings": {
