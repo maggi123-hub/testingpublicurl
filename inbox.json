@@ -1,350 +1,355 @@
 {
-    "inbox_count": 6,
-    "inbox": [
+  "inbox_count": 6,
+  "inbox": [
+    {
+      "actionButton": [],
+      "app_inbox_category": "app_inbox",
+      "app_inbox_ttl": "2025-10-02T11:38:46",
+      "attrParams": {},
+      "carousel": [
         {
-            "actionButton": [],
-            "app_inbox_category": "app_inbox",
-            "app_inbox_ttl": "2025-10-02T11:38:46",
-            "attrParams": {},
-            "carousel": [
-                {
-                    "callToAction": "deeplink",
-                    "imgDeeplink": "1?__sta_linkid=251&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
-                    "imgMsg": "",
-                    "imgSource": "url",
-                    "imgTitle": "",
-                    "imgUrl": "https://www.phonepe.com/webstatic/static/default-image-cf4bb5407be1a9d8c49eb9a502a245db.png"
-                },
-                {
-                    "callToAction": "deeplink",
-                    "imgDeeplink": "2?__sta_linkid=254&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
-                    "imgMsg": "",
-                    "imgSource": "url",
-                    "imgTitle": "",
-                    "imgUrl": "https://images.unsplash.com/photo-1514449372970-c013485804bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2ltcGxlJTIwbGFuZHNjYXBlfGVufDB8fDB8fA%3D%3D&w=1000&q=80.jpg"
-                },
-                {
-                    "callToAction": "deeplink",
-                    "imgDeeplink": "3?__sta_linkid=255&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
-                    "imgMsg": "",
-                    "imgSource": "url",
-                    "imgTitle": "",
-                    "imgUrl": "https://cdnt.netcoresmartech.com/smartechapp-sdk/assets/image/image-2-1-1024x512.png"
-                }
-            ],
-            "customPayload": {},
-            "deeplink": "",
-            "expiry": 1759467280,
-            "image": "",
-            "message": "Testing multi icons",
-            "pnMeta": {
-                "guid": "24de9736-2284-4d4e-9bd2-2812c6ad9cdb"
-            },
-            "publishedDate": "2025-09-05T04:56:27",
-            "smtUi": {
-                "flid": 91,
-                "lid": 92,
-                "lui": {
-                "lt": 1,
-                "pos": 2
-                }
-            },
-            "smtCustomPayload": {},
-            "smtSrc": "Smartech",
-            "sound": true,
-            "status": "sent",
-            "subtitle": "",
-            "timestamp": "1757048227469",
-            "title": "Testing multi icons",
-            "trid": "85341-9636-142326-0-250905102999",
-            "type": "CarouselPortrait"
-        },{
-            "actionButton": [],
-            "app_inbox_category": "app_inbox",
-            "app_inbox_ttl": "2025-10-02T11:38:46",
-            "attrParams": {},
-            "carousel": [
-                {
-                    "callToAction": "deeplink",
-                    "imgDeeplink": "1?__sta_linkid=251&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
-                    "imgMsg": "",
-                    "imgSource": "url",
-                    "imgTitle": "",
-                    "imgUrl": "https://www.phonepe.com/webstatic/static/default-image-cf4bb5407be1a9d8c49eb9a502a245db.png"
-                },
-                {
-                    "callToAction": "deeplink",
-                    "imgDeeplink": "2?__sta_linkid=254&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
-                    "imgMsg": "",
-                    "imgSource": "url",
-                    "imgTitle": "",
-                    "imgUrl": "https://images.unsplash.com/photo-1514449372970-c013485804bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2ltcGxlJTIwbGFuZHNjYXBlfGVufDB8fDB8fA%3D%3D&w=1000&q=80.jpg"
-                },
-                {
-                    "callToAction": "deeplink",
-                    "imgDeeplink": "3?__sta_linkid=255&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
-                    "imgMsg": "",
-                    "imgSource": "url",
-                    "imgTitle": "",
-                    "imgUrl": "https://cdnt.netcoresmartech.com/smartechapp-sdk/assets/image/image-2-1-1024x512.png"
-                }
-            ],
-            "customPayload": {},
-            "deeplink": "",
-            "expiry": 1759467280,
-            "image": "",
-            "message": "Testing multi icons",
-            "pnMeta": {
-                "guid": "24de9736-2284-4d4e-9bd2-2812c6ad9cdb"
-            },
-            "publishedDate": "2025-09-05T04:56:27",
-            "smtUi": {
-                "flid": 91,
-                "lid": 92,
-                "lui": {
-                "lt": 1,
-                "pos": 1
-                }
-            },
-            "smtCustomPayload": {},
-            "smtSrc": "Smartech",
-            "sound": true,
-            "status": "sent",
-            "subtitle": "",
-            "timestamp": "1757048227469",
-            "title": "Testing multi icons",
-            "trid": "85341-9636-142326-0-250905109999",
-            "type": "CarouselPortrait"
-        },{
-            "actionButton": [],
-            "app_inbox_category": "app_inbox",
-            "app_inbox_ttl": "2025-10-02T11:38:46",
-            "attrParams": {},
-            "carousel": [
-                {
-                    "callToAction": "deeplink",
-                    "imgDeeplink": "1?__sta_linkid=251&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
-                    "imgMsg": "",
-                    "imgSource": "url",
-                    "imgTitle": "",
-                    "imgUrl": "https://www.phonepe.com/webstatic/static/default-image-cf4bb5407be1a9d8c49eb9a502a245db.png"
-                },
-                {
-                    "callToAction": "deeplink",
-                    "imgDeeplink": "2?__sta_linkid=254&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
-                    "imgMsg": "",
-                    "imgSource": "url",
-                    "imgTitle": "",
-                    "imgUrl": "https://images.unsplash.com/photo-1514449372970-c013485804bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2ltcGxlJTIwbGFuZHNjYXBlfGVufDB8fDB8fA%3D%3D&w=1000&q=80.jpg"
-                },
-                {
-                    "callToAction": "deeplink",
-                    "imgDeeplink": "3?__sta_linkid=255&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
-                    "imgMsg": "",
-                    "imgSource": "url",
-                    "imgTitle": "",
-                    "imgUrl": "https://cdnt.netcoresmartech.com/smartechapp-sdk/assets/image/image-2-1-1024x512.png"
-                }
-            ],
-            "customPayload": {},
-            "deeplink": "",
-            "expiry": 1759467280,
-            "image": "",
-            "message": "Testing multi icons",
-            "pnMeta": {
-                "guid": "24de9736-2284-4d4e-9bd2-2812c6ad9cdb"
-            },
-            "publishedDate": "2025-09-05T04:56:27",
-            "smtUi": {
-                "flid": 91,
-                "lid": 92,
-                "lui": {
-                "lt": 1,
-                "pos": 3
-                }
-            },
-            "smtCustomPayload": {},
-            "smtSrc": "Smartech",
-            "sound": true,
-            "status": "sent",
-            "subtitle": "",
-            "timestamp": "1757048227469",
-            "title": "Testing multi icons",
-            "trid": "85341-9636-142326-0-250905992999",
-            "type": "CarouselPortrait"
-        },{
-            "actionButton": [],
-            "app_inbox_category": "app_inbox",
-            "app_inbox_ttl": "2025-10-02T11:38:46",
-            "attrParams": {},
-            "carousel": [
-                {
-                    "callToAction": "deeplink",
-                    "imgDeeplink": "1?__sta_linkid=251&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
-                    "imgMsg": "",
-                    "imgSource": "url",
-                    "imgTitle": "",
-                    "imgUrl": "https://www.phonepe.com/webstatic/static/default-image-cf4bb5407be1a9d8c49eb9a502a245db.png"
-                },
-                {
-                    "callToAction": "deeplink",
-                    "imgDeeplink": "2?__sta_linkid=254&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
-                    "imgMsg": "",
-                    "imgSource": "url",
-                    "imgTitle": "",
-                    "imgUrl": "https://images.unsplash.com/photo-1514449372970-c013485804bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2ltcGxlJTIwbGFuZHNjYXBlfGVufDB8fDB8fA%3D%3D&w=1000&q=80.jpg"
-                },
-                {
-                    "callToAction": "deeplink",
-                    "imgDeeplink": "3?__sta_linkid=255&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
-                    "imgMsg": "",
-                    "imgSource": "url",
-                    "imgTitle": "",
-                    "imgUrl": "https://cdnt.netcoresmartech.com/smartechapp-sdk/assets/image/image-2-1-1024x512.png"
-                }
-            ],
-            "customPayload": {},
-            "deeplink": "",
-            "expiry": 1759467280,
-            "image": "",
-            "message": "Testing multi icons",
-            "pnMeta": {
-                "guid": "24de9736-2284-4d4e-9bd2-2812c6ad9cdb"
-            },
-            "publishedDate": "2025-09-05T04:56:27",
-            "smtUi": {
-                "flid": 91,
-                "lid": 92,
-                "lui": {
-                "lt": 2,
-                "pos": 2
-                }
-            },
-            "smtCustomPayload": {},
-            "smtSrc": "Smartech",
-            "sound": true,
-            "status": "sent",
-            "subtitle": "",
-            "timestamp": "1757048227469",
-            "title": "Testing multi icons",
-            "trid": "85341-9636-142326-0-950905102999",
-            "type": "CarouselPortrait"
-        },{
-            "actionButton": [],
-            "app_inbox_category": "app_inbox",
-            "app_inbox_ttl": "2025-10-02T11:38:46",
-            "attrParams": {},
-            "carousel": [
-                {
-                    "callToAction": "deeplink",
-                    "imgDeeplink": "1?__sta_linkid=251&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
-                    "imgMsg": "",
-                    "imgSource": "url",
-                    "imgTitle": "",
-                    "imgUrl": "https://www.phonepe.com/webstatic/static/default-image-cf4bb5407be1a9d8c49eb9a502a245db.png"
-                },
-                {
-                    "callToAction": "deeplink",
-                    "imgDeeplink": "2?__sta_linkid=254&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
-                    "imgMsg": "",
-                    "imgSource": "url",
-                    "imgTitle": "",
-                    "imgUrl": "https://images.unsplash.com/photo-1514449372970-c013485804bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2ltcGxlJTIwbGFuZHNjYXBlfGVufDB8fDB8fA%3D%3D&w=1000&q=80.jpg"
-                },
-                {
-                    "callToAction": "deeplink",
-                    "imgDeeplink": "3?__sta_linkid=255&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
-                    "imgMsg": "",
-                    "imgSource": "url",
-                    "imgTitle": "",
-                    "imgUrl": "https://cdnt.netcoresmartech.com/smartechapp-sdk/assets/image/image-2-1-1024x512.png"
-                }
-            ],
-            "customPayload": {},
-            "deeplink": "",
-            "expiry": 1759467280,
-            "image": "",
-            "message": "Testing multi icons",
-            "pnMeta": {
-                "guid": "24de9736-2284-4d4e-9bd2-2812c6ad9cdb"
-            },
-            "publishedDate": "2025-09-05T04:56:27",
-            "smtUi": {
-                "flid": 91,
-                "lid": 92,
-                "lui": {
-                "lt": 2,
-                "pos": 1
-                }
-            },
-            "smtCustomPayload": {},
-            "smtSrc": "Smartech",
-            "sound": true,
-            "status": "sent",
-            "subtitle": "",
-            "timestamp": "1757048227469",
-            "title": "Testing multi icons",
-            "trid": "99341-9636-142326-0-250905102999",
-            "type": "CarouselPortrait"
-        }{
-            "actionButton": [],
-            "app_inbox_category": "app_inbox",
-            "app_inbox_ttl": "2025-10-02T11:38:46",
-            "attrParams": {},
-            "carousel": [
-                {
-                    "callToAction": "deeplink",
-                    "imgDeeplink": "1?__sta_linkid=251&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
-                    "imgMsg": "",
-                    "imgSource": "url",
-                    "imgTitle": "",
-                    "imgUrl": "https://www.phonepe.com/webstatic/static/default-image-cf4bb5407be1a9d8c49eb9a502a245db.png"
-                },
-                {
-                    "callToAction": "deeplink",
-                    "imgDeeplink": "2?__sta_linkid=254&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
-                    "imgMsg": "",
-                    "imgSource": "url",
-                    "imgTitle": "",
-                    "imgUrl": "https://images.unsplash.com/photo-1514449372970-c013485804bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2ltcGxlJTIwbGFuZHNjYXBlfGVufDB8fDB8fA%3D%3D&w=1000&q=80.jpg"
-                },
-                {
-                    "callToAction": "deeplink",
-                    "imgDeeplink": "3?__sta_linkid=255&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
-                    "imgMsg": "",
-                    "imgSource": "url",
-                    "imgTitle": "",
-                    "imgUrl": "https://cdnt.netcoresmartech.com/smartechapp-sdk/assets/image/image-2-1-1024x512.png"
-                }
-            ],
-            "customPayload": {},
-            "deeplink": "",
-            "expiry": 1759467280,
-            "image": "",
-            "message": "Testing multi icons",
-            "pnMeta": {
-                "guid": "24de9736-2284-4d4e-9bd2-2812c6ad9cdb"
-            },
-            "publishedDate": "2025-09-05T04:56:27",
-            "smtUi": {
-                "flid": 91,
-                "lid": 92,
-                "lui": {
-                "lt": 2,
-                "pos": 3
-                }
-            },
-            "smtCustomPayload": {},
-            "smtSrc": "Smartech",
-            "sound": true,
-            "status": "sent",
-            "subtitle": "",
-            "timestamp": "1757048227469",
-            "title": "Testing multi icons",
-            "trid": "85399-9636-142326-0-250905102999",
-            "type": "CarouselPortrait"
+          "callToAction": "deeplink",
+          "imgDeeplink": "1?__sta_linkid=251&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
+          "imgMsg": "",
+          "imgSource": "url",
+          "imgTitle": "",
+          "imgUrl": "https://www.phonepe.com/webstatic/static/default-image-cf4bb5407be1a9d8c49eb9a502a245db.png"
+        },
+        {
+          "callToAction": "deeplink",
+          "imgDeeplink": "2?__sta_linkid=254&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
+          "imgMsg": "",
+          "imgSource": "url",
+          "imgTitle": "",
+          "imgUrl": "https://images.unsplash.com/photo-1514449372970-c013485804bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2ltcGxlJTIwbGFuZHNjYXBlfGVufDB8fDB8fA%3D%3D&w=1000&q=80.jpg"
+        },
+        {
+          "callToAction": "deeplink",
+          "imgDeeplink": "3?__sta_linkid=255&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
+          "imgMsg": "",
+          "imgSource": "url",
+          "imgTitle": "",
+          "imgUrl": "https://cdnt.netcoresmartech.com/smartechapp-sdk/assets/image/image-2-1-1024x512.png"
         }
-    ],
-    "message": "success",
-    "code": 200
+      ],
+      "customPayload": {},
+      "deeplink": "",
+      "expiry": 1759467280,
+      "image": "",
+      "message": "Testing multi icons",
+      "pnMeta": {
+        "guid": "24de9736-2284-4d4e-9bd2-2812c6ad9cdb"
+      },
+      "publishedDate": "2025-09-05T04:56:27",
+      "smtUi": {
+        "flid": 91,
+        "lid": 92,
+        "lui": {
+          "lt": 1,
+          "pos": 2
+        }
+      },
+      "smtCustomPayload": {},
+      "smtSrc": "Smartech",
+      "sound": true,
+      "status": "sent",
+      "subtitle": "",
+      "timestamp": "1757048227469",
+      "title": "Testing multi icons",
+      "trid": "85341-9636-142326-0-250905102999",
+      "type": "CarouselPortrait"
+    },
+    {
+      "actionButton": [],
+      "app_inbox_category": "app_inbox",
+      "app_inbox_ttl": "2025-10-02T11:38:46",
+      "attrParams": {},
+      "carousel": [
+        {
+          "callToAction": "deeplink",
+          "imgDeeplink": "1?__sta_linkid=251&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
+          "imgMsg": "",
+          "imgSource": "url",
+          "imgTitle": "",
+          "imgUrl": "https://www.phonepe.com/webstatic/static/default-image-cf4bb5407be1a9d8c49eb9a502a245db.png"
+        },
+        {
+          "callToAction": "deeplink",
+          "imgDeeplink": "2?__sta_linkid=254&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
+          "imgMsg": "",
+          "imgSource": "url",
+          "imgTitle": "",
+          "imgUrl": "https://images.unsplash.com/photo-1514449372970-c013485804bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2ltcGxlJTIwbGFuZHNjYXBlfGVufDB8fDB8fA%3D%3D&w=1000&q=80.jpg"
+        },
+        {
+          "callToAction": "deeplink",
+          "imgDeeplink": "3?__sta_linkid=255&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
+          "imgMsg": "",
+          "imgSource": "url",
+          "imgTitle": "",
+          "imgUrl": "https://cdnt.netcoresmartech.com/smartechapp-sdk/assets/image/image-2-1-1024x512.png"
+        }
+      ],
+      "customPayload": {},
+      "deeplink": "",
+      "expiry": 1759467280,
+      "image": "",
+      "message": "Testing multi icons",
+      "pnMeta": {
+        "guid": "24de9736-2284-4d4e-9bd2-2812c6ad9cdb"
+      },
+      "publishedDate": "2025-09-05T04:56:27",
+      "smtUi": {
+        "flid": 91,
+        "lid": 92,
+        "lui": {
+          "lt": 1,
+          "pos": 1
+        }
+      },
+      "smtCustomPayload": {},
+      "smtSrc": "Smartech",
+      "sound": true,
+      "status": "sent",
+      "subtitle": "",
+      "timestamp": "1757048227469",
+      "title": "Testing multi icons",
+      "trid": "85341-9636-142326-0-250905109999",
+      "type": "CarouselPortrait"
+    },
+    {
+      "actionButton": [],
+      "app_inbox_category": "app_inbox",
+      "app_inbox_ttl": "2025-10-02T11:38:46",
+      "attrParams": {},
+      "carousel": [
+        {
+          "callToAction": "deeplink",
+          "imgDeeplink": "1?__sta_linkid=251&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
+          "imgMsg": "",
+          "imgSource": "url",
+          "imgTitle": "",
+          "imgUrl": "https://www.phonepe.com/webstatic/static/default-image-cf4bb5407be1a9d8c49eb9a502a245db.png"
+        },
+        {
+          "callToAction": "deeplink",
+          "imgDeeplink": "2?__sta_linkid=254&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
+          "imgMsg": "",
+          "imgSource": "url",
+          "imgTitle": "",
+          "imgUrl": "https://images.unsplash.com/photo-1514449372970-c013485804bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2ltcGxlJTIwbGFuZHNjYXBlfGVufDB8fDB8fA%3D%3D&w=1000&q=80.jpg"
+        },
+        {
+          "callToAction": "deeplink",
+          "imgDeeplink": "3?__sta_linkid=255&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
+          "imgMsg": "",
+          "imgSource": "url",
+          "imgTitle": "",
+          "imgUrl": "https://cdnt.netcoresmartech.com/smartechapp-sdk/assets/image/image-2-1-1024x512.png"
+        }
+      ],
+      "customPayload": {},
+      "deeplink": "",
+      "expiry": 1759467280,
+      "image": "",
+      "message": "Testing multi icons",
+      "pnMeta": {
+        "guid": "24de9736-2284-4d4e-9bd2-2812c6ad9cdb"
+      },
+      "publishedDate": "2025-09-05T04:56:27",
+      "smtUi": {
+        "flid": 91,
+        "lid": 92,
+        "lui": {
+          "lt": 1,
+          "pos": 3
+        }
+      },
+      "smtCustomPayload": {},
+      "smtSrc": "Smartech",
+      "sound": true,
+      "status": "sent",
+      "subtitle": "",
+      "timestamp": "1757048227469",
+      "title": "Testing multi icons",
+      "trid": "85341-9636-142326-0-250905992999",
+      "type": "CarouselPortrait"
+    },
+    {
+      "actionButton": [],
+      "app_inbox_category": "app_inbox",
+      "app_inbox_ttl": "2025-10-02T11:38:46",
+      "attrParams": {},
+      "carousel": [
+        {
+          "callToAction": "deeplink",
+          "imgDeeplink": "1?__sta_linkid=251&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
+          "imgMsg": "",
+          "imgSource": "url",
+          "imgTitle": "",
+          "imgUrl": "https://www.phonepe.com/webstatic/static/default-image-cf4bb5407be1a9d8c49eb9a502a245db.png"
+        },
+        {
+          "callToAction": "deeplink",
+          "imgDeeplink": "2?__sta_linkid=254&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
+          "imgMsg": "",
+          "imgSource": "url",
+          "imgTitle": "",
+          "imgUrl": "https://images.unsplash.com/photo-1514449372970-c013485804bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2ltcGxlJTIwbGFuZHNjYXBlfGVufDB8fDB8fA%3D%3D&w=1000&q=80.jpg"
+        },
+        {
+          "callToAction": "deeplink",
+          "imgDeeplink": "3?__sta_linkid=255&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
+          "imgMsg": "",
+          "imgSource": "url",
+          "imgTitle": "",
+          "imgUrl": "https://cdnt.netcoresmartech.com/smartechapp-sdk/assets/image/image-2-1-1024x512.png"
+        }
+      ],
+      "customPayload": {},
+      "deeplink": "",
+      "expiry": 1759467280,
+      "image": "",
+      "message": "Testing multi icons",
+      "pnMeta": {
+        "guid": "24de9736-2284-4d4e-9bd2-2812c6ad9cdb"
+      },
+      "publishedDate": "2025-09-05T04:56:27",
+      "smtUi": {
+        "flid": 91,
+        "lid": 92,
+        "lui": {
+          "lt": 2,
+          "pos": 2
+        }
+      },
+      "smtCustomPayload": {},
+      "smtSrc": "Smartech",
+      "sound": true,
+      "status": "sent",
+      "subtitle": "",
+      "timestamp": "1757048227469",
+      "title": "Testing multi icons",
+      "trid": "85341-9636-142326-0-950905102999",
+      "type": "CarouselPortrait"
+    },
+    {
+      "actionButton": [],
+      "app_inbox_category": "app_inbox",
+      "app_inbox_ttl": "2025-10-02T11:38:46",
+      "attrParams": {},
+      "carousel": [
+        {
+          "callToAction": "deeplink",
+          "imgDeeplink": "1?__sta_linkid=251&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
+          "imgMsg": "",
+          "imgSource": "url",
+          "imgTitle": "",
+          "imgUrl": "https://www.phonepe.com/webstatic/static/default-image-cf4bb5407be1a9d8c49eb9a502a245db.png"
+        },
+        {
+          "callToAction": "deeplink",
+          "imgDeeplink": "2?__sta_linkid=254&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
+          "imgMsg": "",
+          "imgSource": "url",
+          "imgTitle": "",
+          "imgUrl": "https://images.unsplash.com/photo-1514449372970-c013485804bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2ltcGxlJTIwbGFuZHNjYXBlfGVufDB8fDB8fA%3D%3D&w=1000&q=80.jpg"
+        },
+        {
+          "callToAction": "deeplink",
+          "imgDeeplink": "3?__sta_linkid=255&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
+          "imgMsg": "",
+          "imgSource": "url",
+          "imgTitle": "",
+          "imgUrl": "https://cdnt.netcoresmartech.com/smartechapp-sdk/assets/image/image-2-1-1024x512.png"
+        }
+      ],
+      "customPayload": {},
+      "deeplink": "",
+      "expiry": 1759467280,
+      "image": "",
+      "message": "Testing multi icons",
+      "pnMeta": {
+        "guid": "24de9736-2284-4d4e-9bd2-2812c6ad9cdb"
+      },
+      "publishedDate": "2025-09-05T04:56:27",
+      "smtUi": {
+        "flid": 91,
+        "lid": 92,
+        "lui": {
+          "lt": 2,
+          "pos": 1
+        }
+      },
+      "smtCustomPayload": {},
+      "smtSrc": "Smartech",
+      "sound": true,
+      "status": "sent",
+      "subtitle": "",
+      "timestamp": "1757048227469",
+      "title": "Testing multi icons",
+      "trid": "99341-9636-142326-0-250905102999",
+      "type": "CarouselPortrait"
+    },
+    {
+      "actionButton": [],
+      "app_inbox_category": "app_inbox",
+      "app_inbox_ttl": "2025-10-02T11:38:46",
+      "attrParams": {},
+      "carousel": [
+        {
+          "callToAction": "deeplink",
+          "imgDeeplink": "1?__sta_linkid=251&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
+          "imgMsg": "",
+          "imgSource": "url",
+          "imgTitle": "",
+          "imgUrl": "https://www.phonepe.com/webstatic/static/default-image-cf4bb5407be1a9d8c49eb9a502a245db.png"
+        },
+        {
+          "callToAction": "deeplink",
+          "imgDeeplink": "2?__sta_linkid=254&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
+          "imgMsg": "",
+          "imgSource": "url",
+          "imgTitle": "",
+          "imgUrl": "https://images.unsplash.com/photo-1514449372970-c013485804bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2ltcGxlJTIwbGFuZHNjYXBlfGVufDB8fDB8fA%3D%3D&w=1000&q=80.jpg"
+        },
+        {
+          "callToAction": "deeplink",
+          "imgDeeplink": "3?__sta_linkid=255&__sta=%7CYUYB&__stm_medium=apn&__stm_source=smartech&__stm_id=9636",
+          "imgMsg": "",
+          "imgSource": "url",
+          "imgTitle": "",
+          "imgUrl": "https://cdnt.netcoresmartech.com/smartechapp-sdk/assets/image/image-2-1-1024x512.png"
+        }
+      ],
+      "customPayload": {},
+      "deeplink": "",
+      "expiry": 1759467280,
+      "image": "",
+      "message": "Testing multi icons",
+      "pnMeta": {
+        "guid": "24de9736-2284-4d4e-9bd2-2812c6ad9cdb"
+      },
+      "publishedDate": "2025-09-05T04:56:27",
+      "smtUi": {
+        "flid": 91,
+        "lid": 92,
+        "lui": {
+          "lt": 2,
+          "pos": 3
+        }
+      },
+      "smtCustomPayload": {},
+      "smtSrc": "Smartech",
+      "sound": true,
+      "status": "sent",
+      "subtitle": "",
+      "timestamp": "1757048227469",
+      "title": "Testing multi icons",
+      "trid": "85399-9636-142326-0-250905102999",
+      "type": "CarouselPortrait"
+    }
+  ],
+  "message": "success",
+  "code": 200
 }
