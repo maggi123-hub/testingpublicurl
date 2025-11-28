@@ -6,7 +6,7 @@
             "smtCustomPayload": {},
             "smtPayload": {
                 "actionButton": [],
-                "app_inbox_category": "testga",
+                "app_inbox_category": "34",
                 "app_inbox_ttl": "2025-12-24T11:38:15",
                 "attrParams": {},
                 "body": "test",
@@ -20,16 +20,16 @@
                 "publishedDate": "2025-11-26T11:38:28",
                 "rbtn": {
                     "aTyp": 5,
-                    "ft": "Thanks",
-                    "name": "Reply now",
-                    "pht": "type here"
+                    "ft": "ok Thanks",
+                    "name": "Reply here",
+                    "pht": "type "
                 },
                 "sound": true,
                 "status": "sent",
                 "subtitle": "",
                 "timestamp": "1764157115839",
-                "title": "Testing reply btn",
-                "trid": "990666-4444-0-0-251126170832-A",
+                "title": "reply btn",
+                "trid": "999666-4444-0-0-251126170832-A",
                 "type": "Simple"
             },
             "smtSrc": "Smartech",
