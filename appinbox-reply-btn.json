@@ -1,46 +1,10 @@
 {
     "inbox_count": 1,
     "inbox": [
-        {
-            "expiry": 1764159534891,
-            "smtCustomPayload": {},
-            "smtPayload": {
-                "actionButton": [],
-                "app_inbox_category": "34",
-                "app_inbox_ttl": "2025-12-24T11:38:15",
-                "attrParams": {},
-                "body": "Testing app inbox delete",
-                "carousel": [],
-                "deeplink": "",
-                "expiry": 1766576167,
-                "mediaUrl": "",
-                "pnMeta": {
-                    "guid": "7ddbecde-8b65-4d0b-b6a5-52d13d5f411c"
-                },
-                "publishedDate": "2025-11-26T11:38:28",
-                "rbtn": {
-                    "aTyp": 5,
-                    "ft": "ok Thanks",
-                    "name": "Reply here",
-                    "pht": "type "
-                },
-                "sound": true,
-                "status": "sent",
-                "subtitle": "",
-                "timestamp": "1764157115839",
-                "title": "Pn 03",
-                "trid": "999996-4444-0-0-251126170832-A",
-                "type": "Simple"
-            },
-            "smtSrc": "Smartech",
-            "smtUi": {
-                "flid": 1,
-                "lid": 1
-            }
-        }
+        
     ],
     "inboxDeleted": [
-     "181863-408-24-0-251111135016",
+     "999996-4444-0-0-251126170832-A",
      "181863-407-24-0-251111134022",
      "181863-406-24-0-251111132839",
      "181863-405-24-0-251111132749",
