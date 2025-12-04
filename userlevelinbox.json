@@ -1,0 +1,791 @@
+{
+    "inbox_count": 16,
+    "inbox": [
+        {
+            "expiry": 1744110043391,
+            "smtCustomPayload": {},
+            "smtPayload": {
+                "actionButton": [],
+                "app_inbox_category": "test1",
+                "app_inbox_ttl": "2027-05-06T11:00:10",
+                "attrParams": {
+                    "__sta": "cj.ddxgdg%7CYYJV",
+                    "__stm_id": 2566,
+                    "__stm_medium": "apn",
+                    "__stm_source": "smartech"
+                },
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+                "carousel": [],
+                "deeplink": "",
+                "expiry": 1744110043,
+                "mediaUrl": "",
+                "pnMeta": {
+                    "guid": "d2e8d782-c339-4e9a-a08e-b23209c54192"
+                },
+                "publishedDate": "2025-04-08T11:00:31",
+                "sound": true,
+                "status": "sent",
+                "subtitle": "",
+                "timestamp": "1744110043391",
+                "title": "Timer template testing",
+                "trid": "140578-2566-949-0-250408163034",
+                "type": "Simple"
+            },
+            "smtSrc": "Smartech",
+            "smtUi": {
+                "flid": 1,
+                "lid": 1,
+                "tim": {
+                    "bgc": "#FFCF5C",
+                    "et": "2025-05-08T11:57:16",
+                    "ft": "Sale is over",
+                    "rel_val": [],
+                    "tc": "#000000",
+                    "timer": "Specific_date_and_time",
+                    "ty": 1
+                }
+            }
+        },
+        {
+            "expiry": 1744112173488,
+            "smtCustomPayload": {},
+            "smtPayload": {
+                "actionButton": [],
+                "app_inbox_category": "test1",
+                "app_inbox_ttl": "2027-05-06T11:00:10",
+                "attrParams": {
+                    "__sta": "vhg.blmmnudxf%7CQYJV",
+                    "__stm_id": 2568,
+                    "__stm_medium": "apn",
+                    "__stm_source": "smartech"
+                },
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+                "carousel": [],
+                "deeplink": "",
+                "expiry": 1744112173,
+                "mediaUrl": "https://www.phonepe.com/webstatic/static/default-image-cf4bb5407be1a9d8c49eb9a502a245db.png",
+                "pnMeta": {
+                    "guid": "d2e8d782-c339-4e9a-a08e-b23209c54192"
+                },
+                "publishedDate": "2025-04-08T11:36:01",
+                "sound": true,
+                "status": "sent",
+                "subtitle": "",
+                "timestamp": "1744112173488",
+                "title": "Image Timer template testing",
+                "trid": "140578-2568-949-0-250408170605",
+                "type": "Image"
+            },
+            "smtSrc": "Smartech",
+            "smtUi": {
+                "flid": 21,
+                "lid": 21,
+                "tim": {
+                    "bgc": "#FFCF5C",
+                    "et": "2025-05-08T12:34:57",
+                    "ft": "Sale is over",
+                    "rel_val": [],
+                    "tc": "#000000",
+                    "timer": "Specific_date_and_time",
+                    "ty": 1
+                }
+            }
+        },
+        {
+            "expiry": 1744113245035,
+            "smtCustomPayload": {},
+            "smtPayload": {
+                "actionButton": [],
+                "app_inbox_category": "test1",
+                "app_inbox_ttl": "2027-05-06T11:00:10",
+                "attrParams": {
+                    "__sta": "sg.pxsfomnbf%7CBYJV",
+                    "__stm_id": 2569,
+                    "__stm_medium": "apn",
+                    "__stm_source": "smartech"
+                },
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "carousel": [],
+                "deeplink": "",
+                "expiry": 1744113245,
+                "mediaUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/GalaxyInvaders/theme_01.mp3",
+                "pnMeta": {
+                    "guid": "d2e8d782-c339-4e9a-a08e-b23209c54192"
+                },
+                "publishedDate": "2025-04-08T11:53:54",
+                "sound": true,
+                "status": "sent",
+                "subtitle": "",
+                "timestamp": "1744113245035",
+                "title": "Aduio Timer template testing",
+                "trid": "140578-2569-949-0-250408172357",
+                "type": "Audio"
+            },
+            "smtSrc": "Smartech",
+            "smtUi": {
+                "flid": 51,
+                "lid": 51,
+                "tim": {
+                    "bgc": "#FFCF5C",
+                    "et": "2025-05-08T12:52:39",
+                    "ft": "Sale is over",
+                    "rel_val": [],
+                    "tc": "#000000",
+                    "timer": "Specific_date_and_time",
+                    "ty": 1
+                }
+            }
+        },
+        {
+            "expiry": 1744118476870,
+            "smtCustomPayload": {},
+            "smtPayload": {
+                "actionButton": [],
+                "app_inbox_category": "test1",
+                "app_inbox_ttl": "2027-05-06T11:00:10",
+                "attrParams": {
+                    "__sta": "sg.pxsfomnbf%7CQTJV",
+                    "__stm_id": 2578,
+                    "__stm_medium": "apn",
+                    "__stm_source": "smartech"
+                },
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+                "carousel": [],
+                "deeplink": "",
+                "expiry": 1744118476,
+                "mediaUrl": "https://www.easygifanimator.net/images/samples/sparkles.gif",
+                "pnMeta": {
+                    "guid": "d2e8d782-c339-4e9a-a08e-b23209c54192"
+                },
+                "publishedDate": "2025-04-08T13:21:07",
+                "sound": true,
+                "status": "sent",
+                "subtitle": "",
+                "timestamp": "1744118476870",
+                "title": "GIF Timer template testing",
+                "trid": "140578-2578-949-0-250408185110",
+                "type": "Gif"
+            },
+            "smtSrc": "Smartech",
+            "smtUi": {
+                "flid": 41,
+                "lid": 41,
+                "tim": {
+                    "bgc": "#FFCF5C",
+                    "et": "2025-05-08T14:20:27",
+                    "ft": "Sale is over",
+                    "rel_val": [],
+                    "tc": "#000000",
+                    "timer": "Specific_date_and_time",
+                    "ty": 1
+                }
+            }
+        },
+        {
+            "expiry": 1744118684641,
+            "smtCustomPayload": {},
+            "smtPayload": {
+                "actionButton": [],
+                "app_inbox_category": "test1",
+                "app_inbox_ttl": "2027-05-06T11:00:10",
+                "attrParams": {
+                    "__sta": "sg.pxsfomnbf%7CBTJV",
+                    "__stm_id": 2579,
+                    "__stm_medium": "apn",
+                    "__stm_source": "smartech"
+                },
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+                "carousel": [
+                    {
+                        "callToAction": "deeplink",
+                        "imgDeeplink": "1?__sta_linkid=79&__sta=%7CBTJV&__stm_medium=apn&__stm_source=smartech&__stm_id=2579",
+                        "imgMsg": "First slide",
+                        "imgSource": "url",
+                        "imgTitle": "First",
+                        "imgUrl": "https://cdn.pixabay.com/photo/2023/04/05/12/37/town-7901424_1280.jpg"
+                    },
+                    {
+                        "callToAction": "deeplink",
+                        "imgDeeplink": "2?__sta_linkid=80&__sta=%7CBTJV&__stm_medium=apn&__stm_source=smartech&__stm_id=2579",
+                        "imgMsg": "Second Slide",
+                        "imgSource": "url",
+                        "imgTitle": "Second",
+                        "imgUrl": "https://www.phonepe.com/webstatic/static/default-image-cf4bb5407be1a9d8c49eb9a502a245db.png"
+                    }
+                ],
+                "deeplink": "",
+                "expiry": 1744118684,
+                "mediaUrl": "",
+                "pnMeta": {
+                    "guid": "d2e8d782-c339-4e9a-a08e-b23209c54192"
+                },
+                "publishedDate": "2025-04-08T13:24:35",
+                "sound": true,
+                "status": "sent",
+                "subtitle": "",
+                "timestamp": "1744118684641",
+                "title": "GIF Timer template testing",
+                "trid": "140578-2579-949-0-250408185438",
+                "type": "CarouselLandscape"
+            },
+            "smtSrc": "Smartech",
+            "smtUi": {
+                "flid": 71,
+                "lid": 71,
+                "tim": {
+                    "bgc": "#FFCF5C",
+                    "et": "2025-05-08T14:23:16",
+                    "ft": "Sale is over",
+                    "rel_val": [],
+                    "tc": "#000000",
+                    "timer": "Specific_date_and_time",
+                    "ty": 1
+                }
+            }
+        },
+        {
+            "expiry": 1744118942992,
+            "smtCustomPayload": {},
+            "smtPayload": {
+                "actionButton": [],
+                "app_inbox_category": "test1",
+                "app_inbox_ttl": "2027-05-06T11:00:10",
+                "attrParams": {
+                    "__sta": "sg.pxsfomnbf%7CFQJV",
+                    "__stm_id": 2580,
+                    "__stm_medium": "apn",
+                    "__stm_source": "smartech"
+                },
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+                "carousel": [
+                    {
+                        "callToAction": "deeplink",
+                        "imgDeeplink": "2?__sta_linkid=80&__sta=%7CFQJV&__stm_medium=apn&__stm_source=smartech&__stm_id=2580",
+                        "imgMsg": "Second Slide",
+                        "imgSource": "url",
+                        "imgTitle": "Second",
+                        "imgUrl": "https://www.phonepe.com/webstatic/static/default-image-cf4bb5407be1a9d8c49eb9a502a245db.png"
+                    },
+                    {
+                        "callToAction": "deeplink",
+                        "imgDeeplink": "2?__sta_linkid=80&__sta=%7CFQJV&__stm_medium=apn&__stm_source=smartech&__stm_id=2580",
+                        "imgMsg": "First slide",
+                        "imgSource": "url",
+                        "imgTitle": "First",
+                        "imgUrl": "https://cdn.pixabay.com/photo/2023/04/05/12/37/town-7901424_1280.jpg"
+                    }
+                ],
+                "deeplink": "",
+                "expiry": 1744118942,
+                "mediaUrl": "",
+                "pnMeta": {
+                    "guid": "d2e8d782-c339-4e9a-a08e-b23209c54192"
+                },
+                "publishedDate": "2025-04-08T13:28:51",
+                "sound": true,
+                "status": "sent",
+                "subtitle": "",
+                "timestamp": "1744118942992",
+                "title": "Portrait carousel Timer template testing",
+                "trid": "140578-2580-949-0-250408185854",
+                "type": "CarouselPortrait"
+            },
+            "smtSrc": "Smartech",
+            "smtUi": {
+                "flid": 71,
+                "lid": 71,
+                "tim": {
+                    "bgc": "#FFCF5C",
+                    "et": "2025-05-08T14:27:37",
+                    "ft": "Sale is over",
+                    "rel_val": [],
+                    "tc": "#000000",
+                    "timer": "Specific_date_and_time",
+                    "ty": 1
+                }
+            }
+        },
+        {
+            "expiry": 1744616891756,
+            "smtCustomPayload": {},
+            "smtPayload": {
+                "actionButton": [],
+                "app_inbox_category": "overlay",
+                "app_inbox_ttl": "2027-05-12T07:07:31",
+                "attrParams": {
+                    "__sta": "vhg.blmmnudxf%7CVBJV",
+                    "__stm_id": 2592,
+                    "__stm_medium": "apn",
+                    "__stm_source": "smartech"
+                },
+                "body": "If you absolutely need scrollable content for data that is conceptually part of a table, you might consider embedding a Google Sheet (which has vertical scrolling) or using a different tool altogether for presenting that specific information.",
+                "carousel": [],
+                "deeplink": "",
+                "expiry": 1747033630,
+                "mediaUrl": "https://cdnt.netcoresmartech.com/187212/1744085701.png",
+                "pnMeta": {
+                    "guid": "5d1e47c0-4dff-4edf-b813-bed37a4936a3"
+                },
+                "publishedDate": "2025-04-14T07:07:42",
+                "sound": true,
+                "status": "sent",
+                "subtitle": "",
+                "timestamp": "1744614472598",
+                "title": "Background color testing",
+                "trid": "140578-2592-969-0-250414123746",
+                "type": "Image"
+            },
+            "smtSrc": "Smartech",
+            "smtUi": {
+                "bgc": "#b3d69f",
+                "flid": 21,
+                "lid": 21
+            }
+        },
+        {
+            "expiry": 1744618041367,
+            "smtCustomPayload": {},
+            "smtPayload": {
+                "actionButton": [],
+                "app_inbox_category": "one",
+                "app_inbox_ttl": "2027-05-12T07:26:42",
+                "attrParams": {
+                    "__sta": "vhg.blmmnudxf%7CUBJV",
+                    "__stm_id": 2593,
+                    "__stm_medium": "apn",
+                    "__stm_source": "smartech"
+                },
+                "body": "If you absolutely need scrollable content for data that is conceptually part of a table, you might consider embedding a Google Sheet (which has vertical scrolling) or using a different tool altogether for presenting that specific information.",
+                "carousel": [],
+                "deeplink": "",
+                "expiry": 1747034770,
+                "mediaUrl": "",
+                "pnMeta": {
+                    "guid": "5d1e47c0-4dff-4edf-b813-bed37a4936a3"
+                },
+                "publishedDate": "2025-04-14T07:26:52",
+                "sound": true,
+                "status": "sent",
+                "subtitle": "",
+                "timestamp": "1744615622219",
+                "title": "Testing background gradient ",
+                "trid": "140578-2593-969-0-250414125655",
+                "type": "Simple"
+            },
+            "smtSrc": "Smartech",
+            "smtUi": {
+                "bggc": [
+                    "1",
+                    "#e09494ff",
+                    "#85212157",
+                    "225"
+                ],
+                "flid": 1,
+                "lid": 1
+            }
+        },
+        {
+            "expiry": 1744113907433,
+            "smtCustomPayload": {},
+            "smtPayload": {
+                "actionButton": [],
+                "app_inbox_category": "overlay",
+                "app_inbox_ttl": "2027-05-06T12:04:33",
+                "attrParams": {
+                    "__sta": "vhg.blmmnudxf%7CFTJV",
+                    "__stm_id": 2570,
+                    "__stm_medium": "apn",
+                    "__stm_source": "smartech"
+                },
+                "body": "If you absolutely need scrollable content for data that is conceptually part of a table, you might consider embedding a Google Sheet",
+                "carousel": [],
+                "deeplink": "",
+                "expiry": 1744113907,
+                "mediaUrl": "",
+                "pnMeta": {
+                    "guid": "d2e8d782-c339-4e9a-a08e-b23209c54192"
+                },
+                "publishedDate": "2025-04-08T12:04:58",
+                "sound": true,
+                "status": "sent",
+                "subtitle": "",
+                "timestamp": "1744113907433",
+                "title": "Progress bar testing ",
+                "trid": "140578-2570-949-0-250408173501",
+                "type": "Simple"
+            },
+            "smtSrc": "Smartech",
+            "smtUi": {
+                "flid": 1,
+                "lid": 1,
+                "tim": {
+                    "bgc": "#FFCF5C",
+                    "et": "2025-05-08T13:03:22",
+                    "ft": "Thanks for waiting",
+                    "rel_val": [],
+                    "tc": "#000000",
+                    "timer": "Specific_date_and_time",
+                    "tt": "Progress bar is running",
+                    "ty": 2
+                }
+            }
+        },
+        {
+            "expiry": 1744114580337,
+            "smtCustomPayload": {},
+            "smtPayload": {
+                "actionButton": [],
+                "app_inbox_category": "overlay",
+                "app_inbox_ttl": "2027-05-06T12:04:33",
+                "attrParams": {
+                    "__sta": "vhg.blmmnudxf%7CITJV",
+                    "__stm_id": 2571,
+                    "__stm_medium": "apn",
+                    "__stm_source": "smartech"
+                },
+                "body": "If you absolutely need scrollable content for data that is conceptually part of a table, you might consider embedding a Google Sheet",
+                "carousel": [],
+                "deeplink": "",
+                "expiry": 1744114580,
+                "mediaUrl": "https://www.phonepe.com/webstatic/static/default-image-cf4bb5407be1a9d8c49eb9a502a245db.png",
+                "pnMeta": {
+                    "guid": "d2e8d782-c339-4e9a-a08e-b23209c54192"
+                },
+                "publishedDate": "2025-04-08T12:16:10",
+                "sound": true,
+                "status": "sent",
+                "subtitle": "",
+                "timestamp": "1744114580337",
+                "title": "Progress bar testing ",
+                "trid": "140578-2571-949-0-250408174613",
+                "type": "Image"
+            },
+            "smtSrc": "Smartech",
+            "smtUi": {
+                "flid": 21,
+                "lid": 21,
+                "tim": {
+                    "bgc": "#FFCF5C",
+                    "et": "2025-05-08T13:15:27",
+                    "ft": "Thanks for waiting",
+                    "rel_val": [],
+                    "tc": "#000000",
+                    "timer": "Specific_date_and_time",
+                    "tt": "Progress bar is running",
+                    "ty": 2
+                }
+            }
+        },
+        {
+            "expiry": 1744117370897,
+            "smtCustomPayload": {},
+            "smtPayload": {
+                "actionButton": [
+                    {
+                        "aTyp": "1",
+                        "actionDeeplink": "profile?__sta_linkid=22&__sta=%7CVTJV&__stm_medium=apn&__stm_source=smartech&__stm_id=2572",
+                        "actionName": "Click",
+                        "call_to_action": "deeplink",
+                        "config": {}
+                    }
+                ],
+                "app_inbox_category": "v331",
+                "app_inbox_ttl": "2027-05-06T12:22:04",
+                "attrParams": {
+                    "__sta": "sg.pxsfomnbf%7CVTJV",
+                    "__stm_id": 2572,
+                    "__stm_medium": "apn",
+                    "__stm_source": "smartech"
+                },
+                "body": "If you absolutely need scrollable content for data that is conceptually part of a table, you might consider embedding a Google Sheet (which has vertical scrolling) ",
+                "carousel": [],
+                "deeplink": "",
+                "expiry": 1746534130,
+                "mediaUrl": "https://cdn.pixabay.com/photo/2023/04/05/12/37/town-7901424_1280.jpg",
+                "pnMeta": {
+                    "guid": "d2e8d782-c339-4e9a-a08e-b23209c54192"
+                },
+                "publishedDate": "2025-04-08T12:22:21",
+                "sound": true,
+                "status": "sent",
+                "subtitle": "",
+                "timestamp": "1744114951718",
+                "title": "Small Product Image Template Testing ",
+                "trid": "140578-2572-949-0-250408175224",
+                "type": "Image"
+            },
+            "smtSrc": "Smartech",
+            "smtUi": {
+                "flid": 21,
+                "lid": 24,
+                "lui": {
+                    "btn": [
+                        {
+                            "bgc": "#FFCF5C",
+                            "br": 10,
+                            "i": "0",
+                            "tc": "#6F6F8D"
+                        }
+                    ],
+                    "img": {
+                        "p": 1
+                    }
+                }
+            }
+        },
+        {
+            "expiry": 1744117744897,
+            "smtCustomPayload": {},
+            "smtPayload": {
+                "actionButton": [],
+                "app_inbox_category": "overlay",
+                "app_inbox_ttl": "2027-05-06T12:28:21",
+                "attrParams": {
+                    "__sta": "vhg.blmmnudxf%7CUTJV",
+                    "__stm_id": 2573,
+                    "__stm_medium": "apn",
+                    "__stm_source": "smartech"
+                },
+                "body": "If you absolutely need scrollable content for data that is conceptually part of a table, you might consider embedding ",
+                "carousel": [],
+                "deeplink": "",
+                "expiry": 1746534490,
+                "mediaUrl": "https://cdn.pixabay.com/photo/2023/04/05/12/37/town-7901424_1280.jpg",
+                "pnMeta": {
+                    "guid": "d2e8d782-c339-4e9a-a08e-b23209c54192"
+                },
+                "publishedDate": "2025-04-08T12:28:35",
+                "sound": true,
+                "status": "sent",
+                "subtitle": "",
+                "timestamp": "1744115325732",
+                "title": "This is Edge To Edge Image template",
+                "trid": "140578-2573-949-0-250408175838",
+                "type": "Image"
+            },
+            "smtSrc": "Smartech",
+            "smtUi": {
+                "flid": 21,
+                "lid": 22,
+                "lui": []
+            }
+        },
+        {
+            "expiry": 1744118515687,
+            "smtCustomPayload": {},
+            "smtPayload": {
+                "actionButton": [],
+                "app_inbox_category": "one",
+                "app_inbox_ttl": "2027-05-06T12:41:15",
+                "attrParams": {
+                    "__sta": "sg.pxsfomnbf%7CHTJV",
+                    "__stm_id": 2574,
+                    "__stm_medium": "apn",
+                    "__stm_source": "smartech"
+                },
+                "body": "If you absolutely need scrollable content for data that is conceptually part of a table, you might consider embedding a ",
+                "carousel": [],
+                "deeplink": "",
+                "expiry": 1746535270,
+                "mediaUrl": "https://cdn.pixabay.com/photo/2023/04/05/12/37/town-7901424_1280.jpg",
+                "pnMeta": {
+                    "guid": "d2e8d782-c339-4e9a-a08e-b23209c54192"
+                },
+                "publishedDate": "2025-04-08T12:41:26",
+                "sound": true,
+                "status": "sent",
+                "subtitle": "",
+                "timestamp": "1744116096513",
+                "title": "Overlay on image template",
+                "trid": "140578-2574-949-0-250408181129",
+                "type": "Image"
+            },
+            "smtSrc": "Smartech",
+            "smtUi": {
+                "flid": 21,
+                "lid": 23,
+                "lui": {
+                    "olc": "#8ce876b3"
+                }
+            }
+        },
+        {
+            "expiry": 1744119052771,
+            "smtCustomPayload": {},
+            "smtPayload": {
+                "actionButton": [],
+                "app_inbox_category": "v331",
+                "app_inbox_ttl": "2027-05-06T12:50:11",
+                "attrParams": {
+                    "__sta": "vhg.blmmnudxf%7CJTJV",
+                    "__stm_id": 2575,
+                    "__stm_medium": "apn",
+                    "__stm_source": "smartech"
+                },
+                "body": "If you absolutely need scrollable content for data that is conceptually part of a table, you might consider embedding a Google Sheet (which has vertical scrolling) or using a different tool altogether for presenting that specific information.",
+                "carousel": [],
+                "deeplink": "",
+                "expiry": 1746535811,
+                "mediaUrl": "",
+                "pnMeta": {
+                    "guid": "d2e8d782-c339-4e9a-a08e-b23209c54192"
+                },
+                "publishedDate": "2025-04-08T12:50:22",
+                "sound": true,
+                "status": "sent",
+                "subtitle": "",
+                "timestamp": "1744116633593",
+                "title": "Text rating app inbox ",
+                "trid": "140578-2575-949-0-250408182025",
+                "type": "Simple"
+            },
+            "smtSrc": "Smartech",
+            "smtUi": {
+                "flid": 1,
+                "lid": 1,
+                "rat": {
+                    "btn": [
+                        {
+                            "t": "A"
+                        },
+                        {
+                            "t": "B"
+                        },
+                        {
+                            "t": "C"
+                        },
+                        {
+                            "t": "D"
+                        },
+                        {
+                            "t": "E"
+                        }
+                    ],
+                    "cbt": "Submit",
+                    "dl": "",
+                    "sc": 5,
+                    "stc": "#FFCF5C",
+                    "ty": 2,
+                    "utc": "#9A9AAF"
+                }
+            }
+        },
+        {
+            "expiry": 1744119350606,
+            "smtCustomPayload": {},
+            "smtPayload": {
+                "actionButton": [],
+                "app_inbox_category": "v331",
+                "app_inbox_ttl": "2027-05-06T12:50:11",
+                "attrParams": {
+                    "__sta": "vhg.blmmnudxf%7CYTJV",
+                    "__stm_id": 2576,
+                    "__stm_medium": "apn",
+                    "__stm_source": "smartech"
+                },
+                "body": "If you absolutely need scrollable content for data that is conceptually part of a table, you might consider embedding a Google Sheet (which has vertical scrolling) or using a different tool altogether for presenting that specific information.",
+                "carousel": [],
+                "deeplink": "",
+                "expiry": 1746535990,
+                "mediaUrl": "https://www.phonepe.com/webstatic/static/default-image-cf4bb5407be1a9d8c49eb9a502a245db.png",
+                "pnMeta": {
+                    "guid": "d2e8d782-c339-4e9a-a08e-b23209c54192"
+                },
+                "publishedDate": "2025-04-08T12:55:21",
+                "sound": true,
+                "status": "sent",
+                "subtitle": "",
+                "timestamp": "1744116931547",
+                "title": "Text rating app inbox ",
+                "trid": "140578-2576-949-0-250408182524",
+                "type": "Image"
+            },
+            "smtSrc": "Smartech",
+            "smtUi": {
+                "flid": 21,
+                "lid": 21,
+                "rat": {
+                    "cbt": "Submit",
+                    "dl": "",
+                    "sc": 5,
+                    "si": "https://cdna.netcoresmartech.com/14340/1680080201.png",
+                    "ty": 1,
+                    "ui": "https://cdna.netcoresmartech.com/14340/1680076013.png"
+                }
+            }
+        },
+        {
+            "expiry": 1744120396287,
+            "smtCustomPayload": {},
+            "smtPayload": {
+                "actionButton": [],
+                "app_inbox_category": "one",
+                "app_inbox_ttl": "2027-05-06T13:12:35",
+                "attrParams": {
+                    "__sta": "sg.pxsfomnbf%7CTTJV",
+                    "__stm_id": 2577,
+                    "__stm_medium": "apn",
+                    "__stm_source": "smartech"
+                },
+                "body": "If you absolutely need scrollable content for data that is conceptually part of a table, you might consider embedding a Google Sheet (which has vertical scrolling) or using a different tool altogether for presenting that specific information.",
+                "carousel": [
+                    {
+                        "callToAction": "deeplink",
+                        "imgDeeplink": "1?__sta_linkid=79&__sta=%7CTTJV&__stm_medium=apn&__stm_source=smartech&__stm_id=2577",
+                        "imgMsg": "First slide",
+                        "imgSource": "url",
+                        "imgTitle": "First",
+                        "imgUrl": "https://www.phonepe.com/webstatic/static/default-image-cf4bb5407be1a9d8c49eb9a502a245db.png"
+                    },
+                    {
+                        "callToAction": "deeplink",
+                        "imgDeeplink": "2?__sta_linkid=80&__sta=%7CTTJV&__stm_medium=apn&__stm_source=smartech&__stm_id=2577",
+                        "imgMsg": "Second slide",
+                        "imgSource": "url",
+                        "imgTitle": "Second slide",
+                        "imgUrl": "https://cdn.pixabay.com/photo/2023/04/05/12/37/town-7901424_1280.jpg"
+                    }
+                ],
+                "deeplink": "",
+                "expiry": 1746537131,
+                "mediaUrl": "",
+                "pnMeta": {
+                    "guid": "d2e8d782-c339-4e9a-a08e-b23209c54192"
+                },
+                "publishedDate": "2025-04-08T13:12:46",
+                "sound": true,
+                "status": "sent",
+                "subtitle": "",
+                "timestamp": "1744117977133",
+                "title": "E2E carousel test ",
+                "trid": "140578-2577-949-0-250408184249",
+                "type": "CarouselLandscape"
+            },
+            "smtSrc": "Smartech",
+            "smtUi": {
+                "flid": 71,
+                "lid": 72,
+                "lui": {
+                    "colc": [
+                        {
+                            "bggc": [
+                                "1",
+                                "#ffffffff",
+                                "#000000ff",
+                                "90"
+                            ],
+                            "i": "0"
+                        },
+                        {
+                            "bgc": "#66ce5273",
+                            "i": "1"
+                        }
+                    ],
+                    "spd": 0
+                }
+            }
+        }
+    ],
+    "message": "success",
+    "code": 200
+}
