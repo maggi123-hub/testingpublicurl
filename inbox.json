@@ -4,7 +4,7 @@
     {
       "actionButton": [],
       "app_inbox_category": "app_inbox",
-      "app_inbox_ttl": "2025-12-29T11:38:46",
+      "app_inbox_ttl": "2025-12-20T11:38:46",
       "attrParams": {},
       "carousel": [
         {
@@ -35,7 +35,7 @@
       "customPayload": {},
       "deeplink": "",
       "expiry": 1759467280,
-      "image": "",
+      "image": "https://www.phonepe.com/webstatic/static/default-image-cf4bb5407be1a9d8c49eb9a502a245db.png",
       "message": "Testing multi icons",
       "pnMeta": {
         "guid": "24de9736-2284-4d4e-9bd2-2812c6ad9cdb"
@@ -57,12 +57,12 @@
       "timestamp": "1757048227469",
       "title": "Testing multi icons",
       "trid": "85341-9636-142326-0-250905102999",
-      "type": "CarouselPortrait"
+      "type": "Image"
     },
     {
       "actionButton": [],
       "app_inbox_category": "app_inbox",
-      "app_inbox_ttl": "2025-12-19T11:38:46",
+      "app_inbox_ttl": "2025-12-17T11:38:46",
       "attrParams": {},
       "carousel": [
         {
@@ -120,7 +120,7 @@
     {
       "actionButton": [],
       "app_inbox_category": "app_inbox",
-      "app_inbox_ttl": "2025-12-19T11:38:46",
+      "app_inbox_ttl": "2025-12-17T11:38:46",
       "attrParams": {},
       "carousel": [
         {
@@ -178,7 +178,7 @@
     {
       "actionButton": [],
       "app_inbox_category": "app_inbox",
-      "app_inbox_ttl": "2025-12-19T11:38:46",
+      "app_inbox_ttl": "2025-12-17T11:38:46",
       "attrParams": {},
       "carousel": [
         {
@@ -236,7 +236,7 @@
     {
       "actionButton": [],
       "app_inbox_category": "app_inbox",
-      "app_inbox_ttl": "2025-12-19T11:38:46",
+      "app_inbox_ttl": "2025-12-17T11:38:46",
       "attrParams": {},
       "carousel": [
         {
@@ -294,7 +294,7 @@
     {
       "actionButton": [],
       "app_inbox_category": "app_inbox",
-      "app_inbox_ttl": "2025-12-19T11:38:46",
+      "app_inbox_ttl": "2025-12-17T11:38:46",
       "attrParams": {},
       "carousel": [
         {
@@ -351,12 +351,12 @@
     }
   ],
   "inboxDeleted": [
-     "85341-9636-142326-0-250905109999",
-     "85341-9636-142326-0-250905992999",
-     "85341-9636-142326-0-250905992999",
-     "85341-9636-142326-0-950905102999",
-     "99341-9636-142326-0-250905102999",
-     "85399-9636-142326-0-250905102999",
+     "185341-9636-142326-0-250905109999",
+     "185341-9636-142326-0-250905992999",
+     "185341-9636-142326-0-250905992999",
+     "185341-9636-142326-0-950905102999",
+     "199341-9636-142326-0-250905102999",
+     "185399-9636-142326-0-250905102999",
      "181863-402-24-0-251111132557",
      "181863-400-24-0-251111115255",
      "181863-397-24-0-2025111109520877-T",
