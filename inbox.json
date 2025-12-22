@@ -26,9 +26,9 @@
                 "timestamp": "1766036974053",
                 "title": "Image pn test",
                 "trid": "140578-3094-661-0-251218111925",
-                "type": "Image"
+                "type": "Simple"
             },
-            "smtSrc": "Simple",
+            "smtSrc": "Smartech",
             "smtUi": {
                 "flid": 21,
                 "lid": 21
@@ -75,7 +75,7 @@
                 "app_inbox_category": "offer",
                 "app_inbox_ttl": "2025-12-23T05:49:04",
                 "attrParams": {},
-                "body": "Testing carousel 123",
+                "body": "GIF template",
                 "carousel": [
                     
                 ],
@@ -92,7 +92,7 @@
                 "timestamp": "1765964657681",
                 "title": "Testing carousel  2233",
                 "trid": "140578-3092-661-0-251217151408",
-                "type": "GIF"
+                "type": "Gif"
             },
             "smtSrc": "Smartech",
             "smtUi": {
