@@ -15,7 +15,7 @@
                 "expiry": 1768456152,
                 "htBody": "<strong class=\"bold\">This</strong> is a <sup class=\"sup\">Image</sup> pn <sub class=\"sub\">test</sub> <span class=\"color\" style=\"color: #cca2a2;\">test</span> <span class=\"bgcolor\" style=\"background-color: #6ef167;\">tes</span>",
                 "htTitle": "<strong class=\"bold\">Image</strong> <sup class=\"sup\">pn</sup> <sub class=\"sub\">test</sub>",
-                "mediaUrl": "https://www.phonepe.com/webstatic/static/default-image-cf4bb5407be1a9d8c49eb9a502a245db.png",
+                "mediaUrl": "",
                 "pnMeta": {
                     "guid": "ee82b02e-9432-4120-a747-cb487f72385d"
                 },
@@ -28,7 +28,7 @@
                 "trid": "140578-3094-661-0-251218111925",
                 "type": "Image"
             },
-            "smtSrc": "Smartech",
+            "smtSrc": "Simple",
             "smtUi": {
                 "flid": 21,
                 "lid": 21
@@ -44,22 +44,7 @@
                 "attrParams": {},
                 "body": "Testing carousel 123",
                 "carousel": [
-                    {
-                        "callToAction": "deeplink",
-                        "imgDeeplink": "1?__sta_linkid=79&__stm_id=3093&__sta=%7CUBFU&__stm_medium=apn&__stm_source=smartech",
-                        "imgMsg": "1",
-                        "imgSource": "url",
-                        "imgTitle": "1",
-                        "imgUrl": "https://www.phonepe.com/webstatic/static/default-image-cf4bb5407be1a9d8c49eb9a502a245db.png"
-                    },
-                    {
-                        "callToAction": "deeplink",
-                        "imgDeeplink": "2?__sta_linkid=80&__stm_id=3093&__sta=%7CUBFU&__stm_medium=apn&__stm_source=smartech",
-                        "imgMsg": "2",
-                        "imgSource": "url",
-                        "imgTitle": "2",
-                        "imgUrl": ""
-                    }
+    
                 ],
                 "deeplink": "",
                 "expiry": 1768384035,
@@ -92,26 +77,11 @@
                 "attrParams": {},
                 "body": "Testing carousel 123",
                 "carousel": [
-                    {
-                        "callToAction": "deeplink",
-                        "imgDeeplink": "1?__sta_linkid=79&__stm_id=3092&__sta=%7CVBFU&__stm_medium=apn&__stm_source=smartech",
-                        "imgMsg": "1",
-                        "imgSource": "url",
-                        "imgTitle": "1",
-                        "imgUrl": "https://www.phonepe.com/webstatic/static/default-image-cf4bb5407be1a9d8c49eb9a502a245db.png"
-                    },
-                    {
-                        "callToAction": "deeplink",
-                        "imgDeeplink": "2?__sta_linkid=80&__stm_id=3092&__sta=%7CVBFU&__stm_medium=apn&__stm_source=smartech",
-                        "imgMsg": "2",
-                        "imgSource": "url",
-                        "imgTitle": "2",
-                        "imgUrl": "https://images.unsplash.com/photo-1514449372970-c013485804bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2ltcGxlJTIwbGFuZHNjYXBlfGVufDB8fDB8fA%3D%3D&w=1000&q=80.jpg"
-                    }
+                    
                 ],
                 "deeplink": "",
                 "expiry": 1768383732,
-                "mediaUrl": "https://cdn.pixabay.com/photo/2023/04/05/12/37/town-7901424_1280.jpg",
+                "mediaUrl": "https://www.easygifanimator.net/images/samples/sparkles.gif",
                 "pnMeta": {
                     "guid": "ee82b02e-9432-4120-a747-cb487f72385d"
                 },
@@ -122,7 +92,7 @@
                 "timestamp": "1765964657681",
                 "title": "Testing carousel  2233",
                 "trid": "140578-3092-661-0-251217151408",
-                "type": "Image"
+                "type": "GIF"
             },
             "smtSrc": "Smartech",
             "smtUi": {
@@ -140,26 +110,10 @@
                 "attrParams": {},
                 "body": "Testing carousel 123",
                 "carousel": [
-                    {
-                        "callToAction": "deeplink",
-                        "imgDeeplink": "1?__sta_linkid=79&__stm_id=3091&__sta=%7CIBFU&__stm_medium=apn&__stm_source=smartech",
-                        "imgMsg": "1",
-                        "imgSource": "url",
-                        "imgTitle": "1",
-                        "imgUrl": "https://www.phonepe.com/webstatic/static/default-image-cf4bb5407be1a9d8c49eb9a502a245db.png"
-                    },
-                    {
-                        "callToAction": "deeplink",
-                        "imgDeeplink": "2?__sta_linkid=80&__stm_id=3091&__sta=%7CIBFU&__stm_medium=apn&__stm_source=smartech",
-                        "imgMsg": "2",
-                        "imgSource": "url",
-                        "imgTitle": "2",
-                        "imgUrl": "https://images.unsplash.com/photo-1514449372970-c013485804bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2ltcGxlJTIwbGFuZHNjYXBlfGVufDB8fDB8fA%3D%3D&w=1000&q=80.jpg"
-                    }
                 ],
                 "deeplink": "",
                 "expiry": 1768382771,
-                "mediaUrl": "https://cdnt.netcoresmartech.com/smartechapp-sdk/demo-assets/maps/demo-image-110.png",
+                "mediaUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/GalaxyInvaders/theme_01.mp3",
                 "pnMeta": {
                     "guid": "ee82b02e-9432-4120-a747-cb487f72385d"
                 },
@@ -170,7 +124,7 @@
                 "timestamp": "1765963662816",
                 "title": "Testing carousel  2233",
                 "trid": "140578-3091-661-0-251217145734",
-                "type": "Image"
+                "type": "Audio"
             },
             "smtSrc": "Smartech",
             "smtUi": {
@@ -218,7 +172,7 @@
                 "timestamp": "1765963487836",
                 "title": "Testing carousel  2233",
                 "trid": "140578-3090-661-0-251217145440",
-                "type": "Image"
+                "type": "CarouselLandscape"
             },
             "smtSrc": "Smartech",
             "smtUi": {
@@ -255,7 +209,7 @@
                 ],
                 "deeplink": "",
                 "expiry": 1768382289,
-                "mediaUrl": "https://images.unsplash.com/photo-1514449372970-c013485804bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2ltcGxlJTIwbGFuZHNjYXBlfGVufDB8fDB8fA%3D%3D&w=1000&q=80.jpg",
+                "mediaUrl": "",
                 "pnMeta": {
                     "guid": "ee82b02e-9432-4120-a747-cb487f72385d"
                 },
@@ -266,7 +220,7 @@
                 "timestamp": "1765963226972",
                 "title": "Testing carousel  2233",
                 "trid": "140578-3089-661-0-251217145020",
-                "type": "Image"
+                "type": "CarouselPortrait"
             },
             "smtSrc": "Smartech",
             "smtUi": {
@@ -284,22 +238,7 @@
                 "attrParams": {},
                 "body": "Testing carousel 123",
                 "carousel": [
-                    {
-                        "callToAction": "deeplink",
-                        "imgDeeplink": "1?__sta_linkid=79&__stm_id=3088&__sta=%7CQQFU&__stm_medium=apn&__stm_source=smartech",
-                        "imgMsg": "1",
-                        "imgSource": "url",
-                        "imgTitle": "1",
-                        "imgUrl": "https://www.phonepe.com/webstatic/static/default-image-cf4bb5407be1a9d8c49eb9a502a245db.png"
-                    },
-                    {
-                        "callToAction": "deeplink",
-                        "imgDeeplink": "2?__sta_linkid=80&__stm_id=3088&__sta=%7CQQFU&__stm_medium=apn&__stm_source=smartech",
-                        "imgMsg": "2",
-                        "imgSource": "url",
-                        "imgTitle": "2",
-                        "imgUrl": "https://images.unsplash.com/photo-1514449372970-c013485804bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2ltcGxlJTIwbGFuZHNjYXBlfGVufDB8fDB8fA%3D%3D&w=1000&q=80.jpg"
-                    }
+                    
                 ],
                 "deeplink": "",
                 "expiry": 1768369811,
@@ -314,7 +253,7 @@
                 "timestamp": "1765950671247",
                 "title": "Testing carousel  2233",
                 "trid": "140578-3088-661-0-251217112103",
-                "type": "Image"
+                "type": "Simple"
             },
             "smtSrc": "Smartech",
             "smtUi": {
@@ -332,22 +271,7 @@
                 "attrParams": {},
                 "body": "Testing carousel 123",
                 "carousel": [
-                    {
-                        "callToAction": "deeplink",
-                        "imgDeeplink": "1?__sta_linkid=79&__stm_id=3087&__sta=%7CTQFU&__stm_medium=apn&__stm_source=smartech",
-                        "imgMsg": "1",
-                        "imgSource": "url",
-                        "imgTitle": "1",
-                        "imgUrl": "https://www.phonepe.com/webstatic/static/default-image-cf4bb5407be1a9d8c49eb9a502a245db.png"
-                    },
-                    {
-                        "callToAction": "deeplink",
-                        "imgDeeplink": "2?__sta_linkid=80&__stm_id=3087&__sta=%7CTQFU&__stm_medium=apn&__stm_source=smartech",
-                        "imgMsg": "2",
-                        "imgSource": "url",
-                        "imgTitle": "2",
-                        "imgUrl": "https://images.unsplash.com/photo-1514449372970-c013485804bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2ltcGxlJTIwbGFuZHNjYXBlfGVufDB8fDB8fA%3D%3D&w=1000&q=80.jpg"
-                    }
+                    
                 ],
                 "deeplink": "",
                 "expiry": 1768369390,
@@ -380,26 +304,11 @@
                 "attrParams": {},
                 "body": "Testing carousel 123",
                 "carousel": [
-                    {
-                        "callToAction": "deeplink",
-                        "imgDeeplink": "1?__sta_linkid=79&__stm_id=3086&__sta=%7CYQFU&__stm_medium=apn&__stm_source=smartech",
-                        "imgMsg": "1",
-                        "imgSource": "url",
-                        "imgTitle": "1",
-                        "imgUrl": "https://www.phonepe.com/webstatic/static/default-image-cf4bb5407be1a9d8c49eb9a502a245db.png"
-                    },
-                    {
-                        "callToAction": "deeplink",
-                        "imgDeeplink": "2?__sta_linkid=80&__stm_id=3086&__sta=%7CYQFU&__stm_medium=apn&__stm_source=smartech",
-                        "imgMsg": "2",
-                        "imgSource": "url",
-                        "imgTitle": "2",
-                        "imgUrl": "https://images.unsplash.com/photo-1514449372970-c013485804bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2ltcGxlJTIwbGFuZHNjYXBlfGVufDB8fDB8fA%3D%3D&w=1000&q=80.jpg"
-                    }
+                    
                 ],
                 "deeplink": "",
                 "expiry": 1768369092,
-                "mediaUrl": "https://cdnt.netcoresmartech.com/smartechapp-sdk/demo-assets/maps/demo-image-110.png",
+                "mediaUrl": "https://www.easygifanimator.net/images/samples/sparkles.gif",
                 "pnMeta": {
                     "guid": "ee82b02e-9432-4120-a747-cb487f72385d"
                 },
@@ -410,7 +319,7 @@
                 "timestamp": "1765949990290",
                 "title": "Testing carousel  2233",
                 "trid": "140578-3086-661-0-251217110941",
-                "type": "Image"
+                "type": "GIF"
             },
             "smtSrc": "Smartech",
             "smtUi": {
@@ -447,7 +356,7 @@
                 ],
                 "deeplink": "",
                 "expiry": 1768368981,
-                "mediaUrl": "https://www.phonepe.com/webstatic/static/default-image-cf4bb5407be1a9d8c49eb9a502a245db.png",
+                "mediaUrl": "",
                 "pnMeta": {
                     "guid": "ee82b02e-9432-4120-a747-cb487f72385d"
                 },
@@ -458,7 +367,7 @@
                 "timestamp": "1765949811139",
                 "title": "Testing carousel  2233",
                 "trid": "140578-3085-661-0-251217110633",
-                "type": "Image"
+                "type": "carousellandscape"
             },
             "smtSrc": "Smartech",
             "smtUi": {
@@ -478,7 +387,7 @@
                 "carousel": [],
                 "deeplink": "",
                 "expiry": 1768309043,
-                "mediaUrl": "https://images.unsplash.com/photo-1514449372970-c013485804bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2ltcGxlJTIwbGFuZHNjYXBlfGVufDB8fDB8fA%3D%3D&w=1000&q=80.jpg",
+                "mediaUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/GalaxyInvaders/theme_01.mp3",
                 "pnMeta": {
                     "guid": "ee82b02e-9432-4120-a747-cb487f72385d"
                 },
@@ -489,7 +398,7 @@
                 "timestamp": "1765890190556",
                 "title": "Testing image",
                 "trid": "140578-3083-661-0-251216183250",
-                "type": "Image"
+                "type": "Audio"
             },
             "smtSrc": "Smartech",
             "smtUi": {
