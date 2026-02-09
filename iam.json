@@ -1,7 +1,7 @@
 {
   "InAppRuleList": [
     {
-      "id": "821",
+      "id": "840",
       "toDate": "2027-12-30T07:45:24",
       "fromDate": "2026-02-09T06:56:45",
       "skipGlobalFreqCap": true,
