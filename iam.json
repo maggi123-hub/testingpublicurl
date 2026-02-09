@@ -4,6 +4,7 @@
       "id": "821",
       "toDate": "2027-12-30T07:45:24",
       "fromDate": "2026-02-09T06:56:45",
+      "skipGlobalFreqCap": true,
       "whomTo": {
         "everyone": "everyone",
         "eventList": 103,
@@ -16,7 +17,9 @@
           "from": "09:00",
           "to": "21:00"
         },
-        "spentTime": "0"
+        "spentTime": "0",
+        "frequencyType": "day",
+        "frequency": "1",
       },
       "whatTo": "clientid=140578&id=821",
       "contentType": 2,
