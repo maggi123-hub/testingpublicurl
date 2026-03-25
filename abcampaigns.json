@@ -1,7 +1,7 @@
 {
   "iamRules_v1": [
       {
-          "id": 1126,
+          "id": 1127,
           "v": 1,
           "priority": 1,
           "campaignName": "Diwali Banner",
@@ -23,7 +23,7 @@
                       "filters": [
                           {
                               "key": "company",
-                              "operator": "is",
+                              "operator": "contains",
                               "dataType": "string",
                               "value": "Apple"
                           }
@@ -127,18 +127,18 @@
                       "filters": {
                           "include": {
                               "segIds": [
-                                  23
+                                  
                               ],
                               "listIds": [
-                                  20
+                                  
                               ]
                           },
                           "exclude": {
                               "segIds": [
-                                  31
+                                  
                               ],
                               "listIds": [
-                                  29
+                                 
                               ]
                           }
                       },
@@ -154,7 +154,7 @@
                                   "filters": [
                                       {
                                           "key": "product.name",
-                                          "operator": "is",
+                                          "operator": "contains",
                                           "dataType": "string",
                                           "value": "iPhone"
                                       }
@@ -175,7 +175,7 @@
                       "layoutType": "header",
                       "variant": "1000-20000",
                       "attrIds": [
-                          5
+                          
                       ],
                       "payload": {
                           "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/1125-A.html?inappVer=1",
