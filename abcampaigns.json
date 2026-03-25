@@ -1,7 +1,7 @@
 {
   "iamRules_v1": [
       {
-          "id": 1127,
+          "id": 1128,
           "v": 1,
           "priority": 1,
           "campaignName": "Diwali Banner",
@@ -178,7 +178,7 @@
                           
                       ],
                       "payload": {
-                          "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/1125-A.html?inappVer=1",
+                          "url": "https://cdndc.netcoresmartech.com/pod/90181/in-app-content/templates/t-s-44.html?inappVer=1",
                           "useFullscreen": 1
                       }
                   },
@@ -190,7 +190,7 @@
                       "variant": "20001-40000",
                       "attrIds": [],
                       "payload": {
-                          "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/1125-B.html?inappVer=1",
+                          "url": "https://cdndc.netcoresmartech.com/pod/90181/in-app-content/templates/t-s-44.html?inappVer=1",
                           "useFullscreen": 1
                       }
                   }
