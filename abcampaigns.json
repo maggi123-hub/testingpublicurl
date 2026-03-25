@@ -1,7 +1,7 @@
 {
   "iamRules_v1": [
       {
-          "id": 1125,
+          "id": 1126,
           "v": 1,
           "priority": 1,
           "campaignName": "Diwali Banner",
@@ -22,7 +22,7 @@
                       "filterType": "all",
                       "filters": [
                           {
-                              "key": "name",
+                              "key": "company",
                               "operator": "is",
                               "dataType": "string",
                               "value": "Apple"
@@ -36,10 +36,10 @@
                       "filterType": "all",
                       "filters": [
                           {
-                              "key": "product[].url",
+                              "key": "product[].color",
                               "operator": "contains",
                               "dataType": "string",
-                              "value": "www"
+                              "value": "space"
                           }
                       ]
                   }
