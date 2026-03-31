@@ -1,7 +1,7 @@
 {
     "iamRules_v1": [
         {
-            "id": 1129,
+            "id": 1131,
             "v": 1,
             "priority": 1,
             "campaignName": "Krutika Test 1",
@@ -105,7 +105,7 @@
             "whomTo": {
                 "guid": [],
                 "controlGroup": 99,
-                "controlGroupMid": 1129,
+                "controlGroupMid": 1131,
                 "audience": [
                     {
                         "audienceId": 124,
@@ -134,7 +134,7 @@
                                             "key": "product[].price",
                                             "operator": "<=",
                                             "dataType": "int",
-                                            "value": "120"
+                                            "value": "120000"
                                         }
                                     ]
                                 }
@@ -147,7 +147,7 @@
                 "winner": "",
                 "content": [
                     {
-                        "mid": 1125,
+                        "mid": 1131,
                         "audienceId": 124,
                         "contentId": "1125-A",
                         "layoutType": "header",
@@ -159,7 +159,7 @@
                         }
                     },
                     {
-                        "mid": 1126,
+                        "mid": 1131,
                         "audienceId": 124,
                         "contentId": "1125-B",
                         "layoutType": "footer",
@@ -184,7 +184,7 @@
             }
         },
         {
-            "id": 1130,
+            "id": 1132,
             "v": 1,
             "priority": 1,
             "campaignName": "Krutika Test 2",
@@ -288,7 +288,7 @@
             "whomTo": {
                 "guid": [],
                 "controlGroup": 20,
-                "controlGroupMid": 1130,
+                "controlGroupMid": 1132,
                 "audience": [
                     {
                         "audienceId": 125,
@@ -313,7 +313,7 @@
                 "winner": "",
                 "content": [
                     {
-                        "mid": 1130,
+                        "mid": 1132,
                         "audienceId": 125,
                         "contentId": "1125-A",
                         "layoutType": "header",
@@ -325,7 +325,7 @@
                         }
                     },
                     {
-                        "mid": 1130,
+                        "mid": 1132,
                         "audienceId": 126,
                         "contentId": "1125-B",
                         "layoutType": "footer",
