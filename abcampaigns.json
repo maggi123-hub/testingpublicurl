@@ -1,286 +1,428 @@
 {
-  "iamRules_v1": [
-      {
-          "id": 1128,
-          "v": 1,
-          "priority": 1,
-          "campaignName": "Diwali Banner",
-          "campaignType": "regular",
-          "status": "running",
-          "frequencyType": "",
-          "frequency": "0",
-          "os": "android",
-          "toDate": "2027-12-30T07:45:24Z",
-          "fromDate": "2025-05-19T12:11:23Z",
-          "modifiedDate": "2025-05-19T12:11:28Z",
-          "whereTo": {
-              "multiTrigger": [
-                  {
-                      "eventId": 102,
-                      "eventName": "add_to_cart",
-                      "delay": 5,
-                      "filterType": "all",
-                      "filters": [
-                          {
-                              "key": "company",
-                              "operator": "contains",
-                              "dataType": "string",
-                              "value": "Apple"
-                          }
-                      ]
-                  },
-                  {
-                      "eventId": 3,
-                      "eventName": "Checkout",
-                      "delay": 7,
-                      "filterType": "all",
-                      "filters": [
-                          {
-                              "key": "product[].color",
-                              "operator": "contains",
-                              "dataType": "string",
-                              "value": "space"
-                          }
-                      ]
-                  }
-              ]
-          },
-          "whenTo": {
-              "schedule": [
-                  {
-                      "day": 0,
-                      "time": [
-                          {
-                              "from": "09:00",
-                              "to": "13:00"
-                          },
-                          {
-                              "from": "14:00",
-                              "to": "19:00"
-                          }
-                      ]
-                  },
-                  {
-                      "day": 1,
-                      "time": [
-                          {
-                              "from": "09:00",
-                              "to": "21:00"
-                          }
-                      ]
-                  },
-                  {
-                      "day": 2,
-                      "time": [
-                          {
-                              "from": "09:00",
-                              "to": "21:00"
-                          }
-                      ]
-                  },
-                  {
-                      "day": 3,
-                      "time": [
-                          {
-                              "from": "09:00",
-                              "to": "21:00"
-                          }
-                      ]
-                  },
-                  {
-                      "day": 4,
-                      "time": [
-                          {
-                              "from": "09:00",
-                              "to": "21:00"
-                          }
-                      ]
-                  },
-                  {
-                      "day": 5,
-                      "time": [
-                          {
-                              "from": "09:00",
-                              "to": "21:00"
-                          }
-                      ]
-                  },
-                  {
-                      "day": 6,
-                      "time": [
-                          {
-                              "from": "09:00",
-                              "to": "21:00"
-                          }
-                      ]
-                  }
-              ]
-          },
-          "whomTo": {
-              "guid": [],
-              "controlGroup": 0,
-              "controlGroupMid": 1127,
-              "audience": [
-                  {
-                      "audienceId": 123,
-                      "priority": 1,
-                      "filters": {
-                          "include": {
-                              "segIds": [
-                                  
-                              ],
-                              "listIds": [
-                                  
-                              ]
-                          },
-                          "exclude": {
-                              "segIds": [
-                                  
-                              ],
-                              "listIds": [
-                                 
-                              ]
-                          }
-                      },
-                      "events": {
-                          "targetRule": "all",
-                          "rules": [
-                              {
-                                  "eventId": 111,
-                                  "eventName": "product_view",
-                                  "performed": "yes",
-                                  "waitUntil": null,
-                                  "filterType": "all",
-                                  "filters": [
-                                      {
-                                          "key": "product.name",
-                                          "operator": "contains",
-                                          "dataType": "string",
-                                          "value": "iPhone"
-                                      }
-                                  ]
-                              }
-                          ]
-                      }
-                  }
-              ]
-          },
-          "whatTo": {
-              "winner": "1125-A",
-              "content": [
-                  {
-                      "mid": 1125,
-                      "audienceId": 123,
-                      "contentId": "1125-A",
-                      "layoutType": "header",
-                      "variant": "1000-20000",
-                      "attrIds": [
-                          
-                      ],
-                      "payload": {
-                          "url": "https://cdndc.netcoresmartech.com/pod/90181/in-app-content/templates/t-s-44.html?inappVer=1",
-                          "useFullscreen": 1
-                      }
-                  },
-                  {
-                      "mid": 1126,
-                      "audienceId": 123,
-                      "contentId": "1125-B",
-                      "layoutType": "footer",
-                      "variant": "20001-40000",
-                      "attrIds": [],
-                      "payload": {
-                          "url": "https://cdndc.netcoresmartech.com/pod/90181/in-app-content/templates/t-s-44.html?inappVer=1",
-                          "useFullscreen": 1
-                      }
-                  }
-              ],
-              "customKeyValue": {
-                  "country": "IN",
-                  "language": "EN"
-              },
-              "gaParams": {
-                  "utm_source": "Netcore",
-                  "utm_campaign": "Bha test filters",
-                  "utm_medium": "In-app",
-                  "utm_content": ""
-              }
-          }
-      }
-  ],
-  "testInAppRules": [],
-  "smartechSettings": {
-      "paEnabled": true,
-      "appInboxEnabled": true,
-      "paInterval": 60,
-      "sdkActive": true,
-      "sessionInterval": 30,
-      "batchInterval": 10,
-      "batchSize": 30,
-      "td": {
-          "guids": [
-              "2d824bc9-8a2f-4839-bccb-196e33488192",
-              "a5316eb2-cc40-4a2f-9183-275a5f5b1f8e"
-          ],
-          "logEnabled": false,
-          "logLevel": 1
-      },
-      "eventSettings": {
-          "allevents": true,
-          "lifecycle": true,
-          "push": true,
-          "inapp": true,
-          "appinbox": true
-      },
-      "panelActive": true,
-      "eventLimit": 200,
-      "frequency": {
-          "enable": 1,
-          "month": 0,
-          "week": 0,
-          "day": 150
-      },
-      "baseUrls": {
-          "trackAppActUrl": "https://npn.netcoresmartech.com/",
-          "pushAmpUrl": "https://pa.netcoresmartech.com/",
-          "inAppUrl": "https://ninapp.netcoresmartech.com/",
-          "inboxUrl": "https://appinbox.netcoresmartech.com/",
-          "listSegUrl": "https://psegment-us.netcoresmartech.com/",
-          "testDeviceUrl": "https://api.netcoresmartech.com/",
-          "contentPzUrl": "https://app-cpz.netcoresmartech.com/prod/"
-      },
-      "features": {
-          "contentPz": {
-              "enabled": true,
-              "syncInterval": 0
-          }
-      },
-      "hansel_api_endpoints": {
-          "get_data": "https://ujm.hansel.io/ujm/v1/data/<os>/<app_id>/<rv>/",
-          "add_events": "https://sdk.hansel.io/dashboard/event/v1/<app_id>/",
-          "td_auth": "https://sdk.hansel.io/dashboard/td/verify",
-          "init_sdk": "https://sdk.hansel.io/dashboard/sdk/v1/init/<os>/<app_id>/",
-          "req_sesid": "https://sdk.hansel.io/dashboard/visualizer/request_session",
-          "socket": "wss://websocket-visualizer.hansel.io",
-          "populate_data": "https://sdk.hansel.io/dashboard/populatedata/v1/<app_id>/"
-      },
-      "userAttrConfig": {
-          "enabled": true,
-          "syncInterval": 30,
-          "attrIds": []
-      },
-      "cid": "140578",
-      "gwConfig": {
-          "xiaomi": {
-              "enable": false,
-              "enablePushFor": null,
-              "tokenSendInterval": 60
-          }
-      },
-      "sConfig": {
-          "etData": false,
-          "p": "XCb29K4fztFC5BHG0pLgteQTyw7QLUDJxOLGzQW9jBMpct5dSRtl6kfEQmuCh8lO",
-          "a": ""
-      }
-  }
+    "iamRules_v1": [
+        {
+            "id": 1129,
+            "v": 1,
+            "priority": 1,
+            "campaignName": "Krutika Test 1",
+            "campaignType": "regular",
+            "status": "running",
+            "frequencyType": "",
+            "frequency": "0",
+            "os": "android",
+            "toDate": "2027-12-30T07:45:24Z",
+            "fromDate": "2025-05-19T12:11:23Z",
+            "modifiedDate": "2025-05-19T12:11:28Z",
+            "whereTo": {
+                "multiTrigger": [
+                    {
+                        "eventId": 102,
+                        "eventName": "add_to_cart",
+                        "delay": 2,
+                        "filterType": "all",
+                        "filters": []
+                    },
+                    {
+                        "eventId": 104,
+                        "eventName": "expiry_cart",
+                        "delay": 2,
+                        "filterType": "all",
+                        "filters": []
+                    }
+                ]
+            },
+            "whenTo": {
+                "schedule": [
+                    {
+                        "day": 0,
+                        "time": [
+                            {
+                                "from": "09:00",
+                                "to": "13:00"
+                            },
+                            {
+                                "from": "14:00",
+                                "to": "19:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": 1,
+                        "time": [
+                            {
+                                "from": "09:00",
+                                "to": "21:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": 2,
+                        "time": [
+                            {
+                                "from": "09:00",
+                                "to": "21:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": 3,
+                        "time": [
+                            {
+                                "from": "09:00",
+                                "to": "21:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": 4,
+                        "time": [
+                            {
+                                "from": "09:00",
+                                "to": "21:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": 5,
+                        "time": [
+                            {
+                                "from": "09:00",
+                                "to": "21:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": 6,
+                        "time": [
+                            {
+                                "from": "09:00",
+                                "to": "21:00"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "whomTo": {
+                "guid": [],
+                "controlGroup": 99,
+                "controlGroupMid": 1129,
+                "audience": [
+                    {
+                        "audienceId": 124,
+                        "priority": 1,
+                        "filters": {
+                            "include": {
+                                "segIds": [],
+                                "listIds": []
+                            },
+                            "exclude": {
+                                "segIds": [],
+                                "listIds": []
+                            }
+                        },
+                        "events": {
+                            "targetRule": "all",
+                            "rules": [
+                                {
+                                    "eventId": 112,
+                                    "eventName": "product_purchase",
+                                    "performed": "yes",
+                                    "waitUntil": 5,
+                                    "filterType": "all",
+                                    "filters": [
+                                        {
+                                            "key": "product[].price",
+                                            "operator": "<=",
+                                            "dataType": "int",
+                                            "value": "120"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "whatTo": {
+                "winner": "",
+                "content": [
+                    {
+                        "mid": 1125,
+                        "audienceId": 124,
+                        "contentId": "1125-A",
+                        "layoutType": "header",
+                        "variant": "1000-20000",
+                        "attrIds": [],
+                        "payload": {
+                            "url": "https://cdndc.netcoresmartech.com/pod/90181/in-app-content/templates/t-s-44.html?inappVer=1",
+                            "useFullscreen": 1
+                        }
+                    },
+                    {
+                        "mid": 1126,
+                        "audienceId": 124,
+                        "contentId": "1125-B",
+                        "layoutType": "footer",
+                        "variant": "20001-40000",
+                        "attrIds": [],
+                        "payload": {
+                            "url": "https://cdndc.netcoresmartech.com/pod/90181/in-app-content/templates/t-s-44.html?inappVer=1",
+                            "useFullscreen": 1
+                        }
+                    }
+                ],
+                "customKeyValue": {
+                    "country": "IN",
+                    "language": "EN"
+                },
+                "gaParams": {
+                    "utm_source": "Netcore",
+                    "utm_campaign": "Bha test filters",
+                    "utm_medium": "In-app",
+                    "utm_content": ""
+                }
+            }
+        },
+        {
+            "id": 1130,
+            "v": 1,
+            "priority": 1,
+            "campaignName": "Krutika Test 2",
+            "campaignType": "regular",
+            "status": "running",
+            "frequencyType": "",
+            "frequency": "0",
+            "os": "android",
+            "toDate": "2027-12-30T07:45:24Z",
+            "fromDate": "2025-05-19T12:11:23Z",
+            "modifiedDate": "2025-05-19T12:11:28Z",
+            "whereTo": {
+                "multiTrigger": [
+                    {
+                        "eventId": 102,
+                        "eventName": "add_to_wishlist",
+                        "delay": 2,
+                        "filterType": "all",
+                        "filters": []
+                    },
+                    {
+                        "eventId": 104,
+                        "eventName": "product_purchase",
+                        "delay": 2,
+                        "filterType": "all",
+                        "filters": []
+                    }
+                ]
+            },
+            "whenTo": {
+                "schedule": [
+                    {
+                        "day": 0,
+                        "time": [
+                            {
+                                "from": "09:00",
+                                "to": "13:00"
+                            },
+                            {
+                                "from": "14:00",
+                                "to": "19:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": 1,
+                        "time": [
+                            {
+                                "from": "09:00",
+                                "to": "21:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": 2,
+                        "time": [
+                            {
+                                "from": "09:00",
+                                "to": "21:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": 3,
+                        "time": [
+                            {
+                                "from": "09:00",
+                                "to": "21:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": 4,
+                        "time": [
+                            {
+                                "from": "09:00",
+                                "to": "21:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": 5,
+                        "time": [
+                            {
+                                "from": "09:00",
+                                "to": "21:00"
+                            }
+                        ]
+                    },
+                    {
+                        "day": 6,
+                        "time": [
+                            {
+                                "from": "09:00",
+                                "to": "21:00"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "whomTo": {
+                "guid": [],
+                "controlGroup": 20,
+                "controlGroupMid": 1130,
+                "audience": [
+                    {
+                        "audienceId": 125,
+                        "priority": 1,
+                        "filters": {
+                            "include": {
+                                "segIds": [],
+                                "listIds": []
+                            },
+                            "exclude": {
+                                "segIds": [],
+                                "listIds": []
+                            }
+                        },
+                        "events": {
+                            "targetRule": "all"
+                        }
+                    }
+                ]
+            },
+            "whatTo": {
+                "winner": "",
+                "content": [
+                    {
+                        "mid": 1130,
+                        "audienceId": 125,
+                        "contentId": "1125-A",
+                        "layoutType": "header",
+                        "variant": "1000-20000",
+                        "attrIds": [],
+                        "payload": {
+                            "url": "https://cdndc.netcoresmartech.com/pod/90181/in-app-content/templates/t-s-44.html?inappVer=1",
+                            "useFullscreen": 1
+                        }
+                    },
+                    {
+                        "mid": 1130,
+                        "audienceId": 126,
+                        "contentId": "1125-B",
+                        "layoutType": "footer",
+                        "variant": "20001-40000",
+                        "attrIds": [],
+                        "payload": {
+                            "url": "https://cdndc.netcoresmartech.com/pod/90181/in-app-content/templates/t-s-44.html?inappVer=1",
+                            "useFullscreen": 1
+                        }
+                    }
+                ],
+                "customKeyValue": {
+                    "country": "IN",
+                    "language": "EN"
+                },
+                "gaParams": {
+                    "utm_source": "Netcore",
+                    "utm_campaign": "Bha test filters",
+                    "utm_medium": "In-app",
+                    "utm_content": ""
+                }
+            }
+        }
+    ],
+    "testInAppRules": [],
+    "smartechSettings": {
+        "paEnabled": true,
+        "appInboxEnabled": true,
+        "paInterval": 60,
+        "sdkActive": true,
+        "sessionInterval": 30,
+        "batchInterval": 10,
+        "batchSize": 30,
+        "td": {
+            "guids": [
+                "2d824bc9-8a2f-4839-bccb-196e33488192",
+                "a5316eb2-cc40-4a2f-9183-275a5f5b1f8e"
+            ],
+            "logEnabled": false,
+            "logLevel": 1
+        },
+        "eventSettings": {
+            "allevents": true,
+            "lifecycle": true,
+            "push": true,
+            "inapp": true,
+            "appinbox": true
+        },
+        "panelActive": true,
+        "eventLimit": 200,
+        "frequency": {
+            "enable": 1,
+            "month": 0,
+            "week": 0,
+            "day": 150
+        },
+        "baseUrls": {
+            "trackAppActUrl": "https://npn.netcoresmartech.com/",
+            "pushAmpUrl": "https://pa.netcoresmartech.com/",
+            "inAppUrl": "https://ninapp.netcoresmartech.com/",
+            "inboxUrl": "https://appinbox.netcoresmartech.com/",
+            "listSegUrl": "https://psegment-us.netcoresmartech.com/",
+            "testDeviceUrl": "https://api.netcoresmartech.com/",
+            "contentPzUrl": "https://app-cpz.netcoresmartech.com/prod/"
+        },
+        "features": {
+            "contentPz": {
+                "enabled": true,
+                "syncInterval": 0
+            }
+        },
+        "hansel_api_endpoints": {
+            "get_data": "https://ujm.hansel.io/ujm/v1/data/<os>/<app_id>/<rv>/",
+            "add_events": "https://sdk.hansel.io/dashboard/event/v1/<app_id>/",
+            "td_auth": "https://sdk.hansel.io/dashboard/td/verify",
+            "init_sdk": "https://sdk.hansel.io/dashboard/sdk/v1/init/<os>/<app_id>/",
+            "req_sesid": "https://sdk.hansel.io/dashboard/visualizer/request_session",
+            "socket": "wss://websocket-visualizer.hansel.io",
+            "populate_data": "https://sdk.hansel.io/dashboard/populatedata/v1/<app_id>/"
+        },
+        "userAttrConfig": {
+            "enabled": true,
+            "syncInterval": 30,
+            "attrIds": []
+        },
+        "cid": "140578",
+        "gwConfig": {
+            "xiaomi": {
+                "enable": false,
+                "enablePushFor": null,
+                "tokenSendInterval": 60
+            }
+        },
+        "sConfig": {
+            "etData": false,
+            "p": "XCb29K4fztFC5BHG0pLgteQTyw7QLUDJxOLGzQW9jBMpct5dSRtl6kfEQmuCh8lO",
+            "a": ""
+        }
+    }
 }
