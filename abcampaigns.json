@@ -18,14 +18,14 @@
                     {
                         "eventId": 102,
                         "eventName": "add_to_cart",
-                        "delay": 2,
+                        "delay": 0,
                         "filterType": "all",
                         "filters": []
                     },
                     {
                         "eventId": 104,
                         "eventName": "expiry_cart",
-                        "delay": 2,
+                        "delay": 0,
                         "filterType": "all",
                         "filters": []
                     }
@@ -104,7 +104,7 @@
             },
             "whomTo": {
                 "guid": [],
-                "controlGroup": 99,
+                "controlGroup": 0,
                 "controlGroupMid": 1131,
                 "audience": [
                     {
@@ -287,7 +287,7 @@
             },
             "whomTo": {
                 "guid": [],
-                "controlGroup": 20,
+                "controlGroup": 0,
                 "controlGroupMid": 1132,
                 "audience": [
                     {
