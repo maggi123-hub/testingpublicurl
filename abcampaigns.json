@@ -1,10 +1,10 @@
 {
     "iamRules_v1": [
         {
-            "id": 1131,
+            "id": 1141,
             "v": 1,
             "priority": 1,
-            "campaignName": "Krutika Test 1",
+            "campaignName": "Krutika Test 1141",
             "campaignType": "regular",
             "status": "running",
             "frequencyType": "",
@@ -104,11 +104,11 @@
             },
             "whomTo": {
                 "guid": [],
-                "controlGroup": 0,
-                "controlGroupMid": 1131,
+                "controlGroup": 99,
+                "controlGroupMid": 1141,
                 "audience": [
                     {
-                        "audienceId": 124,
+                        "audienceId": 1234,
                         "priority": 1,
                         "filters": {
                             "include": {
@@ -147,27 +147,25 @@
                 "winner": "",
                 "content": [
                     {
-                        "mid": 1131,
-                        "audienceId": 124,
+                        "mid": 1141,
+                        "audienceId": 1234,
                         "contentId": "1125-A",
                         "layoutType": "header",
                         "variant": "1000-20000",
                         "attrIds": [],
                         "payload": {
-                            "url": "https://cdndc.netcoresmartech.com/pod/90181/in-app-content/templates/t-s-44.html?inappVer=1",
-                            "useFullscreen": 1
+                            "url": "https://cdndc.netcoresmartech.com/pod/90181/in-app-content/templates/t-s-44.html?inappVer=1"
                         }
                     },
                     {
-                        "mid": 1131,
-                        "audienceId": 124,
+                        "mid": 1141,
+                        "audienceId": 12345,
                         "contentId": "1125-B",
                         "layoutType": "footer",
                         "variant": "20001-40000",
                         "attrIds": [],
                         "payload": {
-                            "url": "https://cdndc.netcoresmartech.com/pod/90181/in-app-content/templates/t-s-44.html?inappVer=1",
-                            "useFullscreen": 1
+                            "url": "https://cdndc.netcoresmartech.com/pod/90181/in-app-content/templates/t-s-44.html?inappVer=1"
                         }
                     }
                 ],
@@ -184,10 +182,10 @@
             }
         },
         {
-            "id": 1132,
+            "id": 1142,
             "v": 1,
             "priority": 1,
-            "campaignName": "Krutika Test 2",
+            "campaignName": "Krutika Test 1142",
             "campaignType": "regular",
             "status": "running",
             "frequencyType": "",
@@ -288,10 +286,10 @@
             "whomTo": {
                 "guid": [],
                 "controlGroup": 0,
-                "controlGroupMid": 1132,
+                "controlGroupMid": 1142,
                 "audience": [
                     {
-                        "audienceId": 125,
+                        "audienceId": 1245,
                         "priority": 1,
                         "filters": {
                             "include": {
@@ -313,7 +311,7 @@
                 "winner": "",
                 "content": [
                     {
-                        "mid": 1132,
+                        "mid": 1142,
                         "audienceId": 125,
                         "contentId": "1125-A",
                         "layoutType": "header",
@@ -325,7 +323,7 @@
                         }
                     },
                     {
-                        "mid": 1132,
+                        "mid": 1142,
                         "audienceId": 126,
                         "contentId": "1125-B",
                         "layoutType": "footer",
