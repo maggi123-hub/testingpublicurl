@@ -182,10 +182,10 @@
             }
         },
         {
-            "id": 1145,
+            "id": 1146,
             "v": 1,
             "priority": 1,
-            "campaignName": "Krutika Test 1145",
+            "campaignName": "Krutika Test 1146",
             "campaignType": "regular",
             "status": "running",
             "frequencyType": "",
@@ -324,14 +324,14 @@
                     },
                     {
                         "mid": 1145,
-                        "audienceId": 126,
+                        "audienceId": 1245,
                         "contentId": "1125-B",
                         "layoutType": "footer",
                         "variant": "20001-40000",
                         "attrIds": [],
                         "payload": {
-                            "url": "https://cdndc.netcoresmartech.com/pod/90181/in-app-content/templates/t-s-44.html?inappVer=1",
-                            "useFullscreen": 1
+                            "url": "https://cdndc.netcoresmartech.com/stg1/86211/in-app-content/templates/t-58.html?inappVer=1",
+                            "useFullscreen": 0
                         }
                     }
                 ],
