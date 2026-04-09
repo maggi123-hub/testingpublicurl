@@ -1,10 +1,10 @@
 {
     "iamRules_v1": [
         {
-            "id": 1149,
+            "id": 1150,
             "v": 1,
             "priority": 1,
-            "campaignName": "Krutika Test 1146",
+            "campaignName": "Krutika Test 1150",
             "campaignType": "regular",
             "status": "running",
             "frequencyType": "",
@@ -104,7 +104,7 @@
             },
             "whomTo": {
                 "guid": [],
-                "controlGroup": 99,
+                "controlGroup": 0,
                 "controlGroupMid": 1144,
                 "audience": [
                     {
@@ -146,6 +146,17 @@
             "whatTo": {
                 "winner": "",
                 "content": [
+                    {
+                        "mid": 1144,
+                        "audienceId": 1234,
+                        "contentId": "1125-A",
+                        "layoutType": "header",
+                        "variant": "50000-90000",
+                        "attrIds": [],
+                        "payload": {
+                            "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/846.html?inappVer=1"
+                        }
+                    },
                     {
                         "mid": 1144,
                         "audienceId": 1234,
