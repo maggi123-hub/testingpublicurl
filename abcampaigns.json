@@ -1,10 +1,10 @@
 {
     "iamRules_v1": [
         {
-            "id": 1151,
+            "id": 1152,
             "v": 1,
             "priority": 1,
-            "campaignName": "Krutika Test 1151",
+            "campaignName": "Krutika Test 1152",
             "campaignType": "regular",
             "status": "running",
             "frequencyType": "",
@@ -152,7 +152,7 @@
                         "contentId": "1125-A",
                         "layoutType": "header",
                         "variant": "1000-100000",
-                        "attrIds": [],
+                        "attrIds": [-1],
                         "payload": {
                             "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/846.html?inappVer=1"
                         }
@@ -361,77 +361,79 @@
     ],
     "testInAppRules": [],
     "smartechSettings": {
-        "paEnabled": true,
-        "appInboxEnabled": true,
-        "paInterval": 60,
-        "sdkActive": true,
-        "sessionInterval": 30,
-        "batchInterval": 10,
-        "batchSize": 30,
-        "td": {
-            "guids": [
-                "2d824bc9-8a2f-4839-bccb-196e33488192",
-                "a5316eb2-cc40-4a2f-9183-275a5f5b1f8e"
-            ],
-            "logEnabled": false,
-            "logLevel": 1
-        },
-        "eventSettings": {
-            "allevents": true,
-            "lifecycle": true,
-            "push": true,
-            "inapp": true,
-            "appinbox": true
-        },
-        "panelActive": true,
-        "eventLimit": 200,
-        "frequency": {
-            "enable": 1,
-            "month": 0,
-            "week": 0,
-            "day": 150
-        },
-        "baseUrls": {
-            "trackAppActUrl": "https://npn.netcoresmartech.com/",
-            "pushAmpUrl": "https://pa.netcoresmartech.com/",
-            "inAppUrl": "https://ninapp.netcoresmartech.com/",
-            "inboxUrl": "https://appinbox.netcoresmartech.com/",
-            "listSegUrl": "https://psegment-us.netcoresmartech.com/",
-            "testDeviceUrl": "https://api.netcoresmartech.com/",
-            "contentPzUrl": "https://app-cpz.netcoresmartech.com/prod/"
-        },
-        "features": {
-            "contentPz": {
-                "enabled": true,
-                "syncInterval": 0
-            }
-        },
-        "hansel_api_endpoints": {
-            "get_data": "https://ujm.hansel.io/ujm/v1/data/<os>/<app_id>/<rv>/",
-            "add_events": "https://sdk.hansel.io/dashboard/event/v1/<app_id>/",
-            "td_auth": "https://sdk.hansel.io/dashboard/td/verify",
-            "init_sdk": "https://sdk.hansel.io/dashboard/sdk/v1/init/<os>/<app_id>/",
-            "req_sesid": "https://sdk.hansel.io/dashboard/visualizer/request_session",
-            "socket": "wss://websocket-visualizer.hansel.io",
-            "populate_data": "https://sdk.hansel.io/dashboard/populatedata/v1/<app_id>/"
-        },
-        "userAttrConfig": {
+    "paEnabled": true,
+    "appInboxEnabled": true,
+    "paInterval": 60,
+    "sdkActive": true,
+    "sessionInterval": 30,
+    "batchInterval": 10,
+    "batchSize": 30,
+    "td": {
+        "guids": [
+            "2d824bc9-8a2f-4839-bccb-196e33488192",
+            "a5316eb2-cc40-4a2f-9183-275a5f5b1f8e"
+        ],
+        "logEnabled": false,
+        "logLevel": 1
+    },
+    "eventSettings": {
+        "allevents": true,
+        "lifecycle": true,
+        "push": true,
+        "inapp": true,
+        "appinbox": true
+    },
+    "panelActive": true,
+    "eventLimit": 200,
+    "frequency": {
+        "enable": 1,
+        "month": 0,
+        "week": 0,
+        "day": 150
+    },
+    "baseUrls": {
+        "trackAppActUrl": "https://npn.netcoresmartech.com/",
+        "pushAmpUrl": "https://pa.netcoresmartech.com/",
+        "inAppUrl": "https://ninapp.netcoresmartech.com/",
+        "inboxUrl": "https://appinbox.netcoresmartech.com/",
+        "listSegUrl": "https://psegment-us.netcoresmartech.com/",
+        "testDeviceUrl": "https://api.netcoresmartech.com/",
+        "contentPzUrl": "https://app-cpz.netcoresmartech.com/prod/"
+    },
+    "features": {
+        "contentPz": {
             "enabled": true,
-            "syncInterval": 30,
-            "attrIds": []
-        },
-        "cid": "140578",
-        "gwConfig": {
-            "xiaomi": {
-                "enable": false,
-                "enablePushFor": null,
-                "tokenSendInterval": 60
-            }
-        },
-        "sConfig": {
-            "etData": false,
-            "p": "XCb29K4fztFC5BHG0pLgteQTyw7QLUDJxOLGzQW9jBMpct5dSRtl6kfEQmuCh8lO",
-            "a": ""
+            "syncInterval": 0
         }
+    },
+    "hansel_api_endpoints": {
+        "get_data": "https://ujm.hansel.io/ujm/v1/data/<os>/<app_id>/<rv>/",
+        "add_events": "https://sdk.hansel.io/dashboard/event/v1/<app_id>/",
+        "td_auth": "https://sdk.hansel.io/dashboard/td/verify",
+        "init_sdk": "https://sdk.hansel.io/dashboard/sdk/v1/init/<os>/<app_id>/",
+        "req_sesid": "https://sdk.hansel.io/dashboard/visualizer/request_session",
+        "socket": "wss://websocket-visualizer.hansel.io",
+        "populate_data": "https://sdk.hansel.io/dashboard/populatedata/v1/<app_id>/"
+    },
+    "userAttrConfig": {
+        "enabled": true,
+        "syncInterval": 30,
+        "attrIds": [
+            -1
+        ]
+    },
+    "cid": "140578",
+    "gwConfig": {
+        "xiaomi": {
+            "enable": false,
+            "enablePushFor": null,
+            "tokenSendInterval": 60
+        }
+    },
+    "sConfig": {
+        "etData": false,
+        "p": "XCb29K4fztFC5BHG0pLgteQTyw7QLUDJxOLGzQW9jBMpct5dSRtl6kfEQmuCh8lO",
+        "a": ""
     }
+}
 }
