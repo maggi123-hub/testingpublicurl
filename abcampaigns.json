@@ -1,10 +1,10 @@
 {
     "iamRules_v1": [
         {
-            "id": 1144,
+            "id": 1146,
             "v": 1,
             "priority": 1,
-            "campaignName": "Krutika Test 1144",
+            "campaignName": "Krutika Test 1146",
             "campaignType": "regular",
             "status": "running",
             "frequencyType": "",
@@ -104,7 +104,7 @@
             },
             "whomTo": {
                 "guid": [],
-                "controlGroup": 5,
+                "controlGroup": 0,
                 "controlGroupMid": 1144,
                 "audience": [
                     {
@@ -154,7 +154,7 @@
                         "variant": "1000-20000",
                         "attrIds": [],
                         "payload": {
-                            "url": "https://cdndc.netcoresmartech.com/pod/90181/in-app-content/templates/t-s-44.html?inappVer=1"
+                            "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/846.html?inappVer=1"
                         }
                     },
                     {
@@ -165,7 +165,7 @@
                         "variant": "20001-40000",
                         "attrIds": [],
                         "payload": {
-                            "url": "https://cdndc.netcoresmartech.com/pod/90181/in-app-content/templates/t-s-44.html?inappVer=1"
+                            "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/846.html?inappVer=1"
                         }
                     }
                 ],
