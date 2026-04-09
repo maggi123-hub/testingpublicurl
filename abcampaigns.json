@@ -1,7 +1,7 @@
 {
     "iamRules_v1": [
         {
-            "id": 1146,
+            "id": 1149,
             "v": 1,
             "priority": 1,
             "campaignName": "Krutika Test 1146",
@@ -104,7 +104,7 @@
             },
             "whomTo": {
                 "guid": [],
-                "controlGroup": 0,
+                "controlGroup": 99,
                 "controlGroupMid": 1144,
                 "audience": [
                     {
