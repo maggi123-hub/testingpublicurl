@@ -1,10 +1,10 @@
 {
     "iamRules_v1": [
         {
-            "id": 1150,
+            "id": 1151,
             "v": 1,
             "priority": 1,
-            "campaignName": "Krutika Test 1150",
+            "campaignName": "Krutika Test 1151",
             "campaignType": "regular",
             "status": "running",
             "frequencyType": "",
@@ -151,7 +151,7 @@
                         "audienceId": 1234,
                         "contentId": "1125-A",
                         "layoutType": "header",
-                        "variant": "50000-90000",
+                        "variant": "1000-100000",
                         "attrIds": [],
                         "payload": {
                             "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/846.html?inappVer=1"
