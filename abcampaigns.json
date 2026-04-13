@@ -1,366 +1,1306 @@
 {
-    "iamRules_v1": [
-        {
-            "id": 1152,
-            "v": 1,
+  "iamRules_v1": [
+    {
+      "id": 1152,
+      "v": 1,
+      "priority": 1,
+      "campaignName": "Krutika Test 1152",
+      "campaignType": "regular",
+      "status": "running",
+      "frequencyType": "",
+      "frequency": "0",
+      "os": "android",
+      "toDate": "2027-12-30T07:45:24Z",
+      "fromDate": "2025-05-19T12:11:23Z",
+      "modifiedDate": "2025-05-19T12:11:28Z",
+      "whereTo": {
+        "multiTrigger": [
+          {
+            "eventId": 102,
+            "eventName": "add_to_cart",
+            "delay": 0,
+            "filterType": "all",
+            "filters": []
+          },
+          {
+            "eventId": 104,
+            "eventName": "expiry_cart",
+            "delay": 0,
+            "filterType": "all",
+            "filters": []
+          }
+        ]
+      },
+      "whenTo": {
+        "schedule": [
+          {
+            "day": 0,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "13:00"
+              },
+              {
+                "from": "14:00",
+                "to": "19:00"
+              }
+            ]
+          },
+          {
+            "day": 1,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 3,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 5,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          }
+        ]
+      },
+      "whomTo": {
+        "guid": [],
+        "controlGroup": 0,
+        "controlGroupMid": 1144,
+        "audience": [
+          {
+            "audienceId": 1234,
             "priority": 1,
-            "campaignName": "Krutika Test 1152",
-            "campaignType": "regular",
-            "status": "running",
-            "frequencyType": "",
-            "frequency": "0",
-            "os": "android",
-            "toDate": "2027-12-30T07:45:24Z",
-            "fromDate": "2025-05-19T12:11:23Z",
-            "modifiedDate": "2025-05-19T12:11:28Z",
-            "whereTo": {
-                "multiTrigger": [
-                    {
-                        "eventId": 102,
-                        "eventName": "add_to_cart",
-                        "delay": 0,
-                        "filterType": "all",
-                        "filters": []
-                    },
-                    {
-                        "eventId": 104,
-                        "eventName": "expiry_cart",
-                        "delay": 0,
-                        "filterType": "all",
-                        "filters": []
-                    }
-                ]
+            "filters": {
+              "include": {
+                "segIds": [],
+                "listIds": []
+              },
+              "exclude": {
+                "segIds": [],
+                "listIds": []
+              }
             },
-            "whenTo": {
-                "schedule": [
+            "events": {
+              "targetRule": "all",
+              "rules": [
+                {
+                  "eventId": 112,
+                  "eventName": "product_purchase",
+                  "performed": "yes",
+                  "waitUntil": 5,
+                  "filterType": "all",
+                  "filters": [
                     {
-                        "day": 0,
-                        "time": [
-                            {
-                                "from": "09:00",
-                                "to": "13:00"
-                            },
-                            {
-                                "from": "14:00",
-                                "to": "19:00"
-                            }
-                        ]
-                    },
-                    {
-                        "day": 1,
-                        "time": [
-                            {
-                                "from": "09:00",
-                                "to": "21:00"
-                            }
-                        ]
-                    },
-                    {
-                        "day": 2,
-                        "time": [
-                            {
-                                "from": "09:00",
-                                "to": "21:00"
-                            }
-                        ]
-                    },
-                    {
-                        "day": 3,
-                        "time": [
-                            {
-                                "from": "09:00",
-                                "to": "21:00"
-                            }
-                        ]
-                    },
-                    {
-                        "day": 4,
-                        "time": [
-                            {
-                                "from": "09:00",
-                                "to": "21:00"
-                            }
-                        ]
-                    },
-                    {
-                        "day": 5,
-                        "time": [
-                            {
-                                "from": "09:00",
-                                "to": "21:00"
-                            }
-                        ]
-                    },
-                    {
-                        "day": 6,
-                        "time": [
-                            {
-                                "from": "09:00",
-                                "to": "21:00"
-                            }
-                        ]
+                      "key": "product[].price",
+                      "operator": "<=",
+                      "dataType": "int",
+                      "value": "120000"
                     }
-                ]
-            },
-            "whomTo": {
-                "guid": [],
-                "controlGroup": 0,
-                "controlGroupMid": 1144,
-                "audience": [
-                    {
-                        "audienceId": 1234,
-                        "priority": 1,
-                        "filters": {
-                            "include": {
-                                "segIds": [],
-                                "listIds": []
-                            },
-                            "exclude": {
-                                "segIds": [],
-                                "listIds": []
-                            }
-                        },
-                        "events": {
-                            "targetRule": "all",
-                            "rules": [
-                                {
-                                    "eventId": 112,
-                                    "eventName": "product_purchase",
-                                    "performed": "yes",
-                                    "waitUntil": 5,
-                                    "filterType": "all",
-                                    "filters": [
-                                        {
-                                            "key": "product[].price",
-                                            "operator": "<=",
-                                            "dataType": "int",
-                                            "value": "120000"
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    }
-                ]
-            },
-            "whatTo": {
-                "winner": "",
-                "content": [
-                    {
-                        "mid": 1144,
-                        "audienceId": 1234,
-                        "contentId": "1125-A",
-                        "layoutType": "header",
-                        "variant": "1000-100000",
-                        "attrIds": [-1],
-                        "payload": {
-                            "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/846.html?inappVer=1"
-                        }
-                    },
-                    {
-                        "mid": 1144,
-                        "audienceId": 1234,
-                        "contentId": "1125-A",
-                        "layoutType": "header",
-                        "variant": "1000-20000",
-                        "attrIds": [],
-                        "payload": {
-                            "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/846.html?inappVer=1"
-                        }
-                    },
-                    {
-                        "mid": 1141,
-                        "audienceId": 12345,
-                        "contentId": "1125-B",
-                        "layoutType": "footer",
-                        "variant": "20001-40000",
-                        "attrIds": [],
-                        "payload": {
-                            "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/846.html?inappVer=1"
-                        }
-                    }
-                ],
-                "customKeyValue": {
-                    "country": "IN",
-                    "language": "EN"
-                },
-                "gaParams": {
-                    "utm_source": "Netcore",
-                    "utm_campaign": "Bha test filters",
-                    "utm_medium": "In-app",
-                    "utm_content": ""
+                  ]
                 }
+              ]
             }
+          }
+        ]
+      },
+      "whatTo": {
+        "winner": "",
+        "content": [
+          {
+            "mid": 1144,
+            "audienceId": 1234,
+            "contentId": "1125-A",
+            "layoutType": "header",
+            "variant": "1000-100000",
+            "attrIds": [
+              -1
+            ],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/846.html?inappVer=1"
+            }
+          },
+          {
+            "mid": 1144,
+            "audienceId": 1234,
+            "contentId": "1125-A",
+            "layoutType": "header",
+            "variant": "1000-20000",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/846.html?inappVer=1"
+            }
+          },
+          {
+            "mid": 1141,
+            "audienceId": 12345,
+            "contentId": "1125-B",
+            "layoutType": "footer",
+            "variant": "20001-40000",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/846.html?inappVer=1"
+            }
+          }
+        ],
+        "customKeyValue": {
+          "country": "IN",
+          "language": "EN"
         },
-        {
-            "id": 1146,
-            "v": 1,
-            "priority": 1,
-            "campaignName": "Krutika Test 1146",
-            "campaignType": "regular",
-            "status": "running",
-            "frequencyType": "",
-            "frequency": "0",
-            "os": "android",
-            "toDate": "2027-12-30T07:45:24Z",
-            "fromDate": "2025-05-19T12:11:23Z",
-            "modifiedDate": "2025-05-19T12:11:28Z",
-            "whereTo": {
-                "multiTrigger": [
-                    {
-                        "eventId": 102,
-                        "eventName": "add_to_wishlist",
-                        "delay": 2,
-                        "filterType": "all",
-                        "filters": []
-                    },
-                    {
-                        "eventId": 104,
-                        "eventName": "product_purchase",
-                        "delay": 2,
-                        "filterType": "all",
-                        "filters": []
-                    }
-                ]
-            },
-            "whenTo": {
-                "schedule": [
-                    {
-                        "day": 0,
-                        "time": [
-                            {
-                                "from": "09:00",
-                                "to": "13:00"
-                            },
-                            {
-                                "from": "14:00",
-                                "to": "19:00"
-                            }
-                        ]
-                    },
-                    {
-                        "day": 1,
-                        "time": [
-                            {
-                                "from": "09:00",
-                                "to": "21:00"
-                            }
-                        ]
-                    },
-                    {
-                        "day": 2,
-                        "time": [
-                            {
-                                "from": "09:00",
-                                "to": "21:00"
-                            }
-                        ]
-                    },
-                    {
-                        "day": 3,
-                        "time": [
-                            {
-                                "from": "09:00",
-                                "to": "21:00"
-                            }
-                        ]
-                    },
-                    {
-                        "day": 4,
-                        "time": [
-                            {
-                                "from": "09:00",
-                                "to": "21:00"
-                            }
-                        ]
-                    },
-                    {
-                        "day": 5,
-                        "time": [
-                            {
-                                "from": "09:00",
-                                "to": "21:00"
-                            }
-                        ]
-                    },
-                    {
-                        "day": 6,
-                        "time": [
-                            {
-                                "from": "09:00",
-                                "to": "21:00"
-                            }
-                        ]
-                    }
-                ]
-            },
-            "whomTo": {
-                "guid": [],
-                "controlGroup": 0,
-                "controlGroupMid": 1145,
-                "audience": [
-                    {
-                        "audienceId": 1245,
-                        "priority": 1,
-                        "filters": {
-                            "include": {
-                                "segIds": [],
-                                "listIds": []
-                            },
-                            "exclude": {
-                                "segIds": [10,30],
-                                "listIds": [20,30]
-                            }
-                        },
-                        "events": {
-                            "targetRule": "all"
-                        }
-                    }
-                ]
-            },
-            "whatTo": {
-                "winner": "",
-                "content": [
-                    {
-                        "mid": 1145,
-                        "audienceId": 125,
-                        "contentId": "1125-A",
-                        "layoutType": "header",
-                        "variant": "1000-20000",
-                        "attrIds": [],
-                        "payload": {
-                            "url": "https://cdndc.netcoresmartech.com/pod/90181/in-app-content/templates/t-s-44.html?inappVer=1",
-                            "useFullscreen": 1
-                        }
-                    },
-                    {
-                        "mid": 1145,
-                        "audienceId": 1245,
-                        "contentId": "1125-B",
-                        "layoutType": "footer",
-                        "variant": "20001-40000",
-                        "attrIds": [],
-                        "payload": {
-                            "url": "https://cdndc.netcoresmartech.com/stg1/86211/in-app-content/templates/t-58.html?inappVer=1",
-                            "useFullscreen": 0
-                        }
-                    }
-                ],
-                "customKeyValue": {
-                    "country": "IN",
-                    "language": "EN"
-                },
-                "gaParams": {
-                    "utm_source": "Netcore",
-                    "utm_campaign": "Bha test filters",
-                    "utm_medium": "In-app",
-                    "utm_content": ""
-                }
-            }
+        "gaParams": {
+          "utm_source": "Netcore",
+          "utm_campaign": "Bha test filters",
+          "utm_medium": "In-app",
+          "utm_content": ""
         }
-    ],
-    "testInAppRules": [],
-    "smartechSettings": {
+      }
+    },
+    {
+      "id": 1146,
+      "v": 1,
+      "priority": 1,
+      "campaignName": "Krutika Test 1146",
+      "campaignType": "regular",
+      "status": "running",
+      "frequencyType": "",
+      "frequency": "0",
+      "os": "android",
+      "toDate": "2027-12-30T07:45:24Z",
+      "fromDate": "2025-05-19T12:11:23Z",
+      "modifiedDate": "2025-05-19T12:11:28Z",
+      "whereTo": {
+        "multiTrigger": [
+          {
+            "eventId": 102,
+            "eventName": "add_to_wishlist",
+            "delay": 2,
+            "filterType": "all",
+            "filters": []
+          },
+          {
+            "eventId": 104,
+            "eventName": "product_purchase",
+            "delay": 2,
+            "filterType": "all",
+            "filters": []
+          }
+        ]
+      },
+      "whenTo": {
+        "schedule": [
+          {
+            "day": 0,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "13:00"
+              },
+              {
+                "from": "14:00",
+                "to": "19:00"
+              }
+            ]
+          },
+          {
+            "day": 1,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 3,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 5,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          }
+        ]
+      },
+      "whomTo": {
+        "guid": [],
+        "controlGroup": 0,
+        "controlGroupMid": 1145,
+        "audience": [
+          {
+            "audienceId": 1245,
+            "priority": 1,
+            "filters": {
+              "include": {
+                "segIds": [],
+                "listIds": []
+              },
+              "exclude": {
+                "segIds": [
+                  10,
+                  30
+                ],
+                "listIds": [
+                  20,
+                  30
+                ]
+              }
+            },
+            "events": {
+              "targetRule": "all"
+            }
+          }
+        ]
+      },
+      "whatTo": {
+        "winner": "",
+        "content": [
+          {
+            "mid": 1145,
+            "audienceId": 125,
+            "contentId": "1125-A",
+            "layoutType": "header",
+            "variant": "1000-20000",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/pod/90181/in-app-content/templates/t-s-44.html?inappVer=1",
+              "useFullscreen": 1
+            }
+          },
+          {
+            "mid": 1145,
+            "audienceId": 1245,
+            "contentId": "1125-B",
+            "layoutType": "footer",
+            "variant": "20001-40000",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/stg1/86211/in-app-content/templates/t-58.html?inappVer=1",
+              "useFullscreen": 0
+            }
+          }
+        ],
+        "customKeyValue": {
+          "country": "IN",
+          "language": "EN"
+        },
+        "gaParams": {
+          "utm_source": "Netcore",
+          "utm_campaign": "Bha test filters",
+          "utm_medium": "In-app",
+          "utm_content": ""
+        }
+      }
+    },
+    {
+      "id": 1160,
+      "v": 1,
+      "priority": 2,
+      "campaignName": "Test IAM — include segment only",
+      "campaignType": "regular",
+      "status": "running",
+      "frequencyType": "",
+      "frequency": "0",
+      "os": "android",
+      "toDate": "2027-12-30T07:45:24Z",
+      "fromDate": "2025-05-19T12:11:23Z",
+      "modifiedDate": "2025-05-19T12:11:28Z",
+      "whereTo": {
+        "multiTrigger": [
+          {
+            "eventId": 201,
+            "eventName": "remove_from_wishlist",
+            "delay": 0,
+            "filterType": "all",
+            "filters": []
+          }
+        ]
+      },
+      "whenTo": {
+        "schedule": [
+          {
+            "day": 0,
+            "time": [
+              {
+                "from": "00:00",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 1,
+            "time": [
+              {
+                "from": "00:00",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "time": [
+              {
+                "from": "00:00",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 3,
+            "time": [
+              {
+                "from": "00:00",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "time": [
+              {
+                "from": "00:00",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 5,
+            "time": [
+              {
+                "from": "00:00",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "time": [
+              {
+                "from": "00:00",
+                "to": "23:59"
+              }
+            ]
+          }
+        ]
+      },
+      "whomTo": {
+        "guid": [],
+        "controlGroup": 0,
+        "controlGroupMid": 1160,
+        "audience": [
+          {
+            "audienceId": 2001,
+            "priority": 1,
+            "filters": {
+              "include": {
+                "segIds": [
+                  101,
+                  102
+                ],
+                "listIds": []
+              },
+              "exclude": {
+                "segIds": [],
+                "listIds": []
+              }
+            },
+            "events": {
+              "targetRule": "all",
+              "rules": []
+            }
+          }
+        ]
+      },
+      "whatTo": {
+        "winner": "",
+        "content": [
+          {
+            "mid": 1160,
+            "audienceId": 2001,
+            "contentId": "1160-V1",
+            "layoutType": "header",
+            "variant": "0-50000",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/846.html?inappVer=1"
+            }
+          },
+          {
+            "mid": 1160,
+            "audienceId": 2001,
+            "contentId": "1160-V2",
+            "layoutType": "header",
+            "variant": "50000-100000",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/pod/90181/in-app-content/templates/t-s-44.html?inappVer=1"
+            }
+          }
+        ],
+        "customKeyValue": {},
+        "gaParams": {}
+      }
+    },
+    {
+      "id": 1161,
+      "v": 1,
+      "priority": 2,
+      "campaignName": "Test IAM — exclude segment only",
+      "campaignType": "regular",
+      "status": "running",
+      "frequencyType": "",
+      "frequency": "0",
+      "os": "android",
+      "toDate": "2027-12-30T07:45:24Z",
+      "fromDate": "2025-05-19T12:11:23Z",
+      "modifiedDate": "2025-05-19T12:11:28Z",
+      "whereTo": {
+        "multiTrigger": [
+          {
+            "eventId": 202,
+            "eventName": "search",
+            "delay": 0,
+            "filterType": "all",
+            "filters": []
+          }
+        ]
+      },
+      "whenTo": {
+        "schedule": [
+          {
+            "day": 0,
+            "time": [
+              {
+                "from": "00:00",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 1,
+            "time": [
+              {
+                "from": "00:00",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "time": [
+              {
+                "from": "00:00",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 3,
+            "time": [
+              {
+                "from": "00:00",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "time": [
+              {
+                "from": "00:00",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 5,
+            "time": [
+              {
+                "from": "00:00",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "time": [
+              {
+                "from": "00:00",
+                "to": "23:59"
+              }
+            ]
+          }
+        ]
+      },
+      "whomTo": {
+        "guid": [],
+        "controlGroup": 0,
+        "controlGroupMid": 1161,
+        "audience": [
+          {
+            "audienceId": 2002,
+            "priority": 1,
+            "filters": {
+              "include": {
+                "segIds": [],
+                "listIds": []
+              },
+              "exclude": {
+                "segIds": [
+                  888,
+                  889
+                ],
+                "listIds": []
+              }
+            },
+            "events": {
+              "targetRule": "all",
+              "rules": []
+            }
+          }
+        ]
+      },
+      "whatTo": {
+        "winner": "",
+        "content": [
+          {
+            "mid": 1161,
+            "audienceId": 2002,
+            "contentId": "1161-A",
+            "layoutType": "footer",
+            "variant": "0-33333",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/stg1/86211/in-app-content/templates/t-58.html?inappVer=1"
+            }
+          },
+          {
+            "mid": 1161,
+            "audienceId": 2002,
+            "contentId": "1161-B",
+            "layoutType": "footer",
+            "variant": "33333-66666",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/846.html?inappVer=1"
+            }
+          },
+          {
+            "mid": 1161,
+            "audienceId": 2002,
+            "contentId": "1161-C",
+            "layoutType": "footer",
+            "variant": "66666-100000",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/pod/90181/in-app-content/templates/t-s-44.html?inappVer=1"
+            }
+          }
+        ],
+        "customKeyValue": {},
+        "gaParams": {}
+      }
+    },
+    {
+      "id": 1162,
+      "v": 1,
+      "priority": 2,
+      "campaignName": "Test IAM — include list + exclude list",
+      "campaignType": "regular",
+      "status": "running",
+      "frequencyType": "",
+      "frequency": "0",
+      "os": "android",
+      "toDate": "2027-12-30T07:45:24Z",
+      "fromDate": "2025-05-19T12:11:23Z",
+      "modifiedDate": "2025-05-19T12:11:28Z",
+      "whereTo": {
+        "multiTrigger": [
+          {
+            "eventId": 203,
+            "eventName": "product_view",
+            "delay": 0,
+            "filterType": "all",
+            "filters": []
+          }
+        ]
+      },
+      "whenTo": {
+        "schedule": [
+          {
+            "day": 0,
+            "time": [
+              {
+                "from": "00:00",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 1,
+            "time": [
+              {
+                "from": "00:00",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "time": [
+              {
+                "from": "00:00",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 3,
+            "time": [
+              {
+                "from": "00:00",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "time": [
+              {
+                "from": "00:00",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 5,
+            "time": [
+              {
+                "from": "00:00",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "time": [
+              {
+                "from": "00:00",
+                "to": "23:59"
+              }
+            ]
+          }
+        ]
+      },
+      "whomTo": {
+        "guid": [],
+        "controlGroup": 0,
+        "controlGroupMid": 1162,
+        "audience": [
+          {
+            "audienceId": 2003,
+            "priority": 1,
+            "filters": {
+              "include": {
+                "segIds": [],
+                "listIds": [
+                  501,
+                  502
+                ]
+              },
+              "exclude": {
+                "segIds": [],
+                "listIds": [
+                  900
+                ]
+              }
+            },
+            "events": {
+              "targetRule": "all",
+              "rules": []
+            }
+          }
+        ]
+      },
+      "whatTo": {
+        "winner": "",
+        "content": [
+          {
+            "mid": 1162,
+            "audienceId": 2003,
+            "contentId": "1162-A",
+            "layoutType": "header",
+            "variant": "0-25000",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/846.html?inappVer=1"
+            }
+          },
+          {
+            "mid": 1162,
+            "audienceId": 2003,
+            "contentId": "1162-B",
+            "layoutType": "header",
+            "variant": "25000-50000",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/stg1/86211/in-app-content/templates/t-58.html?inappVer=1"
+            }
+          },
+          {
+            "mid": 1162,
+            "audienceId": 2003,
+            "contentId": "1162-C",
+            "layoutType": "header",
+            "variant": "50000-75000",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/pod/90181/in-app-content/templates/t-s-44.html?inappVer=1"
+            }
+          },
+          {
+            "mid": 1162,
+            "audienceId": 2003,
+            "contentId": "1162-D",
+            "layoutType": "header",
+            "variant": "75000-100000",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/846.html?inappVer=1"
+            }
+          }
+        ],
+        "customKeyValue": {},
+        "gaParams": {}
+      }
+    },
+    {
+      "id": 1163,
+      "v": 1,
+      "priority": 3,
+      "campaignName": "Test IAM — narrow weekday schedule",
+      "campaignType": "regular",
+      "status": "running",
+      "frequencyType": "",
+      "frequency": "0",
+      "os": "android",
+      "toDate": "2027-12-30T07:45:24Z",
+      "fromDate": "2025-05-19T12:11:23Z",
+      "modifiedDate": "2025-05-19T12:11:28Z",
+      "whereTo": {
+        "multiTrigger": [
+          {
+            "eventId": 204,
+            "eventName": "category_browse",
+            "delay": 0,
+            "filterType": "all",
+            "filters": []
+          }
+        ]
+      },
+      "whenTo": {
+        "schedule": [
+          {
+            "day": 1,
+            "time": [
+              {
+                "from": "10:00",
+                "to": "12:00"
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "time": [
+              {
+                "from": "10:00",
+                "to": "12:00"
+              }
+            ]
+          },
+          {
+            "day": 3,
+            "time": [
+              {
+                "from": "10:00",
+                "to": "12:00"
+              }
+            ]
+          }
+        ]
+      },
+      "whomTo": {
+        "guid": [],
+        "controlGroup": 0,
+        "controlGroupMid": 1163,
+        "audience": [
+          {
+            "audienceId": 2004,
+            "priority": 1,
+            "filters": {
+              "include": {
+                "segIds": [],
+                "listIds": []
+              },
+              "exclude": {
+                "segIds": [],
+                "listIds": []
+              }
+            },
+            "events": {
+              "targetRule": "all",
+              "rules": []
+            }
+          }
+        ]
+      },
+      "whatTo": {
+        "winner": "",
+        "content": [
+          {
+            "mid": 1163,
+            "audienceId": 2004,
+            "contentId": "1163-A",
+            "layoutType": "header",
+            "variant": "0-20000",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/846.html?inappVer=1"
+            }
+          },
+          {
+            "mid": 1163,
+            "audienceId": 2004,
+            "contentId": "1163-B",
+            "layoutType": "header",
+            "variant": "20000-40000",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/pod/90181/in-app-content/templates/t-s-44.html?inappVer=1"
+            }
+          },
+          {
+            "mid": 1163,
+            "audienceId": 2004,
+            "contentId": "1163-C",
+            "layoutType": "header",
+            "variant": "40000-60000",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/stg1/86211/in-app-content/templates/t-58.html?inappVer=1"
+            }
+          },
+          {
+            "mid": 1163,
+            "audienceId": 2004,
+            "contentId": "1163-D",
+            "layoutType": "header",
+            "variant": "60000-80000",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/846.html?inappVer=1"
+            }
+          },
+          {
+            "mid": 1163,
+            "audienceId": 2004,
+            "contentId": "1163-E",
+            "layoutType": "header",
+            "variant": "80000-100000",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/pod/90181/in-app-content/templates/t-s-44.html?inappVer=1"
+            }
+          }
+        ],
+        "customKeyValue": {},
+        "gaParams": {}
+      }
+    },
+    {
+      "id": 1164,
+      "v": 1,
+      "priority": 2,
+      "campaignName": "Test IAM — controlGroup > 0 (AB holdout)",
+      "campaignType": "regular",
+      "status": "running",
+      "frequencyType": "",
+      "frequency": "0",
+      "os": "android",
+      "toDate": "2027-12-30T07:45:24Z",
+      "fromDate": "2025-05-19T12:11:23Z",
+      "modifiedDate": "2025-05-19T12:11:28Z",
+      "whereTo": {
+        "multiTrigger": [
+          {
+            "eventId": 205,
+            "eventName": "checkout_initiated",
+            "delay": 0,
+            "filterType": "all",
+            "filters": []
+          }
+        ]
+      },
+      "whenTo": {
+        "schedule": [
+          {
+            "day": 0,
+            "time": [
+              {
+                "from": "00:00",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 1,
+            "time": [
+              {
+                "from": "00:00",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "time": [
+              {
+                "from": "00:00",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 3,
+            "time": [
+              {
+                "from": "00:00",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "time": [
+              {
+                "from": "00:00",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 5,
+            "time": [
+              {
+                "from": "00:00",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "time": [
+              {
+                "from": "00:00",
+                "to": "23:59"
+              }
+            ]
+          }
+        ]
+      },
+      "whomTo": {
+        "guid": [],
+        "controlGroup": 15,
+        "controlGroupMid": 1164,
+        "audience": [
+          {
+            "audienceId": 2005,
+            "priority": 1,
+            "filters": {
+              "include": {
+                "segIds": [],
+                "listIds": []
+              },
+              "exclude": {
+                "segIds": [],
+                "listIds": []
+              }
+            },
+            "events": {
+              "targetRule": "all",
+              "rules": []
+            }
+          }
+        ]
+      },
+      "whatTo": {
+        "winner": "",
+        "content": [
+          {
+            "mid": 1164,
+            "audienceId": 2005,
+            "contentId": "1164-A",
+            "layoutType": "header",
+            "variant": "0-40000",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/846.html?inappVer=1"
+            }
+          },
+          {
+            "mid": 1164,
+            "audienceId": 2005,
+            "contentId": "1164-B",
+            "layoutType": "header",
+            "variant": "40000-80000",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/stg1/86211/in-app-content/templates/t-58.html?inappVer=1"
+            }
+          },
+          {
+            "mid": 1164,
+            "audienceId": 2005,
+            "contentId": "1164-C",
+            "layoutType": "header",
+            "variant": "80000-100000",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/pod/90181/in-app-content/templates/t-s-44.html?inappVer=1"
+            }
+          }
+        ],
+        "customKeyValue": {},
+        "gaParams": {}
+      }
+    },
+    {
+      "id": 1165,
+      "v": 1,
+      "priority": 2,
+      "campaignName": "Test IAM — controlGroup 0, include seg + list",
+      "campaignType": "regular",
+      "status": "running",
+      "frequencyType": "",
+      "frequency": "0",
+      "os": "android",
+      "toDate": "2027-12-30T07:45:24Z",
+      "fromDate": "2025-05-19T12:11:23Z",
+      "modifiedDate": "2025-05-19T12:11:28Z",
+      "whereTo": {
+        "multiTrigger": [
+          {
+            "eventId": 206,
+            "eventName": "form_submitted",
+            "delay": 0,
+            "filterType": "all",
+            "filters": []
+          }
+        ]
+      },
+      "whenTo": {
+        "schedule": [
+          {
+            "day": 0,
+            "time": [
+              {
+                "from": "00:00",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 1,
+            "time": [
+              {
+                "from": "00:00",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "time": [
+              {
+                "from": "00:00",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 3,
+            "time": [
+              {
+                "from": "00:00",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "time": [
+              {
+                "from": "00:00",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 5,
+            "time": [
+              {
+                "from": "00:00",
+                "to": "23:59"
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "time": [
+              {
+                "from": "00:00",
+                "to": "23:59"
+              }
+            ]
+          }
+        ]
+      },
+      "whomTo": {
+        "guid": [],
+        "controlGroup": 0,
+        "controlGroupMid": 1165,
+        "audience": [
+          {
+            "audienceId": 2006,
+            "priority": 1,
+            "filters": {
+              "include": {
+                "segIds": [
+                  201
+                ],
+                "listIds": [
+                  601
+                ]
+              },
+              "exclude": {
+                "segIds": [],
+                "listIds": []
+              }
+            },
+            "events": {
+              "targetRule": "all",
+              "rules": []
+            }
+          }
+        ]
+      },
+      "whatTo": {
+        "winner": "",
+        "content": [
+          {
+            "mid": 1165,
+            "audienceId": 2006,
+            "contentId": "1165-A",
+            "layoutType": "footer",
+            "variant": "0-50000",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/846.html?inappVer=1"
+            }
+          },
+          {
+            "mid": 1165,
+            "audienceId": 2006,
+            "contentId": "1165-B",
+            "layoutType": "footer",
+            "variant": "50000-100000",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/pod/90181/in-app-content/templates/t-s-44.html?inappVer=1"
+            }
+          }
+        ],
+        "customKeyValue": {},
+        "gaParams": {}
+      }
+    }
+  ],
+  "testInAppRules": [],
+  "smartechSettings": {
     "paEnabled": true,
     "appInboxEnabled": true,
     "paInterval": 60,
@@ -369,71 +1309,71 @@
     "batchInterval": 10,
     "batchSize": 30,
     "td": {
-        "guids": [
-            "2d824bc9-8a2f-4839-bccb-196e33488192",
-            "a5316eb2-cc40-4a2f-9183-275a5f5b1f8e"
-        ],
-        "logEnabled": false,
-        "logLevel": 1
+      "guids": [
+        "2d824bc9-8a2f-4839-bccb-196e33488192",
+        "a5316eb2-cc40-4a2f-9183-275a5f5b1f8e"
+      ],
+      "logEnabled": false,
+      "logLevel": 1
     },
     "eventSettings": {
-        "allevents": true,
-        "lifecycle": true,
-        "push": true,
-        "inapp": true,
-        "appinbox": true
+      "allevents": true,
+      "lifecycle": true,
+      "push": true,
+      "inapp": true,
+      "appinbox": true
     },
     "panelActive": true,
     "eventLimit": 200,
     "frequency": {
-        "enable": 1,
-        "month": 0,
-        "week": 0,
-        "day": 150
+      "enable": 1,
+      "month": 0,
+      "week": 0,
+      "day": 150
     },
     "baseUrls": {
-        "trackAppActUrl": "https://npn.netcoresmartech.com/",
-        "pushAmpUrl": "https://pa.netcoresmartech.com/",
-        "inAppUrl": "https://ninapp.netcoresmartech.com/",
-        "inboxUrl": "https://appinbox.netcoresmartech.com/",
-        "listSegUrl": "https://psegment-us.netcoresmartech.com/",
-        "testDeviceUrl": "https://api.netcoresmartech.com/",
-        "contentPzUrl": "https://app-cpz.netcoresmartech.com/prod/"
+      "trackAppActUrl": "https://npn.netcoresmartech.com/",
+      "pushAmpUrl": "https://pa.netcoresmartech.com/",
+      "inAppUrl": "https://ninapp.netcoresmartech.com/",
+      "inboxUrl": "https://appinbox.netcoresmartech.com/",
+      "listSegUrl": "https://psegment-us.netcoresmartech.com/",
+      "testDeviceUrl": "https://api.netcoresmartech.com/",
+      "contentPzUrl": "https://app-cpz.netcoresmartech.com/prod/"
     },
     "features": {
-        "contentPz": {
-            "enabled": true,
-            "syncInterval": 0
-        }
+      "contentPz": {
+        "enabled": true,
+        "syncInterval": 0
+      }
     },
     "hansel_api_endpoints": {
-        "get_data": "https://ujm.hansel.io/ujm/v1/data/<os>/<app_id>/<rv>/",
-        "add_events": "https://sdk.hansel.io/dashboard/event/v1/<app_id>/",
-        "td_auth": "https://sdk.hansel.io/dashboard/td/verify",
-        "init_sdk": "https://sdk.hansel.io/dashboard/sdk/v1/init/<os>/<app_id>/",
-        "req_sesid": "https://sdk.hansel.io/dashboard/visualizer/request_session",
-        "socket": "wss://websocket-visualizer.hansel.io",
-        "populate_data": "https://sdk.hansel.io/dashboard/populatedata/v1/<app_id>/"
+      "get_data": "https://ujm.hansel.io/ujm/v1/data/<os>/<app_id>/<rv>/",
+      "add_events": "https://sdk.hansel.io/dashboard/event/v1/<app_id>/",
+      "td_auth": "https://sdk.hansel.io/dashboard/td/verify",
+      "init_sdk": "https://sdk.hansel.io/dashboard/sdk/v1/init/<os>/<app_id>/",
+      "req_sesid": "https://sdk.hansel.io/dashboard/visualizer/request_session",
+      "socket": "wss://websocket-visualizer.hansel.io",
+      "populate_data": "https://sdk.hansel.io/dashboard/populatedata/v1/<app_id>/"
     },
     "userAttrConfig": {
-        "enabled": true,
-        "syncInterval": 30,
-        "attrIds": [
-            -1
-        ]
+      "enabled": true,
+      "syncInterval": 30,
+      "attrIds": [
+        -1
+      ]
     },
     "cid": "140578",
     "gwConfig": {
-        "xiaomi": {
-            "enable": false,
-            "enablePushFor": null,
-            "tokenSendInterval": 60
-        }
+      "xiaomi": {
+        "enable": false,
+        "enablePushFor": null,
+        "tokenSendInterval": 60
+      }
     },
     "sConfig": {
-        "etData": false,
-        "p": "XCb29K4fztFC5BHG0pLgteQTyw7QLUDJxOLGzQW9jBMpct5dSRtl6kfEQmuCh8lO",
-        "a": ""
+      "etData": false,
+      "p": "XCb29K4fztFC5BHG0pLgteQTyw7QLUDJxOLGzQW9jBMpct5dSRtl6kfEQmuCh8lO",
+      "a": ""
     }
-}
+  }
 }
