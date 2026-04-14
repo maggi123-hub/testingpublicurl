@@ -16,14 +16,14 @@
       "whereTo": {
         "multiTrigger": [
           {
-            "eventId": 102,
+            "eventId": 4,
             "eventName": "add_to_cart",
             "delay": 0,
             "filterType": "all",
             "filters": []
           },
           {
-            "eventId": 104,
+            "eventId": 6,
             "eventName": "expiry_cart",
             "delay": 0,
             "filterType": "all",
@@ -36,69 +36,33 @@
           {
             "day": 0,
             "time": [
-              {
-                "from": "09:00",
-                "to": "13:00"
-              },
-              {
-                "from": "14:00",
-                "to": "19:00"
-              }
+              { "from": "09:00", "to": "13:00" },
+              { "from": "14:00", "to": "19:00" }
             ]
           },
           {
             "day": 1,
-            "time": [
-              {
-                "from": "09:00",
-                "to": "21:00"
-              }
-            ]
+            "time": [{ "from": "09:00", "to": "21:00" }]
           },
           {
             "day": 2,
-            "time": [
-              {
-                "from": "09:00",
-                "to": "21:00"
-              }
-            ]
+            "time": [{ "from": "09:00", "to": "21:00" }]
           },
           {
             "day": 3,
-            "time": [
-              {
-                "from": "09:00",
-                "to": "21:00"
-              }
-            ]
+            "time": [{ "from": "09:00", "to": "21:00" }]
           },
           {
             "day": 4,
-            "time": [
-              {
-                "from": "09:00",
-                "to": "21:00"
-              }
-            ]
+            "time": [{ "from": "09:00", "to": "21:00" }]
           },
           {
             "day": 5,
-            "time": [
-              {
-                "from": "09:00",
-                "to": "21:00"
-              }
-            ]
+            "time": [{ "from": "09:00", "to": "21:00" }]
           },
           {
             "day": 6,
-            "time": [
-              {
-                "from": "09:00",
-                "to": "21:00"
-              }
-            ]
+            "time": [{ "from": "09:00", "to": "21:00" }]
           }
         ]
       },
@@ -111,20 +75,14 @@
             "audienceId": 1234,
             "priority": 1,
             "filters": {
-              "include": {
-                "segIds": [],
-                "listIds": []
-              },
-              "exclude": {
-                "segIds": [],
-                "listIds": []
-              }
+              "include": { "segIds": [], "listIds": [] },
+              "exclude": { "segIds": [], "listIds": [] }
             },
             "events": {
               "targetRule": "all",
               "rules": [
                 {
-                  "eventId": 112,
+                  "eventId": 11,
                   "eventName": "product_purchase",
                   "performed": "yes",
                   "waitUntil": 5,
@@ -152,9 +110,7 @@
             "contentId": "1125-A",
             "layoutType": "header",
             "variant": "1000-100000",
-            "attrIds": [
-              -1
-            ],
+            "attrIds": [-1],
             "payload": {
               "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/846.html?inappVer=1"
             }
@@ -210,14 +166,14 @@
       "whereTo": {
         "multiTrigger": [
           {
-            "eventId": 102,
+            "eventId": 21,
             "eventName": "add_to_wishlist",
             "delay": 2,
             "filterType": "all",
             "filters": []
           },
           {
-            "eventId": 104,
+            "eventId": 11,
             "eventName": "product_purchase",
             "delay": 2,
             "filterType": "all",
@@ -230,69 +186,33 @@
           {
             "day": 0,
             "time": [
-              {
-                "from": "09:00",
-                "to": "13:00"
-              },
-              {
-                "from": "14:00",
-                "to": "19:00"
-              }
+              { "from": "09:00", "to": "13:00" },
+              { "from": "14:00", "to": "19:00" }
             ]
           },
           {
             "day": 1,
-            "time": [
-              {
-                "from": "09:00",
-                "to": "21:00"
-              }
-            ]
+            "time": [{ "from": "09:00", "to": "21:00" }]
           },
           {
             "day": 2,
-            "time": [
-              {
-                "from": "09:00",
-                "to": "21:00"
-              }
-            ]
+            "time": [{ "from": "09:00", "to": "21:00" }]
           },
           {
             "day": 3,
-            "time": [
-              {
-                "from": "09:00",
-                "to": "21:00"
-              }
-            ]
+            "time": [{ "from": "09:00", "to": "21:00" }]
           },
           {
             "day": 4,
-            "time": [
-              {
-                "from": "09:00",
-                "to": "21:00"
-              }
-            ]
+            "time": [{ "from": "09:00", "to": "21:00" }]
           },
           {
             "day": 5,
-            "time": [
-              {
-                "from": "09:00",
-                "to": "21:00"
-              }
-            ]
+            "time": [{ "from": "09:00", "to": "21:00" }]
           },
           {
             "day": 6,
-            "time": [
-              {
-                "from": "09:00",
-                "to": "21:00"
-              }
-            ]
+            "time": [{ "from": "09:00", "to": "21:00" }]
           }
         ]
       },
@@ -305,20 +225,8 @@
             "audienceId": 1245,
             "priority": 1,
             "filters": {
-              "include": {
-                "segIds": [],
-                "listIds": []
-              },
-              "exclude": {
-                "segIds": [
-                  10,
-                  30
-                ],
-                "listIds": [
-                  20,
-                  30
-                ]
-              }
+              "include": { "segIds": [], "listIds": [] },
+              "exclude": { "segIds": [10, 30], "listIds": [20, 30] }
             },
             "events": {
               "targetRule": "all"
@@ -382,7 +290,7 @@
       "whereTo": {
         "multiTrigger": [
           {
-            "eventId": 201,
+            "eventId": 22,
             "eventName": "remove_from_wishlist",
             "delay": 0,
             "filterType": "all",
@@ -392,69 +300,13 @@
       },
       "whenTo": {
         "schedule": [
-          {
-            "day": 0,
-            "time": [
-              {
-                "from": "00:00",
-                "to": "23:59"
-              }
-            ]
-          },
-          {
-            "day": 1,
-            "time": [
-              {
-                "from": "00:00",
-                "to": "23:59"
-              }
-            ]
-          },
-          {
-            "day": 2,
-            "time": [
-              {
-                "from": "00:00",
-                "to": "23:59"
-              }
-            ]
-          },
-          {
-            "day": 3,
-            "time": [
-              {
-                "from": "00:00",
-                "to": "23:59"
-              }
-            ]
-          },
-          {
-            "day": 4,
-            "time": [
-              {
-                "from": "00:00",
-                "to": "23:59"
-              }
-            ]
-          },
-          {
-            "day": 5,
-            "time": [
-              {
-                "from": "00:00",
-                "to": "23:59"
-              }
-            ]
-          },
-          {
-            "day": 6,
-            "time": [
-              {
-                "from": "00:00",
-                "to": "23:59"
-              }
-            ]
-          }
+          { "day": 0, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 1, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 2, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 3, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 4, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 5, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 6, "time": [{ "from": "00:00", "to": "23:59" }] }
         ]
       },
       "whomTo": {
@@ -466,22 +318,10 @@
             "audienceId": 2001,
             "priority": 1,
             "filters": {
-              "include": {
-                "segIds": [
-                  101,
-                  102
-                ],
-                "listIds": []
-              },
-              "exclude": {
-                "segIds": [],
-                "listIds": []
-              }
+              "include": { "segIds": [101, 102], "listIds": [] },
+              "exclude": { "segIds": [], "listIds": [] }
             },
-            "events": {
-              "targetRule": "all",
-              "rules": []
-            }
+            "events": { "targetRule": "all", "rules": [] }
           }
         ]
       },
@@ -531,7 +371,7 @@
       "whereTo": {
         "multiTrigger": [
           {
-            "eventId": 202,
+            "eventId": 23,
             "eventName": "search",
             "delay": 0,
             "filterType": "all",
@@ -541,69 +381,13 @@
       },
       "whenTo": {
         "schedule": [
-          {
-            "day": 0,
-            "time": [
-              {
-                "from": "00:00",
-                "to": "23:59"
-              }
-            ]
-          },
-          {
-            "day": 1,
-            "time": [
-              {
-                "from": "00:00",
-                "to": "23:59"
-              }
-            ]
-          },
-          {
-            "day": 2,
-            "time": [
-              {
-                "from": "00:00",
-                "to": "23:59"
-              }
-            ]
-          },
-          {
-            "day": 3,
-            "time": [
-              {
-                "from": "00:00",
-                "to": "23:59"
-              }
-            ]
-          },
-          {
-            "day": 4,
-            "time": [
-              {
-                "from": "00:00",
-                "to": "23:59"
-              }
-            ]
-          },
-          {
-            "day": 5,
-            "time": [
-              {
-                "from": "00:00",
-                "to": "23:59"
-              }
-            ]
-          },
-          {
-            "day": 6,
-            "time": [
-              {
-                "from": "00:00",
-                "to": "23:59"
-              }
-            ]
-          }
+          { "day": 0, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 1, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 2, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 3, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 4, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 5, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 6, "time": [{ "from": "00:00", "to": "23:59" }] }
         ]
       },
       "whomTo": {
@@ -615,22 +399,10 @@
             "audienceId": 2002,
             "priority": 1,
             "filters": {
-              "include": {
-                "segIds": [],
-                "listIds": []
-              },
-              "exclude": {
-                "segIds": [
-                  888,
-                  889
-                ],
-                "listIds": []
-              }
+              "include": { "segIds": [], "listIds": [] },
+              "exclude": { "segIds": [888, 889], "listIds": [] }
             },
-            "events": {
-              "targetRule": "all",
-              "rules": []
-            }
+            "events": { "targetRule": "all", "rules": [] }
           }
         ]
       },
@@ -691,7 +463,7 @@
       "whereTo": {
         "multiTrigger": [
           {
-            "eventId": 203,
+            "eventId": 9,
             "eventName": "product_view",
             "delay": 0,
             "filterType": "all",
@@ -701,69 +473,13 @@
       },
       "whenTo": {
         "schedule": [
-          {
-            "day": 0,
-            "time": [
-              {
-                "from": "00:00",
-                "to": "23:59"
-              }
-            ]
-          },
-          {
-            "day": 1,
-            "time": [
-              {
-                "from": "00:00",
-                "to": "23:59"
-              }
-            ]
-          },
-          {
-            "day": 2,
-            "time": [
-              {
-                "from": "00:00",
-                "to": "23:59"
-              }
-            ]
-          },
-          {
-            "day": 3,
-            "time": [
-              {
-                "from": "00:00",
-                "to": "23:59"
-              }
-            ]
-          },
-          {
-            "day": 4,
-            "time": [
-              {
-                "from": "00:00",
-                "to": "23:59"
-              }
-            ]
-          },
-          {
-            "day": 5,
-            "time": [
-              {
-                "from": "00:00",
-                "to": "23:59"
-              }
-            ]
-          },
-          {
-            "day": 6,
-            "time": [
-              {
-                "from": "00:00",
-                "to": "23:59"
-              }
-            ]
-          }
+          { "day": 0, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 1, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 2, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 3, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 4, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 5, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 6, "time": [{ "from": "00:00", "to": "23:59" }] }
         ]
       },
       "whomTo": {
@@ -775,24 +491,10 @@
             "audienceId": 2003,
             "priority": 1,
             "filters": {
-              "include": {
-                "segIds": [],
-                "listIds": [
-                  501,
-                  502
-                ]
-              },
-              "exclude": {
-                "segIds": [],
-                "listIds": [
-                  900
-                ]
-              }
+              "include": { "segIds": [], "listIds": [501, 502] },
+              "exclude": { "segIds": [], "listIds": [900] }
             },
-            "events": {
-              "targetRule": "all",
-              "rules": []
-            }
+            "events": { "targetRule": "all", "rules": [] }
           }
         ]
       },
@@ -852,7 +554,7 @@
       "id": 1163,
       "v": 1,
       "priority": 3,
-      "campaignName": "Test IAM — narrow weekday schedule",
+      "campaignName": "Test IAM — narrow weekday schedule (page_browse)",
       "campaignType": "regular",
       "status": "running",
       "frequencyType": "",
@@ -864,8 +566,8 @@
       "whereTo": {
         "multiTrigger": [
           {
-            "eventId": 204,
-            "eventName": "category_browse",
+            "eventId": 3,
+            "eventName": "page_browse",
             "delay": 0,
             "filterType": "all",
             "filters": []
@@ -874,33 +576,9 @@
       },
       "whenTo": {
         "schedule": [
-          {
-            "day": 1,
-            "time": [
-              {
-                "from": "10:00",
-                "to": "12:00"
-              }
-            ]
-          },
-          {
-            "day": 2,
-            "time": [
-              {
-                "from": "10:00",
-                "to": "12:00"
-              }
-            ]
-          },
-          {
-            "day": 3,
-            "time": [
-              {
-                "from": "10:00",
-                "to": "12:00"
-              }
-            ]
-          }
+          { "day": 1, "time": [{ "from": "10:00", "to": "12:00" }] },
+          { "day": 2, "time": [{ "from": "10:00", "to": "12:00" }] },
+          { "day": 3, "time": [{ "from": "10:00", "to": "12:00" }] }
         ]
       },
       "whomTo": {
@@ -912,19 +590,10 @@
             "audienceId": 2004,
             "priority": 1,
             "filters": {
-              "include": {
-                "segIds": [],
-                "listIds": []
-              },
-              "exclude": {
-                "segIds": [],
-                "listIds": []
-              }
+              "include": { "segIds": [], "listIds": [] },
+              "exclude": { "segIds": [], "listIds": [] }
             },
-            "events": {
-              "targetRule": "all",
-              "rules": []
-            }
+            "events": { "targetRule": "all", "rules": [] }
           }
         ]
       },
@@ -995,7 +664,7 @@
       "id": 1164,
       "v": 1,
       "priority": 2,
-      "campaignName": "Test IAM — controlGroup > 0 (AB holdout)",
+      "campaignName": "Test IAM — controlGroup > 0 (AB holdout, checkout)",
       "campaignType": "regular",
       "status": "running",
       "frequencyType": "",
@@ -1007,8 +676,8 @@
       "whereTo": {
         "multiTrigger": [
           {
-            "eventId": 205,
-            "eventName": "checkout_initiated",
+            "eventId": 5,
+            "eventName": "checkout",
             "delay": 0,
             "filterType": "all",
             "filters": []
@@ -1017,69 +686,13 @@
       },
       "whenTo": {
         "schedule": [
-          {
-            "day": 0,
-            "time": [
-              {
-                "from": "00:00",
-                "to": "23:59"
-              }
-            ]
-          },
-          {
-            "day": 1,
-            "time": [
-              {
-                "from": "00:00",
-                "to": "23:59"
-              }
-            ]
-          },
-          {
-            "day": 2,
-            "time": [
-              {
-                "from": "00:00",
-                "to": "23:59"
-              }
-            ]
-          },
-          {
-            "day": 3,
-            "time": [
-              {
-                "from": "00:00",
-                "to": "23:59"
-              }
-            ]
-          },
-          {
-            "day": 4,
-            "time": [
-              {
-                "from": "00:00",
-                "to": "23:59"
-              }
-            ]
-          },
-          {
-            "day": 5,
-            "time": [
-              {
-                "from": "00:00",
-                "to": "23:59"
-              }
-            ]
-          },
-          {
-            "day": 6,
-            "time": [
-              {
-                "from": "00:00",
-                "to": "23:59"
-              }
-            ]
-          }
+          { "day": 0, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 1, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 2, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 3, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 4, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 5, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 6, "time": [{ "from": "00:00", "to": "23:59" }] }
         ]
       },
       "whomTo": {
@@ -1091,19 +704,10 @@
             "audienceId": 2005,
             "priority": 1,
             "filters": {
-              "include": {
-                "segIds": [],
-                "listIds": []
-              },
-              "exclude": {
-                "segIds": [],
-                "listIds": []
-              }
+              "include": { "segIds": [], "listIds": [] },
+              "exclude": { "segIds": [], "listIds": [] }
             },
-            "events": {
-              "targetRule": "all",
-              "rules": []
-            }
+            "events": { "targetRule": "all", "rules": [] }
           }
         ]
       },
@@ -1152,7 +756,7 @@
       "id": 1165,
       "v": 1,
       "priority": 2,
-      "campaignName": "Test IAM — controlGroup 0, include seg + list",
+      "campaignName": "Test IAM — controlGroup 0, include seg + list (lead_submitted)",
       "campaignType": "regular",
       "status": "running",
       "frequencyType": "",
@@ -1164,8 +768,8 @@
       "whereTo": {
         "multiTrigger": [
           {
-            "eventId": 206,
-            "eventName": "form_submitted",
+            "eventId": 10,
+            "eventName": "lead_submitted",
             "delay": 0,
             "filterType": "all",
             "filters": []
@@ -1174,69 +778,13 @@
       },
       "whenTo": {
         "schedule": [
-          {
-            "day": 0,
-            "time": [
-              {
-                "from": "00:00",
-                "to": "23:59"
-              }
-            ]
-          },
-          {
-            "day": 1,
-            "time": [
-              {
-                "from": "00:00",
-                "to": "23:59"
-              }
-            ]
-          },
-          {
-            "day": 2,
-            "time": [
-              {
-                "from": "00:00",
-                "to": "23:59"
-              }
-            ]
-          },
-          {
-            "day": 3,
-            "time": [
-              {
-                "from": "00:00",
-                "to": "23:59"
-              }
-            ]
-          },
-          {
-            "day": 4,
-            "time": [
-              {
-                "from": "00:00",
-                "to": "23:59"
-              }
-            ]
-          },
-          {
-            "day": 5,
-            "time": [
-              {
-                "from": "00:00",
-                "to": "23:59"
-              }
-            ]
-          },
-          {
-            "day": 6,
-            "time": [
-              {
-                "from": "00:00",
-                "to": "23:59"
-              }
-            ]
-          }
+          { "day": 0, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 1, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 2, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 3, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 4, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 5, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 6, "time": [{ "from": "00:00", "to": "23:59" }] }
         ]
       },
       "whomTo": {
@@ -1248,23 +796,10 @@
             "audienceId": 2006,
             "priority": 1,
             "filters": {
-              "include": {
-                "segIds": [
-                  201
-                ],
-                "listIds": [
-                  601
-                ]
-              },
-              "exclude": {
-                "segIds": [],
-                "listIds": []
-              }
+              "include": { "segIds": [201], "listIds": [601] },
+              "exclude": { "segIds": [], "listIds": [] }
             },
-            "events": {
-              "targetRule": "all",
-              "rules": []
-            }
+            "events": { "targetRule": "all", "rules": [] }
           }
         ]
       },
@@ -1291,6 +826,361 @@
             "attrIds": [],
             "payload": {
               "url": "https://cdndc.netcoresmartech.com/pod/90181/in-app-content/templates/t-s-44.html?inappVer=1"
+            }
+          }
+        ],
+        "customKeyValue": {},
+        "gaParams": {}
+      }
+    },
+    {
+      "id": 1166,
+      "v": 1,
+      "priority": 2,
+      "campaignName": "Demo IAM — header + 847 + fullscreen",
+      "campaignType": "regular",
+      "status": "running",
+      "frequencyType": "",
+      "frequency": "0",
+      "os": "android",
+      "toDate": "2027-12-30T07:45:24Z",
+      "fromDate": "2025-05-19T12:11:23Z",
+      "modifiedDate": "2025-05-19T12:11:28Z",
+      "whereTo": {
+        "multiTrigger": [
+          {
+            "eventId": 8,
+            "eventName": "product_search",
+            "delay": 0,
+            "filterType": "all",
+            "filters": []
+          }
+        ]
+      },
+      "whenTo": {
+        "schedule": [
+          { "day": 0, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 1, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 2, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 3, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 4, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 5, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 6, "time": [{ "from": "00:00", "to": "23:59" }] }
+        ]
+      },
+      "whomTo": {
+        "guid": [],
+        "controlGroup": 0,
+        "controlGroupMid": 1166,
+        "audience": [
+          {
+            "audienceId": 3001,
+            "priority": 1,
+            "filters": {
+              "include": { "segIds": [], "listIds": [] },
+              "exclude": { "segIds": [], "listIds": [] }
+            },
+            "events": { "targetRule": "all", "rules": [] }
+          }
+        ]
+      },
+      "whatTo": {
+        "winner": "",
+        "content": [
+          {
+            "mid": 1166,
+            "audienceId": 3001,
+            "contentId": "1166-hdr-847",
+            "layoutType": "header",
+            "variant": "0-100000",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/847.html?inappVer=1",
+              "useFullscreen": 1
+            }
+          }
+        ],
+        "customKeyValue": {},
+        "gaParams": {}
+      }
+    },
+    {
+      "id": 1167,
+      "v": 1,
+      "priority": 2,
+      "campaignName": "Demo IAM — footer + 848 + inline",
+      "campaignType": "regular",
+      "status": "running",
+      "frequencyType": "",
+      "frequency": "0",
+      "os": "android",
+      "toDate": "2027-12-30T07:45:24Z",
+      "fromDate": "2025-05-19T12:11:23Z",
+      "modifiedDate": "2025-05-19T12:11:28Z",
+      "whereTo": {
+        "multiTrigger": [
+          {
+            "eventId": 7,
+            "eventName": "remove_from_cart",
+            "delay": 0,
+            "filterType": "all",
+            "filters": []
+          }
+        ]
+      },
+      "whenTo": {
+        "schedule": [
+          { "day": 0, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 1, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 2, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 3, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 4, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 5, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 6, "time": [{ "from": "00:00", "to": "23:59" }] }
+        ]
+      },
+      "whomTo": {
+        "guid": [],
+        "controlGroup": 0,
+        "controlGroupMid": 1167,
+        "audience": [
+          {
+            "audienceId": 3002,
+            "priority": 1,
+            "filters": {
+              "include": { "segIds": [], "listIds": [] },
+              "exclude": { "segIds": [], "listIds": [] }
+            },
+            "events": { "targetRule": "all", "rules": [] }
+          }
+        ]
+      },
+      "whatTo": {
+        "winner": "",
+        "content": [
+          {
+            "mid": 1167,
+            "audienceId": 3002,
+            "contentId": "1167-ftr-848",
+            "layoutType": "footer",
+            "variant": "0-100000",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/848.html?inappVer=1",
+              "useFullscreen": 0
+            }
+          }
+        ],
+        "customKeyValue": {},
+        "gaParams": {}
+      }
+    },
+    {
+      "id": 1168,
+      "v": 1,
+      "priority": 2,
+      "campaignName": "Demo IAM — interstitial + 846 + fullscreen (show_interstitial_message)",
+      "campaignType": "regular",
+      "status": "running",
+      "frequencyType": "",
+      "frequency": "0",
+      "os": "android",
+      "toDate": "2027-12-30T07:45:24Z",
+      "fromDate": "2025-05-19T12:11:23Z",
+      "modifiedDate": "2025-05-19T12:11:28Z",
+      "whereTo": {
+        "multiTrigger": [
+          {
+            "eventId": 110,
+            "eventName": "show_interstitial_message",
+            "delay": 0,
+            "filterType": "all",
+            "filters": []
+          }
+        ]
+      },
+      "whenTo": {
+        "schedule": [
+          { "day": 0, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 1, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 2, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 3, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 4, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 5, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 6, "time": [{ "from": "00:00", "to": "23:59" }] }
+        ]
+      },
+      "whomTo": {
+        "guid": [],
+        "controlGroup": 0,
+        "controlGroupMid": 1168,
+        "audience": [
+          {
+            "audienceId": 3003,
+            "priority": 1,
+            "filters": {
+              "include": { "segIds": [], "listIds": [] },
+              "exclude": { "segIds": [], "listIds": [] }
+            },
+            "events": { "targetRule": "all", "rules": [] }
+          }
+        ]
+      },
+      "whatTo": {
+        "winner": "",
+        "content": [
+          {
+            "mid": 1168,
+            "audienceId": 3003,
+            "contentId": "1168-istl-846",
+            "layoutType": "interstitial",
+            "variant": "0-100000",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/846.html?inappVer=1",
+              "useFullscreen": 1
+            }
+          }
+        ],
+        "customKeyValue": {},
+        "gaParams": {}
+      }
+    },
+    {
+      "id": 1169,
+      "v": 1,
+      "priority": 2,
+      "campaignName": "Demo IAM — half-interstitial + 847 + inline (show_half_interstitial_message)",
+      "campaignType": "regular",
+      "status": "running",
+      "frequencyType": "",
+      "frequency": "0",
+      "os": "android",
+      "toDate": "2027-12-30T07:45:24Z",
+      "fromDate": "2025-05-19T12:11:23Z",
+      "modifiedDate": "2025-05-19T12:11:28Z",
+      "whereTo": {
+        "multiTrigger": [
+          {
+            "eventId": 111,
+            "eventName": "show_half_interstitial_message",
+            "delay": 0,
+            "filterType": "all",
+            "filters": []
+          }
+        ]
+      },
+      "whenTo": {
+        "schedule": [
+          { "day": 0, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 1, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 2, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 3, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 4, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 5, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 6, "time": [{ "from": "00:00", "to": "23:59" }] }
+        ]
+      },
+      "whomTo": {
+        "guid": [],
+        "controlGroup": 0,
+        "controlGroupMid": 1169,
+        "audience": [
+          {
+            "audienceId": 3004,
+            "priority": 1,
+            "filters": {
+              "include": { "segIds": [], "listIds": [] },
+              "exclude": { "segIds": [], "listIds": [] }
+            },
+            "events": { "targetRule": "all", "rules": [] }
+          }
+        ]
+      },
+      "whatTo": {
+        "winner": "",
+        "content": [
+          {
+            "mid": 1169,
+            "audienceId": 3004,
+            "contentId": "1169-half-847",
+            "layoutType": "half-interstitial",
+            "variant": "0-100000",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/847.html?inappVer=1",
+              "useFullscreen": 0
+            }
+          }
+        ],
+        "customKeyValue": {},
+        "gaParams": {}
+      }
+    },
+    {
+      "id": 1170,
+      "v": 1,
+      "priority": 2,
+      "campaignName": "Demo IAM — cover (full) + 848 + fullscreen (show_full_cover_message)",
+      "campaignType": "regular",
+      "status": "running",
+      "frequencyType": "",
+      "frequency": "0",
+      "os": "android",
+      "toDate": "2027-12-30T07:45:24Z",
+      "fromDate": "2025-05-19T12:11:23Z",
+      "modifiedDate": "2025-05-19T12:11:28Z",
+      "whereTo": {
+        "multiTrigger": [
+          {
+            "eventId": 112,
+            "eventName": "show_full_cover_message",
+            "delay": 0,
+            "filterType": "all",
+            "filters": []
+          }
+        ]
+      },
+      "whenTo": {
+        "schedule": [
+          { "day": 0, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 1, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 2, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 3, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 4, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 5, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 6, "time": [{ "from": "00:00", "to": "23:59" }] }
+        ]
+      },
+      "whomTo": {
+        "guid": [],
+        "controlGroup": 0,
+        "controlGroupMid": 1170,
+        "audience": [
+          {
+            "audienceId": 3005,
+            "priority": 1,
+            "filters": {
+              "include": { "segIds": [], "listIds": [] },
+              "exclude": { "segIds": [], "listIds": [] }
+            },
+            "events": { "targetRule": "all", "rules": [] }
+          }
+        ]
+      },
+      "whatTo": {
+        "winner": "",
+        "content": [
+          {
+            "mid": 1170,
+            "audienceId": 3005,
+            "contentId": "1170-cover-848",
+            "layoutType": "cover",
+            "variant": "0-100000",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/848.html?inappVer=1",
+              "useFullscreen": 1
             }
           }
         ],
@@ -1358,9 +1248,7 @@
     "userAttrConfig": {
       "enabled": true,
       "syncInterval": 30,
-      "attrIds": [
-        -1
-      ]
+      "attrIds": [-1]
     },
     "cid": "140578",
     "gwConfig": {
