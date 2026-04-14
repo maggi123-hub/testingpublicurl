@@ -12,7 +12,7 @@
       "os": "android",
       "toDate": "2027-12-30T07:45:24Z",
       "fromDate": "2025-05-19T12:11:23Z",
-      "modifiedDate": "2025-05-19T12:11:28Z",
+      "modifiedDate": "2026-04-07T12:00:00Z",
       "whereTo": {
         "multiTrigger": [
           {
@@ -162,7 +162,7 @@
       "os": "android",
       "toDate": "2027-12-30T07:45:24Z",
       "fromDate": "2025-05-19T12:11:23Z",
-      "modifiedDate": "2025-05-19T12:11:28Z",
+      "modifiedDate": "2026-04-07T12:00:00Z",
       "whereTo": {
         "multiTrigger": [
           {
@@ -246,7 +246,7 @@
             "attrIds": [],
             "payload": {
               "url": "https://cdndc.netcoresmartech.com/pod/90181/in-app-content/templates/t-s-44.html?inappVer=1",
-              "useFullscreen": 1
+              "useFullscreen": 0
             }
           },
           {
@@ -286,7 +286,7 @@
       "os": "android",
       "toDate": "2027-12-30T07:45:24Z",
       "fromDate": "2025-05-19T12:11:23Z",
-      "modifiedDate": "2025-05-19T12:11:28Z",
+      "modifiedDate": "2026-04-07T12:00:00Z",
       "whereTo": {
         "multiTrigger": [
           {
@@ -367,7 +367,7 @@
       "os": "android",
       "toDate": "2027-12-30T07:45:24Z",
       "fromDate": "2025-05-19T12:11:23Z",
-      "modifiedDate": "2025-05-19T12:11:28Z",
+      "modifiedDate": "2026-04-07T12:00:00Z",
       "whereTo": {
         "multiTrigger": [
           {
@@ -459,7 +459,7 @@
       "os": "android",
       "toDate": "2027-12-30T07:45:24Z",
       "fromDate": "2025-05-19T12:11:23Z",
-      "modifiedDate": "2025-05-19T12:11:28Z",
+      "modifiedDate": "2026-04-07T12:00:00Z",
       "whereTo": {
         "multiTrigger": [
           {
@@ -562,7 +562,7 @@
       "os": "android",
       "toDate": "2027-12-30T07:45:24Z",
       "fromDate": "2025-05-19T12:11:23Z",
-      "modifiedDate": "2025-05-19T12:11:28Z",
+      "modifiedDate": "2026-04-07T12:00:00Z",
       "whereTo": {
         "multiTrigger": [
           {
@@ -672,7 +672,7 @@
       "os": "android",
       "toDate": "2027-12-30T07:45:24Z",
       "fromDate": "2025-05-19T12:11:23Z",
-      "modifiedDate": "2025-05-19T12:11:28Z",
+      "modifiedDate": "2026-04-07T12:00:00Z",
       "whereTo": {
         "multiTrigger": [
           {
@@ -764,7 +764,7 @@
       "os": "android",
       "toDate": "2027-12-30T07:45:24Z",
       "fromDate": "2025-05-19T12:11:23Z",
-      "modifiedDate": "2025-05-19T12:11:28Z",
+      "modifiedDate": "2026-04-07T12:00:00Z",
       "whereTo": {
         "multiTrigger": [
           {
@@ -837,7 +837,7 @@
       "id": 1166,
       "v": 1,
       "priority": 2,
-      "campaignName": "Demo IAM — header + 847 + fullscreen",
+      "campaignName": "Demo IAM — header + 847 (useFullscreen 0)",
       "campaignType": "regular",
       "status": "running",
       "frequencyType": "",
@@ -845,7 +845,7 @@
       "os": "android",
       "toDate": "2027-12-30T07:45:24Z",
       "fromDate": "2025-05-19T12:11:23Z",
-      "modifiedDate": "2025-05-19T12:11:28Z",
+      "modifiedDate": "2026-04-07T12:00:00Z",
       "whereTo": {
         "multiTrigger": [
           {
@@ -896,7 +896,7 @@
             "attrIds": [],
             "payload": {
               "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/847.html?inappVer=1",
-              "useFullscreen": 1
+              "useFullscreen": 0
             }
           }
         ],
@@ -916,7 +916,7 @@
       "os": "android",
       "toDate": "2027-12-30T07:45:24Z",
       "fromDate": "2025-05-19T12:11:23Z",
-      "modifiedDate": "2025-05-19T12:11:28Z",
+      "modifiedDate": "2026-04-07T12:00:00Z",
       "whereTo": {
         "multiTrigger": [
           {
@@ -979,7 +979,7 @@
       "id": 1168,
       "v": 1,
       "priority": 2,
-      "campaignName": "Demo IAM — interstitial + 846 + fullscreen (show_interstitial_message)",
+      "campaignName": "Demo IAM — interstitial + 846 (show_interstitial_message, useFullscreen 0)",
       "campaignType": "regular",
       "status": "running",
       "frequencyType": "",
@@ -987,7 +987,7 @@
       "os": "android",
       "toDate": "2027-12-30T07:45:24Z",
       "fromDate": "2025-05-19T12:11:23Z",
-      "modifiedDate": "2025-05-19T12:11:28Z",
+      "modifiedDate": "2026-04-07T12:00:00Z",
       "whereTo": {
         "multiTrigger": [
           {
@@ -1038,7 +1038,7 @@
             "attrIds": [],
             "payload": {
               "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/846.html?inappVer=1",
-              "useFullscreen": 1
+              "useFullscreen": 0
             }
           }
         ],
@@ -1058,7 +1058,7 @@
       "os": "android",
       "toDate": "2027-12-30T07:45:24Z",
       "fromDate": "2025-05-19T12:11:23Z",
-      "modifiedDate": "2025-05-19T12:11:28Z",
+      "modifiedDate": "2026-04-07T12:00:00Z",
       "whereTo": {
         "multiTrigger": [
           {
@@ -1121,7 +1121,7 @@
       "id": 1170,
       "v": 1,
       "priority": 2,
-      "campaignName": "Demo IAM — cover (full) + 848 + fullscreen (show_full_cover_message)",
+      "campaignName": "Demo IAM — cover + 848 (show_full_cover_message, useFullscreen 0)",
       "campaignType": "regular",
       "status": "running",
       "frequencyType": "",
@@ -1129,7 +1129,7 @@
       "os": "android",
       "toDate": "2027-12-30T07:45:24Z",
       "fromDate": "2025-05-19T12:11:23Z",
-      "modifiedDate": "2025-05-19T12:11:28Z",
+      "modifiedDate": "2026-04-07T12:00:00Z",
       "whereTo": {
         "multiTrigger": [
           {
@@ -1180,7 +1180,7 @@
             "attrIds": [],
             "payload": {
               "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/848.html?inappVer=1",
-              "useFullscreen": 1
+              "useFullscreen": 0
             }
           }
         ],
