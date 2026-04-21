@@ -3,7 +3,7 @@
     {
       "id": 1152,
       "v": 1,
-      "priority": 1,
+      "priority": 3,
       "campaignName": "Krutika Test 1152",
       "campaignType": "regular",
       "status": "running",
@@ -153,7 +153,7 @@
     {
       "id": 1146,
       "v": 1,
-      "priority": 1,
+      "priority": 2,
       "campaignName": "Krutika Test 1146",
       "campaignType": "regular",
       "status": "running",
@@ -277,7 +277,7 @@
     {
       "id": 1160,
       "v": 1,
-      "priority": 2,
+      "priority": 5,
       "campaignName": "Test IAM — include segment only",
       "campaignType": "regular",
       "status": "running",
@@ -450,7 +450,7 @@
     {
       "id": 1162,
       "v": 1,
-      "priority": 2,
+      "priority": 4,
       "campaignName": "Test IAM — include list + exclude list",
       "campaignType": "regular",
       "status": "running",
@@ -553,7 +553,7 @@
     {
       "id": 1163,
       "v": 1,
-      "priority": 3,
+      "priority": 1,
       "campaignName": "Test IAM — narrow weekday schedule (page_browse)",
       "campaignType": "regular",
       "status": "running",
@@ -663,7 +663,7 @@
     {
       "id": 1164,
       "v": 1,
-      "priority": 2,
+      "priority": 6,
       "campaignName": "Test IAM — controlGroup > 0 (AB holdout, checkout)",
       "campaignType": "regular",
       "status": "running",
@@ -755,7 +755,7 @@
     {
       "id": 1165,
       "v": 1,
-      "priority": 2,
+      "priority": 3,
       "campaignName": "Test IAM — controlGroup 0, include seg + list (lead_submitted)",
       "campaignType": "regular",
       "status": "running",
@@ -907,7 +907,7 @@
     {
       "id": 1167,
       "v": 1,
-      "priority": 2,
+      "priority": 5,
       "campaignName": "Demo IAM — footer + 848 + inline",
       "campaignType": "regular",
       "status": "running",
@@ -978,7 +978,7 @@
     {
       "id": 1168,
       "v": 1,
-      "priority": 2,
+      "priority": 1,
       "campaignName": "Demo IAM — interstitial + 846 (show_interstitial_message, useFullscreen 0)",
       "campaignType": "regular",
       "status": "running",
@@ -1049,7 +1049,7 @@
     {
       "id": 1169,
       "v": 1,
-      "priority": 2,
+      "priority": 4,
       "campaignName": "Demo IAM — half-interstitial + 847 + inline (show_half_interstitial_message)",
       "campaignType": "regular",
       "status": "running",
