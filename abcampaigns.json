@@ -1188,6 +1188,219 @@
         "gaParams": {}
       }
     }
+    {
+      "id": 1171,
+      "v": 1,
+      "priority": 1,
+      "campaignName": "Priority Test — add_to_cart P1 (should show first)",
+      "campaignType": "regular",
+      "status": "running",
+      "frequencyType": "",
+      "frequency": "0",
+      "os": "android",
+      "toDate": "2027-12-30T07:45:24Z",
+      "fromDate": "2025-05-19T12:11:23Z",
+      "modifiedDate": "2026-04-07T12:00:00Z",
+      "whereTo": {
+        "multiTrigger": [
+          {
+            "eventId": 4,
+            "eventName": "add_to_cart",
+            "delay": 0,
+            "filterType": "all",
+            "filters": []
+          }
+        ]
+      },
+      "whenTo": {
+        "schedule": [
+          { "day": 0, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 1, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 2, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 3, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 4, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 5, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 6, "time": [{ "from": "00:00", "to": "23:59" }] }
+        ]
+      },
+      "whomTo": {
+        "guid": [],
+        "controlGroup": 0,
+        "controlGroupMid": 1171,
+        "audience": [
+          {
+            "audienceId": 4001,
+            "priority": 1,
+            "filters": {
+              "include": { "segIds": [], "listIds": [] },
+              "exclude": { "segIds": [], "listIds": [] }
+            },
+            "events": { "targetRule": "all", "rules": [] }
+          }
+        ]
+      },
+      "whatTo": {
+        "winner": "",
+        "content": [
+          {
+            "mid": 1171,
+            "audienceId": 4001,
+            "contentId": "1171-P1",
+            "layoutType": "header",
+            "variant": "0-100000",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/846.html?inappVer=1",
+              "useFullscreen": 0
+            }
+          }
+        ],
+        "customKeyValue": {},
+        "gaParams": {}
+      }
+    },
+    {
+      "id": 1172,
+      "v": 1,
+      "priority": 2,
+      "campaignName": "Priority Test — add_to_cart P2 (should show second)",
+      "campaignType": "regular",
+      "status": "running",
+      "frequencyType": "",
+      "frequency": "0",
+      "os": "android",
+      "toDate": "2027-12-30T07:45:24Z",
+      "fromDate": "2025-05-19T12:11:23Z",
+      "modifiedDate": "2026-04-07T12:00:00Z",
+      "whereTo": {
+        "multiTrigger": [
+          {
+            "eventId": 4,
+            "eventName": "add_to_cart",
+            "delay": 0,
+            "filterType": "all",
+            "filters": []
+          }
+        ]
+      },
+      "whenTo": {
+        "schedule": [
+          { "day": 0, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 1, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 2, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 3, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 4, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 5, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 6, "time": [{ "from": "00:00", "to": "23:59" }] }
+        ]
+      },
+      "whomTo": {
+        "guid": [],
+        "controlGroup": 0,
+        "controlGroupMid": 1172,
+        "audience": [
+          {
+            "audienceId": 4002,
+            "priority": 1,
+            "filters": {
+              "include": { "segIds": [], "listIds": [] },
+              "exclude": { "segIds": [], "listIds": [] }
+            },
+            "events": { "targetRule": "all", "rules": [] }
+          }
+        ]
+      },
+      "whatTo": {
+        "winner": "",
+        "content": [
+          {
+            "mid": 1172,
+            "audienceId": 4002,
+            "contentId": "1172-P2",
+            "layoutType": "footer",
+            "variant": "0-100000",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/847.html?inappVer=1",
+              "useFullscreen": 0
+            }
+          }
+        ],
+        "customKeyValue": {},
+        "gaParams": {}
+      }
+    },
+    {
+      "id": 1173,
+      "v": 1,
+      "priority": 3,
+      "campaignName": "Priority Test — add_to_cart P3 (should show third)",
+      "campaignType": "regular",
+      "status": "running",
+      "frequencyType": "",
+      "frequency": "0",
+      "os": "android",
+      "toDate": "2027-12-30T07:45:24Z",
+      "fromDate": "2025-05-19T12:11:23Z",
+      "modifiedDate": "2026-04-07T12:00:00Z",
+      "whereTo": {
+        "multiTrigger": [
+          {
+            "eventId": 4,
+            "eventName": "add_to_cart",
+            "delay": 0,
+            "filterType": "all",
+            "filters": []
+          }
+        ]
+      },
+      "whenTo": {
+        "schedule": [
+          { "day": 0, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 1, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 2, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 3, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 4, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 5, "time": [{ "from": "00:00", "to": "23:59" }] },
+          { "day": 6, "time": [{ "from": "00:00", "to": "23:59" }] }
+        ]
+      },
+      "whomTo": {
+        "guid": [],
+        "controlGroup": 0,
+        "controlGroupMid": 1173,
+        "audience": [
+          {
+            "audienceId": 4003,
+            "priority": 1,
+            "filters": {
+              "include": { "segIds": [], "listIds": [] },
+              "exclude": { "segIds": [], "listIds": [] }
+            },
+            "events": { "targetRule": "all", "rules": [] }
+          }
+        ]
+      },
+      "whatTo": {
+        "winner": "",
+        "content": [
+          {
+            "mid": 1173,
+            "audienceId": 4003,
+            "contentId": "1173-P3",
+            "layoutType": "interstitial",
+            "variant": "0-100000",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/848.html?inappVer=1",
+              "useFullscreen": 0
+            }
+          }
+        ],
+        "customKeyValue": {},
+        "gaParams": {}
+      }
+    }
   ],
   "testInAppRules": [],
   "smartechSettings": {
