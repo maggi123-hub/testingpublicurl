@@ -426,7 +426,7 @@
                 "trustedHosts": [
                     "https://cdndc.netcoresmartech.com",
                     "https://cdn.smartech-campaigns.com",
-                    "https://www.client-custom-domain.com"
+                    "www.netcoresmartech.com"
                 ]
             }
     },
