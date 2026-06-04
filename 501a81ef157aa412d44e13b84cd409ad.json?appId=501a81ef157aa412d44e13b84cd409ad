@@ -1,0 +1,264 @@
+{
+  "inAppRules": [
+    {
+      "id": "209",
+      "fromDate": "2026-06-04T09:56:07",
+      "toDate": "2027-12-30T07:45:24",
+      "modifiedDate": "2026-06-04T09:56:10",
+      "frequencyType": "",
+      "frequency": "0",
+      "whomTo": {
+        "visitor": "all",
+        "visitorType": "all"
+      },
+      "whereTo": {
+        "multiTrigger": [
+          {
+            "delay": 0,
+            "eventId": 187,
+            "eventName": "lead_submitted",
+            "filterType": "all",
+            "filters": []
+          }
+        ],
+        "position": "4",
+        "trigger": {
+          "delay": 0,
+          "eventId": 187,
+          "eventName": "lead_submitted",
+          "filterType": "all",
+          "filters": []
+        }
+      },
+      "whenTo": {
+        "days": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "time": [
+          {
+            "from": "09:00",
+            "to": "21:00"
+          }
+        ]
+      },
+      "whatTo": {
+        "attrIds": [],
+        "smtCustomPayload": {},
+        "url": "https://cdndc.netcoresmartech.com/170666/in-app-content/209.html?inappVer=1",
+        "useFullscreen": 1
+      },
+      "contentType": 1,
+      "controlGroup": 0
+    },
+    {
+      "id": "208",
+      "fromDate": "2026-06-04T10:25:20",
+      "toDate": "2027-12-30T07:45:24",
+      "modifiedDate": "2026-06-04T10:25:24",
+      "frequencyType": "",
+      "frequency": "0",
+      "whomTo": {
+        "visitor": "all",
+        "visitorType": "all"
+      },
+      "whereTo": {
+        "multiTrigger": [
+          {
+            "delay": 0,
+            "eventId": 195,
+            "eventName": "add_to_wishlist",
+            "filterType": "all",
+            "filters": []
+          }
+        ],
+        "position": "4",
+        "trigger": {
+          "delay": 0,
+          "eventId": 195,
+          "eventName": "add_to_wishlist",
+          "filterType": "all",
+          "filters": []
+        }
+      },
+      "whenTo": {
+        "days": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "time": [
+          {
+            "from": "09:00",
+            "to": "21:00"
+          }
+        ]
+      },
+      "whatTo": {
+        "attrIds": [],
+        "smtCustomPayload": {},
+        "url": "https://cdnt.netcoresmartech.com/smartechapp-sdk/smartech-ce/dist/index.html",
+        "useFullscreen": 0
+      },
+      "contentType": 3,
+      "controlGroup": 0
+    },
+    {
+      "id": "199",
+      "fromDate": "2026-05-21T06:12:08",
+      "toDate": "2027-12-30T07:45:24",
+      "modifiedDate": "2026-05-21T06:12:13",
+      "frequencyType": "",
+      "frequency": "0",
+      "whomTo": {
+        "visitor": "all",
+        "visitorType": "all"
+      },
+      "whereTo": {
+        "multiTrigger": [
+          {
+            "delay": 0,
+            "eventId": 160,
+            "eventName": "add_to_cart",
+            "filterType": "all",
+            "filters": []
+          }
+        ],
+        "position": "4",
+        "trigger": {
+          "delay": 0,
+          "eventId": 160,
+          "eventName": "add_to_cart",
+          "filterType": "all",
+          "filters": []
+        }
+      },
+      "whenTo": {
+        "days": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "time": [
+          {
+            "from": "09:00",
+            "to": "21:00"
+          }
+        ]
+      },
+      "whatTo": {
+        "attrIds": [],
+        "smtCustomPayload": {
+          "utm_campaign": "TEST_hlaf_interstitial",
+          "utm_content": "",
+          "utm_medium": "In-app",
+          "utm_source": "Netcore",
+          "utm_term": "Onsite"
+        },
+        "url": "https://cdndc.netcoresmartech.com/170666/in-app-content/templates/t-15.html?inappVer=1",
+        "useFullscreen": 1
+      },
+      "contentType": 1,
+      "controlGroup": 0
+    }
+  ],
+  "smartechSettings": {
+    "appInboxEnabled": true,
+    "baseUrls": {
+      "contentPzUrl": "https://app-cpz.netcoresmartech.com/prod/",
+      "inAppUrl": "https://ninapp.netcoresmartech.com/",
+      "inboxUrl": "https://appinbox.netcoresmartech.com/",
+      "listSegUrl": "https://psegment-us.netcoresmartech.com/",
+      "pushAmpUrl": "https://npa.netcoresmartech.com/",
+      "testDeviceUrl": "https://api.netcoresmartech.com/",
+      "trackAppActUrl": "https://npn.netcoresmartech.com/"
+    },
+    "batchInterval": 5,
+    "batchSize": 5,
+    "cid": "170666",
+    "eventLimit": 200,
+    "eventSettings": {
+      "allevents": true,
+      "appinbox": true,
+      "inapp": true,
+      "lifecycle": true,
+      "push": true
+    },
+    "features": {
+      "contentPz": {
+        "enabled": true,
+        "syncInterval": 0
+      },
+      "inApp": {
+        "enableTrustedHostsValidation": true,
+        "trustedHosts": [
+          "https://cdndc.netcoresmartech.com",
+          "https://cdnt.netcoresmartech.com",
+          "netcorecloud.com",
+          "netcoresmartech.com"
+        ]
+      }
+    },
+    "frequency": {
+      "day": 0,
+      "enable": 0,
+      "month": 0,
+      "week": 0
+    },
+    "gwConfig": {
+      "xiaomi": {
+        "enable": false,
+        "enablePushFor": null,
+        "tokenSendInterval": 60
+      }
+    },
+    "hansel_api_endpoints": {
+      "add_events": "https://sdk.hansel.io/dashboard/event/v1/<app_id>/",
+      "get_data": "https://ujm.hansel.io/ujm/v1/data/<os>/<app_id>/<rv>/",
+      "init_sdk": "https://sdk.hansel.io/dashboard/sdk/v1/init/<os>/<app_id>/",
+      "populate_data": "https://sdk.hansel.io/dashboard/populatedata/v1/<app_id>/",
+      "req_sesid": "https://sdk.hansel.io/dashboard/visualizer/request_session",
+      "socket": "wss://websocket-visualizer.hansel.io",
+      "td_auth": "https://sdk.hansel.io/dashboard/td/verify"
+    },
+    "paEnabled": true,
+    "paInterval": 18,
+    "panelActive": true,
+    "sConfig": {
+      "a": "",
+      "etData": false,
+      "p": "IXsRdI5yn5Sq90xZ3obvofvhN41Wif40cwRqfWYD2R3bRBaUZmqoCVGp0ImjXqja"
+    },
+    "sdkActive": true,
+    "sessionInterval": 30,
+    "td": {
+      "guids": [
+        "90f2a978-36e8-4c6a-8a7a-ac9ff76dc455",
+        "f6416f0b-0cf9-4988-9007-62c374ef5b8f",
+        "ea041412-1c2c-4b16-92d9-471fa831cae1",
+        "4d799f04-d354-4c13-90fc-49103272de32"
+      ],
+      "logEnabled": false,
+      "logLevel": 1
+    },
+    "userAttrConfig": {
+      "attrIds": [],
+      "enabled": true,
+      "syncInterval": 30
+    }
+  },
+  "testInAppRules": []
+}
