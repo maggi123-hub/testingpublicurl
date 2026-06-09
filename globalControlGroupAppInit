@@ -43,6 +43,10 @@
       "contentPz": {
         "enabled": true,
         "syncInterval": 0
+      },
+      "gcgConfig": {
+        "listEnabled": true,
+        "percentage": 0
       }
     },
     "hansel_api_endpoints": {
