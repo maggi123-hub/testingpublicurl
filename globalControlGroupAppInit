@@ -1,6 +1,171 @@
 {
   "iamRules_v1": [
     {
+      "id": 3094,
+      "gcgEnabled": true,
+      "v": 1,
+      "priority": 1,
+      "campaignName": "AB_TEST_CMAPIGN_RULE",
+      "campaignType": "ab-test",
+      "status": "running",
+      "os": "android",
+      "fromDate": "2026-06-09T07:51:32Z",
+      "toDate": "2027-12-30T07:45:24Z",
+      "modifiedDate": "2026-06-09T07:51:35Z",
+      "updatedDate": "2026-06-09T09:00:02Z",
+      "frequency": "0",
+      "whereTo": {
+        "multiTrigger": [
+          {
+            "eventId": 3,
+            "eventName": "add_to_cart",
+            "filterType": "all"
+          }
+        ]
+      },
+      "whenTo": {
+        "schedule": [
+          {
+            "day": 0,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 1,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 3,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 5,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          }
+        ]
+      },
+      "whomTo": {
+        "guid": [],
+        "controlGroup": 1,
+        "controlGroupMid": 3094,
+        "audience": [
+          {
+            "audienceId": 0,
+            "events": {
+              "rules": [],
+              "targetRule": "all"
+            },
+            "filters": {
+              "exclude": {
+                "listIds": [],
+                "segIds": []
+              },
+              "include": {
+                "listIds": [],
+                "segIds": []
+              }
+            },
+            "priority": 1
+          }
+        ]
+      },
+      "whatTo": {
+        "winner": "3099",
+        "content": [
+          {
+            "mid": 3092,
+            "audienceId": 0,
+            "contentId": "3092",
+            "layoutType": "half-interstitial",
+            "variant": "1000-49999",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/pod/82491/in-app-content/templates/t-435.html?inappVer=1",
+              "useFullScreen": true
+            }
+          },
+          {
+            "mid": 3093,
+            "audienceId": 0,
+            "contentId": "3093",
+            "layoutType": "cover",
+            "variant": "50000-99999",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/pod/82491/in-app-content/templates/t-451.html?inappVer=1",
+              "useFullScreen": true
+            }
+          },
+          {
+            "mid": 3099,
+            "audienceId": 0,
+            "contentId": "3099",
+            "layoutType": "half-interstitial",
+            "variant": "1000-99999",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/pod/82491/in-app-content/templates/t-435.html?inappVer=1",
+              "useFullScreen": true
+            }
+          }
+        ],
+        "customKeyValue": null,
+        "gaParams": {
+          "utm_campaign": "AB_TEST_CMAPIGN_RULE",
+          "utm_content": "",
+          "utm_medium": "In-app",
+          "utm_source": "Netcore",
+          "utm_term": "Onsite"
+        }
+      }
+    },
+    {
       "id": 3092,
       "gcgEnabled": true,
       "v": 1,
