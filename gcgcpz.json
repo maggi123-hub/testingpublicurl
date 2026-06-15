@@ -1,0 +1,276 @@
+{
+  "cpzRules_v1": [
+    {
+      "v": 1,
+      "id": 14,
+      "gcgEnabled": true,
+      "os": "android",
+      "status": "running",
+      "toDate": "2031-06-12T06:01:52Z",
+      "whatTo": {
+        "content": [
+          {
+            "attrIds": [],
+            "payload": {
+              "mediaUrl": "https://www.phonepe.com/webstatic/static/default-image-cf4bb5407be1a9d8c49eb9a502a245db.png",
+              "actionButton": [
+                {
+                  "tc": "#6F6F8D",
+                  "bgc": "#FFCF5C",
+                  "aTyp": 1,
+                  "actionName": "Click",
+                  "actionDeeplink": "profile"
+                }
+              ]
+            },
+            "contentId": "4531-c",
+            "pzEnabled": false,
+            "audienceId": 4531,
+            "layoutType": "image"
+          }
+        ],
+        "gaParams": {
+          "utm_term": "Campaign",
+          "utm_medium": "App-Content-Personalization",
+          "utm_source": "Netcore",
+          "utm_content": "",
+          "utm_campaign": "KrTest - cpz control group testing"
+        },
+        "customKeyValue": {}
+      },
+      "whenTo": {
+        "schedule": [
+          {
+            "day": 0,
+            "time": [
+              {
+                "to": "23:00",
+                "from": "00:00"
+              }
+            ]
+          },
+          {
+            "day": 1,
+            "time": [
+              {
+                "to": "23:00",
+                "from": "00:00"
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "time": [
+              {
+                "to": "23:00",
+                "from": "00:00"
+              }
+            ]
+          },
+          {
+            "day": 3,
+            "time": [
+              {
+                "to": "23:00",
+                "from": "00:00"
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "time": [
+              {
+                "to": "23:00",
+                "from": "00:00"
+              }
+            ]
+          },
+          {
+            "day": 5,
+            "time": [
+              {
+                "to": "23:00",
+                "from": "00:00"
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "time": [
+              {
+                "to": "23:00",
+                "from": "00:00"
+              }
+            ]
+          }
+        ]
+      },
+      "whomTo": {
+        "guid": [],
+        "audience": [
+          {
+            "events": {
+              "rules": [],
+              "targetRule": "all"
+            },
+            "filters": {
+              "exclude": {
+                "segIds": [],
+                "listIds": []
+              },
+              "include": {
+                "segIds": [],
+                "listIds": []
+              }
+            },
+            "priority": 1,
+            "audienceId": 4531
+          }
+        ],
+        "controlGroup": 15
+      },
+      "whereTo": {
+        "trigger": [
+          {
+            "widgetId": 522,
+            "widgetName": "KrTest3"
+          }
+        ]
+      },
+      "fromDate": "2026-06-12T06:01:52Z",
+      "priority": 1,
+      "campaignName": "KrTest - cpz control group testing",
+      "campaignType": "regular",
+      "modifiedDate": "2026-06-12T06:01:52Z"
+    },
+    {
+      "v": 1,
+      "id": 3,
+      "gcgEnabled": true,
+      "os": "android",
+      "status": "running",
+      "toDate": "2031-01-29T05:01:30Z",
+      "whatTo": {
+        "content": [
+          {
+            "attrIds": [],
+            "payload": {
+              "mediaUrl": "https://www.phonepe.com/webstatic/static/default-image-cf4bb5407be1a9d8c49eb9a502a245db.png"
+            },
+            "contentId": "1693-c",
+            "pzEnabled": false,
+            "audienceId": 1693,
+            "layoutType": "image"
+          }
+        ],
+        "gaParams": {},
+        "customKeyValue": {}
+      },
+      "whenTo": {
+        "schedule": [
+          {
+            "day": 0,
+            "time": [
+              {
+                "to": "23:00",
+                "from": "00:00"
+              }
+            ]
+          },
+          {
+            "day": 1,
+            "time": [
+              {
+                "to": "23:00",
+                "from": "00:00"
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "time": [
+              {
+                "to": "23:00",
+                "from": "00:00"
+              }
+            ]
+          },
+          {
+            "day": 3,
+            "time": [
+              {
+                "to": "23:00",
+                "from": "00:00"
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "time": [
+              {
+                "to": "23:00",
+                "from": "00:00"
+              }
+            ]
+          },
+          {
+            "day": 5,
+            "time": [
+              {
+                "to": "23:00",
+                "from": "00:00"
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "time": [
+              {
+                "to": "23:00",
+                "from": "00:00"
+              }
+            ]
+          }
+        ]
+      },
+      "whomTo": {
+        "guid": [],
+        "audience": [
+          {
+            "events": {
+              "rules": [],
+              "targetRule": "all"
+            },
+            "filters": {
+              "exclude": {
+                "segIds": [],
+                "listIds": []
+              },
+              "include": {
+                "segIds": [],
+                "listIds": []
+              }
+            },
+            "priority": 1,
+            "audienceId": 1693
+          }
+        ],
+        "controlGroup": 0
+      },
+      "whereTo": {
+        "trigger": [
+          {
+            "widgetId": 520,
+            "widgetName": "KrTest1"
+          }
+        ]
+      },
+      "fromDate": "2026-01-29T05:01:30Z",
+      "priority": 1,
+      "campaignName": "KrTest - 1",
+      "campaignType": "regular",
+      "modifiedDate": "2026-01-29T05:01:30Z"
+    }
+  ],
+  "cpzRulesTest_v1": []
+}
