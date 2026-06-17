@@ -514,11 +514,11 @@
     },
     "features": {
       "contentPz": {
-        "enabled": false,
+        "enabled": true,
         "syncInterval": 0
       },
       "gcgConfig": {
-        "listEnabled": true,
+        "listEnabled": false,
         "percentage": 5
       }
     },
