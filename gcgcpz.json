@@ -3,7 +3,7 @@
     {
       "v": 1,
       "id": 14,
-      "gcgEnabled": true,
+      "gcgEnabled": false,
       "os": "android",
       "status": "running",
       "toDate": "2031-06-12T06:01:52Z",
@@ -146,7 +146,7 @@
     {
       "v": 1,
       "id": 3,
-      "gcgEnabled": true,
+      "gcgEnabled": false,
       "os": "android",
       "status": "running",
       "toDate": "2031-01-29T05:01:30Z",
