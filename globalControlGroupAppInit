@@ -518,7 +518,7 @@
         "syncInterval": 0
       },
       "gcgConfig": {
-        "listEnabled": false,
+        "listEnabled": true,
         "percentage": 5
       }
     },
