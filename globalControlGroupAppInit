@@ -2,7 +2,7 @@
   "iamRules_v1": [
     {
       "id": 3094,
-      "gcgEnabled": true,
+      "gcgEnabled": false,
       "v": 1,
       "priority": 1,
       "campaignName": "AB_TEST_CMAPIGN_RULE",
@@ -167,7 +167,7 @@
     },
     {
       "id": 3092,
-      "gcgEnabled": true,
+      "gcgEnabled": false,
       "v": 1,
       "priority": 1,
       "campaignName": "AB_TEST_CMAPIGN_RULE",
