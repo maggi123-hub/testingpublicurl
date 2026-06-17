@@ -167,7 +167,7 @@
     },
     {
       "id": 3092,
-      "gcgEnabled": true,
+      "gcgEnabled": false,
       "v": 1,
       "priority": 1,
       "campaignName": "AB_TEST_CMAPIGN_RULE",
@@ -514,7 +514,7 @@
     },
     "features": {
       "contentPz": {
-        "enabled": true,
+        "enabled": false,
         "syncInterval": 0
       },
       "gcgConfig": {
