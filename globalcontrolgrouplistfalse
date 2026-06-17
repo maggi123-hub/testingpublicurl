@@ -1,0 +1,556 @@
+{
+  "iamRules_v1": [
+    {
+      "id": 3094,
+      "gcgEnabled": false,
+      "v": 1,
+      "priority": 1,
+      "campaignName": "AB_TEST_CMAPIGN_RULE",
+      "campaignType": "ab-test",
+      "status": "running",
+      "os": "android",
+      "fromDate": "2026-06-09T07:51:32Z",
+      "toDate": "2027-12-30T07:45:24Z",
+      "modifiedDate": "2026-06-09T07:51:35Z",
+      "updatedDate": "2026-06-09T09:00:02Z",
+      "frequency": "0",
+      "whereTo": {
+        "multiTrigger": [
+          {
+            "eventId": 3,
+            "eventName": "add_to_cart",
+            "filterType": "all"
+          }
+        ]
+      },
+      "whenTo": {
+        "schedule": [
+          {
+            "day": 0,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 1,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 3,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 5,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          }
+        ]
+      },
+      "whomTo": {
+        "guid": [],
+        "controlGroup": 1,
+        "controlGroupMid": 3094,
+        "audience": [
+          {
+            "audienceId": 0,
+            "events": {
+              "rules": [],
+              "targetRule": "all"
+            },
+            "filters": {
+              "exclude": {
+                "listIds": [],
+                "segIds": []
+              },
+              "include": {
+                "listIds": [],
+                "segIds": []
+              }
+            },
+            "priority": 1
+          }
+        ]
+      },
+      "whatTo": {
+        "winner": "3099",
+        "content": [
+          {
+            "mid": 3092,
+            "audienceId": 0,
+            "contentId": "3092",
+            "layoutType": "half-interstitial",
+            "variant": "1000-49999",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/pod/82491/in-app-content/templates/t-435.html?inappVer=1",
+              "useFullScreen": true
+            }
+          },
+          {
+            "mid": 3093,
+            "audienceId": 0,
+            "contentId": "3093",
+            "layoutType": "cover",
+            "variant": "50000-99999",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/pod/82491/in-app-content/templates/t-451.html?inappVer=1",
+              "useFullScreen": true
+            }
+          },
+          {
+            "mid": 3099,
+            "audienceId": 0,
+            "contentId": "3099",
+            "layoutType": "half-interstitial",
+            "variant": "1000-99999",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/pod/82491/in-app-content/templates/t-435.html?inappVer=1",
+              "useFullScreen": true
+            }
+          }
+        ],
+        "customKeyValue": null,
+        "gaParams": {
+          "utm_campaign": "AB_TEST_CMAPIGN_RULE",
+          "utm_content": "",
+          "utm_medium": "In-app",
+          "utm_source": "Netcore",
+          "utm_term": "Onsite"
+        }
+      }
+    },
+    {
+      "id": 3092,
+      "gcgEnabled": false,
+      "v": 1,
+      "priority": 1,
+      "campaignName": "AB_TEST_CMAPIGN_RULE",
+      "campaignType": "ab-test",
+      "status": "running",
+      "os": "android",
+      "fromDate": "2026-06-09T07:51:32Z",
+      "toDate": "2027-12-30T07:45:24Z",
+      "modifiedDate": "2026-06-09T07:51:35Z",
+      "updatedDate": "2026-06-09T09:00:02Z",
+      "frequency": "0",
+      "whereTo": {
+        "multiTrigger": [
+          {
+            "eventId": 3,
+            "eventName": "Checkout",
+            "filterType": "all"
+          }
+        ]
+      },
+      "whenTo": {
+        "schedule": [
+          {
+            "day": 0,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 1,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 3,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 5,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          }
+        ]
+      },
+      "whomTo": {
+        "guid": [],
+        "controlGroup": 1,
+        "controlGroupMid": 3092,
+        "audience": [
+          {
+            "audienceId": 0,
+            "events": {
+              "rules": [],
+              "targetRule": "all"
+            },
+            "filters": {
+              "exclude": {
+                "listIds": [],
+                "segIds": []
+              },
+              "include": {
+                "listIds": [],
+                "segIds": []
+              }
+            },
+            "priority": 1
+          }
+        ]
+      },
+      "whatTo": {
+        "winner": "3099",
+        "content": [
+          {
+            "mid": 3092,
+            "audienceId": 0,
+            "contentId": "3092",
+            "layoutType": "half-interstitial",
+            "variant": "1000-49999",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/pod/82491/in-app-content/templates/t-435.html?inappVer=1",
+              "useFullScreen": true
+            }
+          },
+          {
+            "mid": 3093,
+            "audienceId": 0,
+            "contentId": "3093",
+            "layoutType": "cover",
+            "variant": "50000-99999",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/pod/82491/in-app-content/templates/t-451.html?inappVer=1",
+              "useFullScreen": true
+            }
+          },
+          {
+            "mid": 3099,
+            "audienceId": 0,
+            "contentId": "3099",
+            "layoutType": "half-interstitial",
+            "variant": "1000-99999",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/pod/82491/in-app-content/templates/t-435.html?inappVer=1",
+              "useFullScreen": true
+            }
+          }
+        ],
+        "customKeyValue": null,
+        "gaParams": {
+          "utm_campaign": "AB_TEST_CMAPIGN_RULE",
+          "utm_content": "",
+          "utm_medium": "In-app",
+          "utm_source": "Netcore",
+          "utm_term": "Onsite"
+        }
+      }
+    },
+    {
+      "id": 3063,
+      "gcgEnabled": false,
+      "v": 1,
+      "priority": 1,
+      "campaignName": "Regular_CG_TEST",
+      "campaignType": "regular",
+      "status": "running",
+      "os": "android",
+      "fromDate": "2026-06-09T05:03:36Z",
+      "toDate": "2027-12-30T07:45:00Z",
+      "modifiedDate": "2026-06-09T05:03:40Z",
+      "updatedDate": "2026-06-09T05:03:40Z",
+      "frequency": "0",
+      "whereTo": {
+        "multiTrigger": [
+          {
+            "eventId": 116,
+            "eventName": "page_browse",
+            "filterType": "all"
+          }
+        ]
+      },
+      "whenTo": {
+        "schedule": [
+          {
+            "day": 0,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 1,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 3,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 5,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "time": [
+              {
+                "from": "09:00",
+                "to": "21:00"
+              }
+            ]
+          }
+        ]
+      },
+      "whomTo": {
+        "guid": [],
+        "controlGroup": 94,
+        "controlGroupMid": 3063,
+        "audience": [
+          {
+            "audienceId": 0,
+            "events": {
+              "rules": [],
+              "targetRule": "all"
+            },
+            "filters": {
+              "exclude": {
+                "listIds": [],
+                "segIds": []
+              },
+              "include": {
+                "listIds": [],
+                "segIds": []
+              }
+            },
+            "priority": 1
+          }
+        ]
+      },
+      "whatTo": {
+        "winner": "",
+        "content": [
+          {
+            "mid": 3063,
+            "audienceId": 0,
+            "contentId": "3063",
+            "layoutType": "header",
+            "variant": "94000-99999",
+            "attrIds": [],
+            "payload": {
+              "url": "https://cdndc.netcoresmartech.com/pod/82491/in-app-content/3063.html?inappVer=1",
+              "useFullScreen": true
+            }
+          }
+        ],
+        "customKeyValue": null,
+        "gaParams": {
+          "utm_campaign": "Regular_CG_TEST",
+          "utm_content": "",
+          "utm_medium": "In-app",
+          "utm_source": "Netcore",
+          "utm_term": "Onsite"
+        }
+      }
+    }
+  ],
+  "smartechSettings": {
+    "paEnabled": true,
+    "appInboxEnabled": true,
+    "paInterval": 60,
+    "sdkActive": true,
+    "sessionInterval": 30,
+    "batchInterval": 10,
+    "batchSize": 30,
+    "td": {
+      "guids": [
+        "2d824bc9-8a2f-4839-bccb-196e33488192",
+        "a5316eb2-cc40-4a2f-9183-275a5f5b1f8e"
+      ],
+      "logEnabled": false,
+      "logLevel": 1
+    },
+    "eventSettings": {
+      "allevents": true,
+      "lifecycle": true,
+      "push": true,
+      "inapp": true,
+      "appinbox": true
+    },
+    "panelActive": true,
+    "eventLimit": 200,
+    "frequency": {
+      "enable": 1,
+      "month": 0,
+      "week": 0,
+      "day": 150
+    },
+    "baseUrls": {
+      "trackAppActUrl": "https://npn.netcoresmartech.com/",
+      "pushAmpUrl": "https://pa.netcoresmartech.com/",
+      "inAppUrl": "https://ninapp.netcoresmartech.com/",
+      "inboxUrl": "https://appinbox.netcoresmartech.com/",
+      "listSegUrl": "https://psegment-us.netcoresmartech.com/",
+      "testDeviceUrl": "https://api.netcoresmartech.com/",
+      "contentPzUrl": "https://app-cpz.netcoresmartech.com/prod/"
+    },
+    "features": {
+      "contentPz": {
+        "enabled": true,
+        "syncInterval": 0
+      },
+      "gcgConfig": {
+        "listEnabled": false,
+        "percentage": 5
+      }
+    },
+    "hansel_api_endpoints": {
+      "get_data": "https://ujm.hansel.io/ujm/v1/data/<os>/<app_id>/<rv>/",
+      "add_events": "https://sdk.hansel.io/dashboard/event/v1/<app_id>/",
+      "td_auth": "https://sdk.hansel.io/dashboard/td/verify",
+      "init_sdk": "https://sdk.hansel.io/dashboard/sdk/v1/init/<os>/<app_id>/",
+      "req_sesid": "https://sdk.hansel.io/dashboard/visualizer/request_session",
+      "socket": "wss://websocket-visualizer.hansel.io",
+      "populate_data": "https://sdk.hansel.io/dashboard/populatedata/v1/<app_id>/"
+    },
+    "userAttrConfig": {
+      "enabled": true,
+      "syncInterval": 30,
+      "attrIds": [
+        -1,
+        26
+      ]
+    },
+    "cid": "140578",
+    "gwConfig": {
+      "xiaomi": {
+        "enable": false,
+        "enablePushFor": null,
+        "tokenSendInterval": 60
+      }
+    },
+    "sConfig": {
+      "etData": false,
+      "p": "bpiPkrCVHvP7D4YRKvU1894rKZqrZAlbZE0k5DfM85UL9TDUoxVxG0YrZpSZZeaZ",
+      "a": ""
+    }
+  }
+}
