@@ -519,7 +519,7 @@
       },
       "gcgConfig": {
         "listEnabled": true,
-        "percentage": 20
+        "percentage": 70
       }
     },
     "hansel_api_endpoints": {
