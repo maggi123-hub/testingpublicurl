@@ -11,7 +11,7 @@
       "os": "android",
       "fromDate": "2026-06-09T07:51:32Z",
       "toDate": "2027-12-30T07:45:24Z",
-      "modifiedDate": "2026-06-09T07:51:35Z",
+      "modifiedDate": "2026-06-10T07:51:35Z",
       "updatedDate": "2026-06-09T09:00:02Z",
       "frequency": "0",
       "whereTo": {
@@ -92,7 +92,7 @@
       },
       "whomTo": {
         "guid": [],
-        "controlGroup": 15,
+        "controlGroup": 70,
         "controlGroupMid": 3094,
         "audience": [
           {
