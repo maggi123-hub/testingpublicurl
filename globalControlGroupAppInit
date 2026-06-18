@@ -2,7 +2,7 @@
   "iamRules_v1": [
     {
       "id": 3094,
-      "gcgEnabled": false,
+      "gcgEnabled": true,
       "v": 1,
       "priority": 1,
       "campaignName": "AB_TEST_CMAPIGN_RULE",
@@ -92,7 +92,7 @@
       },
       "whomTo": {
         "guid": [],
-        "controlGroup": 1,
+        "controlGroup": 15,
         "controlGroupMid": 3094,
         "audience": [
           {
@@ -167,7 +167,7 @@
     },
     {
       "id": 3092,
-      "gcgEnabled": false,
+      "gcgEnabled": true,
       "v": 1,
       "priority": 1,
       "campaignName": "AB_TEST_CMAPIGN_RULE",
@@ -422,7 +422,7 @@
       },
       "whomTo": {
         "guid": [],
-        "controlGroup": 94,
+        "controlGroup": 25,
         "controlGroupMid": 3063,
         "audience": [
           {
@@ -518,8 +518,8 @@
         "syncInterval": 0
       },
       "gcgConfig": {
-        "listEnabled": false,
-        "percentage": 5
+        "listEnabled": true,
+        "percentage": 20
       }
     },
     "hansel_api_endpoints": {
