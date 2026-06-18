@@ -3,7 +3,7 @@
     {
       "v": 1,
       "id": 14,
-      "gcgEnabled": false,
+      "gcgEnabled": true,
       "os": "android",
       "status": "running",
       "toDate": "2031-06-12T06:01:52Z",
@@ -255,7 +255,7 @@
             "audienceId": 1693
           }
         ],
-        "controlGroup": 0
+        "controlGroup": 15
       },
       "whereTo": {
         "trigger": [
